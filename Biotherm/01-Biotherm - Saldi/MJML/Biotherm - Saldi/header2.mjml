@@ -1,0 +1,39 @@
+
+    
+<mj-section padding="10px" background-color="#296170">
+  <mj-column background-color="#296170">
+    <mj-text font-size="11px" line-height="12px" color="#fff" align="center">
+      <a href="https://www.biotherm.it/saldi-donna?utm_source=crm&utm_medium=email_brand&utm_content=bio_skin_branding_text_cv&utm_campaign=bio_skin_branding_saldiluglio1-02072021_saldi&utm_term=promonewsletter&cin=<%= recipient.record_id %>" style="color: #ffffff; text-decoration: none"><span style="color: #ffffff; text-decoration: none"><b>Spedizione gratuita</b> per ordini superiori a 35€</span></a> &nbsp; <span class="desk_only">| &nbsp; <a href="<%@ include view='ALL_LLD_Biotherm_MirrorPageUrl' %>" _label="Page miroir" _type="mirrorPage" target="_blank" style="text-decoration: none"><span style="color:#ffffff;text-decoration: none; font-size: 11px; line-height: 16px">Visualizza sul browser</span></a></span>    
+    </mj-text>
+  </mj-column>
+</mj-section>
+  
+<mj-section background-color="#313131" padding="15px">
+  <mj-column>
+    <mj-image src="img/logo.png" width="200px" href="http://biotherm.it?utm_source=crm&utm_medium=email_brand&utm_content=bio_skin_branding_text_cv&utm_campaign=bio_skin_branding_saldiluglio1-02072021_saldi&utm_term=promonewsletter"/>
+  </mj-column>
+</mj-section>
+  
+<mj-section background-color="#313131">
+  <mj-column>
+    <mj-navbar>
+    	<mj-navbar-link color="#fff" font-family="Arial" font-size="12px" line-height="14px" href="https://www.biotherm.it/trattamenti-donna/viso?utm_source=crm&utm_medium=email_brand&utm_content=bio_skin_branding_text_cv&utm_campaign=bio_skin_branding_saldiluglio1-02072021_saldi&utm_term=promonewsletter">VISO</mj-navbar-link>
+      <mj-navbar-link color="#fff" font-family="Arial" font-size="12px" line-height="14px" href="https://www.biotherm.it/trattamenti-donna/corpo?utm_source=crm&utm_medium=email_brand&utm_content=bio_skin_branding_text_cv&utm_campaign=bio_skin_branding_saldiluglio1-02072021_saldi&utm_term=promonewsletter">corpo</mj-navbar-link>
+      <mj-navbar-link color="#fff" font-family="Arial" font-size="12px" line-height="14px" href="https://www.biotherm.it/trattamenti-donna/solari?utm_source=crm&utm_medium=email_brand&utm_content=bio_skin_branding_text_cv&utm_campaign=bio_skin_branding_saldiluglio1-02072021_saldi&utm_term=promonewsletter">solari</mj-navbar-link>
+      <mj-navbar-link color="#fff" font-family="Arial" font-size="12px" line-height="14px" href="https://www.biotherm.it/trattamenti-donna/best-seller?utm_source=crm&utm_medium=email_brand&utm_content=bio_skin_branding_text_cv&utm_campaign=bio_skin_branding_saldiluglio1-02072021_saldi&utm_term=promonewsletter">best sellers</mj-navbar-link>
+      <mj-navbar-link css-class="desk_only" color="#fff" font-family="Arial" font-size="12px" line-height="14px" href="https://www.biotherm.it/trattamenti-donna/best-seller?utm_source=crm&utm_medium=email_brand&utm_content=bio_skin_branding_text_cv&utm_campaign=bio_skin_branding_saldiluglio1-02072021_saldi&utm_term=promonewsletter">il mondo biotherm</mj-navbar-link>
+      <mj-navbar-link css-class="desk_only" color="#fff" font-family="Arial" font-size="12px" line-height="14px" href="https://www.biotherm.it/trattamenti-donna/best-seller-uomo?utm_source=crm&utm_medium=email_brand&utm_content=bio_skin_branding_text_cv&utm_campaign=bio_skin_branding_saldiluglio1-02072021_saldi&utm_term=promonewsletter">uomo</mj-navbar-link>
+    </mj-navbar>
+  </mj-column>
+</mj-section>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

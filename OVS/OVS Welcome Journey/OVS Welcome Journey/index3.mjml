@@ -1,0 +1,451 @@
+<mjml>
+<mj-head>
+<mj-preview>Pre-header placeholder</mj-preview>
+<mj-attributes>
+<mj-all padding="0px" font-family="Arial, sans-serif"></mj-all>
+<mj-image padding="0px"></mj-image>
+<mj-class name="centered" align="center"></mj-class>
+<mj-class name="bolded" font-weight="bold"></mj-class>
+<mj-class name="upped" text-transform="uppercase"></mj-class>
+<mj-class name="barlow" font-family="Barlow, Arial, sans-serif"></mj-class>
+<mj-class name="lato" font-family="Lato, Arial, sans-serif"></mj-class>
+</mj-attributes>
+
+<mj-style inline="inline">
+.center {
+text-align:center!important;
+}
+
+.right {
+text-align:right!important;
+}
+  
+.border-fix > table {
+border:2px solid #010D23;
+border-radius:25px;
+border-collapse: separate;
+background-color:#ffffff;
+}
+
+</mj-style>
+<mj-style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Lato:wght@900&display=swap');
+  
+a:link { color: inherit; text-decoration: none; }
+a:visited { color:inherit; text-decoration: none; }
+
+@media only screen and (max-width: 480px) {
+.hidden-mobile {
+display: none !important;
+}
+
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+
+.menu-font-change {
+font-size:9px!important;
+mso-line-height-rule:exactly;
+line-height:11px!important;
+}
+
+.menu-padding-change {
+padding-left:8px!important;
+padding-right:8px!important;
+}
+
+.menu-img-change {
+width:60px;
+}
+
+.social-icon-resize img {
+width:20px;
+}
+
+.social-padding-change td {
+padding-left:5px!important;
+padding-right:5px!important;
+}
+
+.reset-height div {
+height:auto!important;
+}
+
+.font-change {
+font-size:10px!important;
+mso-line-height-rule:exactly;
+line-height:12px!important;
+}
+
+.font-change2 {
+font-size:12px!important;
+mso-line-height-rule:exactly;
+line-height:18px!important;
+}
+
+.width-fix {
+max-width: 240px;
+}
+
+.header_padding  td{
+padding-left:5px !important;
+padding-right:5px !important;
+}
+  
+.bx_height>table {
+height: 126px;
+background-color: #F0ECE9;
+}
+  
+.reset-padding {
+padding-top:2px!important;
+}
+
+.reset-padding2 {
+padding-top:4px!important;
+}
+  
+.alignment-change div {
+text-align:center!important;
+}
+}
+
+@media only screen and (min-width: 481px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+
+}
+</mj-style>
+</mj-head>
+
+<mj-body background-color="#ffffff" width="600px">
+
+<mj-section>
+<mj-column>
+<mj-text mj-class="centered barlow" color="#696969" font-size="11px" line-height="14px" padding="15px 10px 15px 10px">Se non leggi correttamente questo messaggio <a style="color:#696969; text-decoration: none;" href="#"><span style="color:#696969; text-decoration: none;"><u>clicca qui</u></span>
+</a>
+</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#010D23">
+
+<mj-column padding="30px 10px 30px">
+<mj-image width="260px" src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/ffda14fc-ccbf-4d7e-bcf6-add98f918623.png" href="#" />
+</mj-column>	
+
+</mj-section>
+
+<mj-section background-color="#FFFFFF" padding="6px 0px" css-class="header_padding">
+
+<mj-group css-class="center" width="100%">
+
+<mj-column width="32%" vertical-align="middle" padding="0px 0px 10px 0px" background-color="#F0ECE9" css-class="bx_height">
+<mj-image src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/c607281b-d370-4a70-a021-f58d9e185c37.jpg" width="64px" padding="10px 0px 0px"></mj-image>
+<mj-text mj-class="centered barlow" color="#000000" padding="8px 0px 0px 0px" height="24px" css-class="reset-height reset-padding"><span style="vertical-align:bottom;font-size:14px;mso-line-height-rule:exactly;line-height:28px;" class="font-change2">Nome Cognome</span>
+</mj-text>
+<mj-text mj-class="centered barlow bolded" color="#000000" font-size="14px" line-height="16px" padding="0px 0px 2px 0px" height="17px" css-class="reset-height"><span style="vertical-align:baseline;">Friend</span><img style="vertical-align:baseline;width:60px;padding-left:4px;padding-right:4px;" src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/8eddb0f3-3d8a-47e3-86fa-cd47c4b156e6.jpg" width="60" class="reset-padding2"/>
+</mj-text>
+</mj-column>
+
+<mj-column width="1%" vertical-align="middle"></mj-column>
+  
+<mj-column width="32%" vertical-align="middle" padding="0px 0px 10px 0px" background-color="#F0ECE9" css-class="bx_height">
+<mj-image src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/6c3a1b28-4bdc-40dd-938c-78e2d38738df.png" width="64px" padding="10px 0px 0px"></mj-image>
+<mj-text mj-class="centered barlow bolded" color="#000000" padding="2px 0px 0px 0px" height="29px" css-class="reset-height"><span style="font-size:24px;mso-line-height-rule:exactly;line-height:28px;">5</span>
+</mj-text>
+<mj-text mj-class="centered barlow" color="#000000" font-size="14px" line-height="16px" padding="0px 0px 2px 0px" height="17px" css-class="reset-height">Cuori d’oro
+</mj-text>
+</mj-column>
+  
+<mj-column width="1%" vertical-align="middle"></mj-column>
+
+<mj-column width="32%" vertical-align="middle" padding="0px 0px 10px 0px" background-color="#F0ECE9" css-class="bx_height">
+<mj-image src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/e149eda2-e889-49ac-a56e-dfd65dc21098.png" width="64px" padding="10px 0px 0px"></mj-image>
+<mj-text mj-class="centered barlow bolded" color="#000000" padding="2px 0px 0px 0px" height="29px" css-class="reset-height"><span style="font-size:24px;mso-line-height-rule:exactly;line-height:28px;">3.450</span>
+</mj-text>
+<mj-text mj-class="centered barlow" color="#000000" font-size="14px" line-height="16px" padding="0px 0px 2px 0px" height="17px" css-class="reset-height">Cuori
+</mj-text>
+</mj-column>
+</mj-group>
+</mj-section>
+
+<mj-section>
+<mj-column>
+<mj-image src="img/main3.jpg" href="#" padding="0px"/>
+</mj-column>
+</mj-section>
+
+<mj-section>
+<mj-column width="86%">
+  
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" padding="20px 10px 50px 10px">
+<b>La tua card digitale è sempre con te.</b><br/>
+La trovi facilmente all’interno della tua area personale.
+</mj-text>
+
+<mj-image src="img/ovsid.jpg" width="150px" href="#"/>
+  
+<mj-image src="img/barcode.jpg" width="400px" href="#" padding="35px 30px"/>
+
+<mj-image src="img/applewallet.jpg" width="170px" href="#" padding="0px"/>
+  
+<mj-button mj-class="barlow" border-radius="3.2px" background-color="#0E273A" color="#FFFFFF" font-size="13px" text-transform="uppercase" font-weight="bold" width="220px" inner-padding="10px 10px" padding="30px 5px 50px 5px" href="https://www.ovs.it/">
+VAI All’area personale
+</mj-button>
+</mj-column>
+</mj-section>
+  
+<mj-wrapper background-color="#EFEEE8">
+<mj-section>
+<mj-column width="90%">
+  
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" font-weight="bold" padding="30px 10px 4px 10px">
+Subito per te
+</mj-text>
+
+<mj-text mj-class="centered barlow" font-size="34px" line-height="40px" font-weight="bold" color="#010D23" text-transform="uppercase" padding="0px 4px 0px 4px">
+DOPPIO REGALO<br/>
+DI BENVENUTO
+</mj-text>
+  
+<mj-image src="img/discount.jpg" width="400px" padding="16px 20px 16px 20px" href="#"/>
+  
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" padding="0px 10px 20px 10px">
+da utilizzare da utilizzare su una spesa minima di 50€
+in NEGOZIO e ONLINE su <a href="#" style="color:#010D23;text-decoration:none;"><span style="color:#010D23;text-decoration:none;">OVS.it</span></a>
+</mj-text>
+
+</mj-column>
+</mj-section>
+  
+<mj-section padding="10px 30px 50px 30px">
+<mj-column width="48%" background-color="#FFFFFF" padding="0px 10px">
+<mj-text mj-class="centered barlow bolded" font-size="20px" line-height="26px" color="#010D23" text-transform="uppercase" padding="20px 10px 10px 10px">   
+IN NEGOZIO
+</mj-text>
+
+<mj-image src="img/icon_store.png" width="120px" padding="20px 10px" />
+  
+<mj-text mj-class="centered barlow" font-size="16px" line-height="22px" color="#010D23" padding="0px 0px 0px 0px" height="70px" css-class="reset-height">
+Per usufruire del regalo 
+mostra questa mail in cassa
+al momento dell’acquisto.
+</mj-text>
+  
+<mj-image src="img/barcode.jpg" width="199px" href="#" padding="20px 10px"/>
+  
+<mj-text mj-class="centered barlow" font-size="10px" line-height="14px" color="#010D23" padding="0px 0px 0px 0px" height="50px" css-class="reset-height">
+*Valido su un solo acquisto fino al <a href="#" style="color:#010D23;text-decoration:none;"><span style="color:#010D23;text-decoration:none;">XX/XX/XXXX. Non cumulabile con altri sconti, promozioni e saldi.<br/> Regolamento su <a href="#" style="color:#010D23;text-decoration:none;"><span style="color:#010D23;text-decoration:none;">OVS.it</span></a>
+</mj-text>
+<mj-image src="img/barcode.jpg" width="199px" href="#" padding="20px 10px"/>
+
+<mj-text mj-class="centered barlow" font-size="10px" line-height="14px" color="#010D23" padding="0px 0px 0px 0px" height="50px" css-class="reset-height">
+*Valido su un solo acquisto fino al <a href="#" style="color:#010D23;text-decoration:none;"><span style="color:#010D23;text-decoration:none;">XX/XX/XXXX. Non cumulabile con altri sconti, promozioni e saldi.<br/> Regolamento su <a href="#" style="color:#010D23;text-decoration:none;"><span style="color:#010D23;text-decoration:none;">OVS.it</span></a>
+</mj-text>
+
+<mj-button mj-class="barlow" border-radius="3.2px" background-color="#0E273A" color="#FFFFFF" font-size="13px" text-transform="uppercase" font-weight="bold" width="170px" inner-padding="10px 10px" padding="30px 5px 40px 5px" href="https://www.ovs.it/">
+TROVA IL NEGOZIO
+</mj-button>
+</mj-column>
+<mj-column width="4%" padding="0px 0px 20px 0px"></mj-column>
+<mj-column width="48%" background-color="#FFFFFF" padding="0px 10px">
+<mj-text mj-class="centered barlow bolded" font-size="20px" line-height="26px" color="#010D23" text-transform="uppercase" padding="20px 10px 10px 10px">online
+</mj-text>
+
+<mj-image src="img/icon_online.png" width="120px" padding="20px 10px" />
+  
+<mj-text mj-class="centered barlow" font-size="16px" line-height="22px" color="#010D23" padding="0px 0px 0px 0px" height="70px" css-class="reset-height">
+Per usufruire del regalo 
+online usa il codice:
+</mj-text>
+
+<mj-image src="img/welcome-codev2.jpg" width="199px" href="#" padding="40px 0px"/>
+
+<mj-text mj-class="centered barlow" font-size="10px" line-height="14px" color="#010D23" padding="0px 0px 0px 0px" height="50px" css-class="reset-height">
+*Valido su un solo acquisto fino al <a href="#" style="color:#010D23;text-decoration:none;"><span style="color:#010D23;text-decoration:none;">XX/XX/XXXX. Non cumulabile con altri sconti, promozioni e saldi.<br/> Regolamento su <a href="#" style="color:#010D23;text-decoration:none;"><span style="color:#010D23;text-decoration:none;">OVS.it</span></a>
+</mj-text>
+
+<mj-button mj-class="barlow" border-radius="3.2px" background-color="#0E273A" color="#FFFFFF" font-size="13px" text-transform="uppercase" font-weight="bold" width="170px" inner-padding="10px 10px" padding="30px 5px 40px 5px" href="https://www.ovs.it/">
+INIZIA LO SHOPPING
+</mj-button>
+</mj-column>
+</mj-section>
+</mj-wrapper>
+ 
+<mj-section>
+<mj-column width="76%">
+
+<mj-text mj-class="centered barlow" font-size="34px" line-height="40px" font-weight="bold" color="#010D23" text-transform="uppercase"padding="40px 20px 30px 20px">
+TUTTI I VANTAGGI<br/>
+DEL MONDO OVS<sup><span style="font-size:16px;">ID</span></sup>
+</mj-text>
+
+</mj-column>  
+</mj-section>
+  
+<mj-section padding="0px 20px">
+<mj-column width="30%" background-color="#F0ECE9" padding="16px" css-class="width-fix">
+<mj-image src="img/vantaggi1.jpg" width="150px" padding="0px 0px 16px 0px" href="#"/>
+  
+<mj-text mj-class="centered barlow" font-size="14px" line-height="20px" color="#010D23" padding="0px 0px 0px 0px" height="120px" css-class="alignment-change reset-height">
+Hai il tuo profilo
+personale digitale.
+</mj-text>
+</mj-column>
+
+<mj-column width="2%" padding="16px 0px 0px 0px"></mj-column>
+
+<mj-column width="30%" background-color="#F0ECE9" padding="16px" css-class="width-fix">
+<mj-image src="img/vantaggi2.jpg" width="150px" padding="0px 0px 16px 0px" href="#"/>
+  
+<mj-text mj-class="centered barlow" font-size="14px" line-height="20px" color="#010D23" padding="0px 0px 0px 0px" height="120px" css-class="alignment-change reset-height">
+Partecipi ad un mondo di esperienza e offerte speciali con il <b>Programma Fedeltà gratuito</b>.
+</mj-text>
+</mj-column>
+  
+<mj-column width="2%" padding="16px 0px 0px 0px"></mj-column>
+
+<mj-column width="30%" background-color="#F0ECE9" padding="16px" css-class="width-fix">
+<mj-image src="img/vantaggi3.jpg" width="150px" padding="0px 0px 16px 0px" href="#"/>
+  
+<mj-text mj-class="centered barlow" font-size="14px" line-height="20px" color="#010D23" padding="0px 0px 0px 0px" height="120px" css-class="alignment-change reset-height">
+Hai il riepilogo del tuo shopping OVS nella tua area personale.
+</mj-text>
+</mj-column>
+</mj-section>
+  
+<mj-section padding="16px 20px 0px 20px">
+<mj-column width="30%" background-color="#F0ECE9" padding="16px" css-class="width-fix">
+<mj-image src="img/vantaggi4.jpg" width="150px" padding="0px 0px 16px 0px" href="#"/>
+  
+<mj-text mj-class="centered barlow" font-size="14px" line-height="20px" color="#010D23" padding="0px 0px 0px 0px" height="120px" css-class="alignment-change reset-height">
+Ricevi uno scontrino digitale per ogni shopping in OVS.
+</mj-text>
+</mj-column>
+
+<mj-column width="2%" padding="16px 0px 0px 0px"></mj-column>
+
+<mj-column width="30%" background-color="#F0ECE9" padding="16px" css-class="width-fix">
+<mj-image src="img/vantaggi5.jpg" width="150px" padding="0px 0px 16px 0px" href="#"/>
+  
+<mj-text mj-class="centered barlow" font-size="14px" line-height="20px" color="#010D23" padding="0px 0px 0px 0px" height="120px" css-class="alignment-change reset-height">
+Con “<b>scelgo e arrivo</b>” acquisti online e ritiri in negozio dopo 4 ore.
+</mj-text>
+</mj-column>
+  
+<mj-column width="2%" padding="16px 0px 0px 0px"></mj-column>
+
+<mj-column width="30%" background-color="#F0ECE9" padding="16px" css-class="width-fix">
+<mj-image src="img/vantaggi6.jpg" width="150px" padding="0px 0px 16px 0px" href="#"/>
+  
+<mj-text mj-class="centered barlow" font-size="14px" line-height="20px" color="#010D23" padding="0px 0px 0px 0px" height="120px" css-class="alignment-change reset-height">
+Con servizio “<b>paga dopo</b>” paghi a rate fino a 4 mesi, senza costi e interessi zero.
+</mj-text>
+</mj-column>
+</mj-section>
+  
+<mj-section>
+<mj-column width="76%">
+  
+<mj-image src="img/profile.jpg" width="120px" padding="60px 0px 0px 0px" href="#"/>
+
+<mj-text mj-class="centered barlow" font-size="34px" line-height="40px" color="#010D23" padding="20px 20px 30px 20px">
+Riepilogo del<br/>
+<b>TUO PROFILO OVS</b><sup><span style="font-size:16px;font-weight:bold;">ID</span></sup>
+</mj-text>
+
+</mj-column>  
+</mj-section>
+  
+<mj-section background-color="#F0ECE9" padding="8px">
+<mj-column width="49%" background-color="#FFFFFF">
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" padding="30px 10px 0px 10px">
+Nome
+</mj-text>
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" font-weight="bold" padding="0px 10px 20px 10px" height="50px" css-class="reset-height">
+Rossi Mario
+</mj-text>
+</mj-column>
+<mj-column width="2%" padding="8px 0px 0px 0px"></mj-column>
+<mj-column width="49%" background-color="#FFFFFF">
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" padding="30px 10px 0px 10px">
+N° tessera
+</mj-text>
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" font-weight="bold" padding="0px 10px 20px 10px" height="50px" css-class="reset-height">
+XXXXXXXXXXXX
+</mj-text>
+</mj-column>
+</mj-section>
+<mj-section background-color="#F0ECE9" padding="0px 8px 8px 8px">
+<mj-column width="49%" background-color="#FFFFFF">
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" padding="30px 10px 0px 10px">
+Data di nascita
+</mj-text>
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" font-weight="bold" padding="0px 10px 20px 10px" height="50px" css-class="reset-height">
+<a href="#" style="color:#010D23;text-decoration:none;"><span style="color:#010D23;text-decoration:none;">XX/XX/XXXX</span></a>
+</mj-text>
+</mj-column>
+<mj-column width="2%" padding="8px 0px 0px 0px"></mj-column>
+<mj-column width="49%" background-color="#FFFFFF">
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" padding="30px 10px 0px 10px">
+E-MAIL
+</mj-text>
+<mj-text mj-class="centered barlow" font-size="20px" line-height="26px" color="#010D23" font-weight="bold" padding="0px 10px 20px 10px" height="50px" css-class="reset-height">
+  <a href="#" style="color:#010D23;text-decoration:none;"><span style="color:#010D23;text-decoration:none;">mariorossi@mail.com</span></a>
+</mj-text>
+</mj-column>
+</mj-section>
+  
+<mj-section>
+<mj-column>
+<mj-button mj-class="barlow" border-radius="3.2px" background-color="#0E273A" color="#FFFFFF" font-size="13px" text-transform="uppercase" font-weight="bold" width="240px" inner-padding="10px 10px" padding="40px 5px 30px 5px" href="https://www.ovs.it/">
+LEGGI REGOLAMENTO E PRIVACY
+</mj-button>  
+</mj-column>  
+</mj-section>
+
+
+<mj-section padding="20px 0px 20px 0px">
+<mj-column>
+<mj-divider border-color="#b8b9ba" border-width="1px" padding="0px 15px"></mj-divider>
+<mj-navbar padding="10px 0px 5px 0px">
+<mj-navbar-link mj-class="barlow" padding="10px 30px" href="https://" color="#000c25" text-transform="none" font-weight="bold" css-class="menu-font-change menu-padding-change"><span style="color:#000c25;text-decoration:none;font-size:14px;mso-line-height-rule:exactly;line-height:20px;" class="menu-font-change">Servizio Clienti</span></mj-navbar-link>
+<mj-navbar-link padding="10px 30px" href="https://" css-class="menu-padding-change"><img width="93" style="width:93px;" src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/c92e2c7d-7bc8-4d88-a4a4-d89c3257b393.png" class="menu-img-change"></img>
+</mj-navbar-link>
+<mj-navbar-link mj-class="barlow" padding="10px 30px" href="https://" color="#000c25" text-transform="none" font-weight="bold" css-class="menu-font-change menu-padding-change"><span style="color:#000c25;text-decoration:none;font-size:14px;mso-line-height-rule:exactly;line-height:20px;" class="menu-font-change">Negozi</span></mj-navbar-link>
+<mj-navbar-link mj-class="barlow" padding="10px 30px" href="https://" color="#000c25" text-transform="none" font-weight="bold" css-class="menu-font-change menu-padding-change"><span style="color:#000c25;text-decoration:none;font-size:14px;mso-line-height-rule:exactly;line-height:20px;" class="menu-font-change">Privacy</span></mj-navbar-link>
+</mj-navbar>
+<mj-divider border-color="#b8b9ba" border-width="1px" padding="0px 15px"></mj-divider>
+
+<mj-text mj-class="centered barlow" color="#000000" font-style="italic" padding="26px 10px 20px 10px"><span style="color:#000000;text-decoration:none;font-size:16px;mso-line-height-rule:exactly;line-height:20px;" class="font-change">Seguici sui nostri social!</mj-text>
+
+<mj-social mode="horizontal" icon-size="35px" inner-padding="0px 30px" css-class="social-icon-resize social-padding-change">
+<mj-social-element href="https://" src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/82c9d632-db1e-4670-8877-39cc0b267127.jpg" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://" src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/40fb744d-eb60-4699-9ce1-86f8739f2fb4.jpg" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://" src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/f58864a0-3d85-4f54-bb35-adbda71025be.jpg" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://" src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/80d3dd50-4b25-4da3-be14-0bf4033fc0b1.jpg" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://" src="http://image.mailmarketingmanager.com/lib/fe4415707564057c731670/m/12/198b2837-861a-40a8-8fc8-1d65f110e6fe.jpg" css-class="social-padding-change"></mj-social-element>
+</mj-social>
+</mj-column>
+</mj-section>
+<mj-raw>
+<div style="text-align: center; mso-line-height-rule:exactly;line-height:18px;padding:0px 10px;">
+
+<span style="color:#78797a;"><span style="font-size:12px;"><span style="font-family:'Barlow',Arial,Helvetica,sans-serif;">La presente comunicazione &egrave; trasmessa ai sensi del Regolamento (UE) 2016/679. </span></span></span></div><div style="text-align: center; mso-line-height-rule:exactly;line-height:18px;padding:0px 10px;">
+
+<span style="color:#78797a;"><span style="font-size:12px;"><span style="font-family:'Barlow',Arial,Helvetica,sans-serif;">Se hai scelto di ricevere la nostra newsletter via email, aggiungi l'indirizzo alla rubrica dei tuoi contatti. </span></span></span></div><div style="text-align: center; mso-line-height-rule:exactly;line-height:18px;padding:0px 10px 40px;">
+
+<span style="font-size:12px;"><span style="font-family:'Barlow',Arial,Helvetica,sans-serif;"><span style="color:#78797a;">Se preferisci non ricevere pi&ugrave; questi messaggi, per favore </span><a alias="clicca qui" conversion="false" data-linkto="https://" href="%%=RedirectTo(CloudPagesURL(473, 'email_address', EmailAddr, 'memberID', memberid, 'demname', emailName, 'subK', subscriberKey))=%%" style="color:#78797a;text-decoration:underline;" title="clicca qui"><span style="color:#78797a;">clicca qui</span></a><span style="color:#78797a;">.</span></span></span></div>
+
+<div style="display:none;"><a href="%%profile_center_url%%">.</a></div>
+</mj-raw>
+</mj-body>
+</mjml>
