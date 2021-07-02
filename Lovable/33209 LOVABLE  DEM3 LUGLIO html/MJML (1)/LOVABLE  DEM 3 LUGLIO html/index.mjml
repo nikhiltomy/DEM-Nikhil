@@ -1,0 +1,514 @@
+<mjml>
+<mj-head>
+<mj-attributes>
+<mj-all padding="0px" font-family="Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,Arial,sans-serif"></mj-all>
+<mj-class name="centered" align="center"></mj-class>
+<mj-class name="blacked" color="#000000"></mj-class>
+<mj-class name="whited" color="#ffffff"></mj-class>
+<mj-class name="bolded" font-weight="bold"></mj-class>
+<mj-class name="upped" text-transform="uppercase"></mj-class>
+</mj-attributes>
+
+<mj-style inline="inline">
+.center {
+text-align:center!important;
+}
+</mj-style>
+<mj-style>
+@media only screen and (min-width:480px) {
+.mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-49 { width:49% !important; max-width: 49%; }
+.mj-column-per-2 { width:2% !important; max-width: 2%; }
+.mj-column-per-20 { width:20% !important; max-width: 20%; }
+.mj-column-per-1 { width:1% !important; max-width: 1%; }
+.mj-column-per-50 { width:50% !important; max-width: 50%; }
+}  
+</mj-style>
+<mj-style>
+a:link{
+color: inherit; text-decoration: none;
+}	
+a:visited{
+color:inherit; text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+.hidden-mobile {
+display: none !important;
+}
+
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+  
+.menu-resize {
+font-size:13px!important;
+mso-line-height-rule:exactly;
+line-height:22px!important;
+}
+  
+.padding-menu {
+padding-right:10px!important;
+padding-left:10px!important;
+}
+  
+.width-fix {
+max-width: 240px!important;
+}
+  
+.reset-height div {
+height:auto!important;
+}
+.padding-change1{
+ padding:10px 0px 0px 0px !important; 
+}
+}
+
+@media only screen and (min-width: 481px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+}
+
+</mj-style>
+</mj-head>
+
+<mj-body background-color="#ffffff" width="600px">
+  
+<mj-section>
+<mj-column padding="10px">
+<mj-text mj-class="centered" font-size="12px" line-height="14px" font-family="Arial, sans-serif">
+[nome] scopri subito tutti gli articoli!</br>
+Se non leggi correttamente questo messaggio,<a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#000000;text-decoration:none;"><span style="color:#000000;text-decoration:none;"><u>clicca qui</u></span></a>
+</mj-text>
+</mj-column>  
+</mj-section>
+  
+<mj-section background-color="#DB0032">
+<mj-column padding="6px">
+<mj-text mj-class="centered bolded" font-size="12px" line-height="24px" color="#FFFFFF" text-transform="uppercase">
+Spedizioni gratuite da 70€. 30 giorni per il reso.  
+</mj-text>
+</mj-column>  
+</mj-section>
+  
+<mj-section>
+<mj-column>
+<mj-image src="img/logo.png" width="200px" padding="30px 0px 20px 0px" href="https://www.lovable.it/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=menu-logo"></mj-image>
+
+<mj-navbar>
+<mj-navbar-link padding="10px 20px 0px 20px" css-class="padding-menu" href="https://www.lovable.it/c/donna-10000/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=menu-donna"><span class="menu-resize" style="font-size:14px;mso-line-height-rule:exactly;line-height:22px;">Donna</span>
+</mj-navbar-link>
+<mj-navbar-link font-size="14px" line-height="22px" padding="10px 20px 0px 20px" css-class="padding-menu" href="https://www.lovable.it/c/uomo-20000/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=menu-uomo"><span class="menu-resize" style="font-size:14px;mso-line-height-rule:exactly;line-height:22px;">Uomo</span>
+</mj-navbar-link>
+<mj-navbar-link font-size="14px" line-height="22px" padding="10px 20px 0px 20px" css-class="padding-menu" href="https://www.lovable.it/c/baby-15000/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=menu-baby"><span class="menu-resize" style="font-size:14px;mso-line-height-rule:exactly;line-height:22px;">Baby</span>
+</mj-navbar-link>
+<mj-navbar-link font-size="14px" line-height="22px" padding="10px 20px 0px 20px" css-class="padding-menu" href="https://www.lovable.it/c/promozioni-80000/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=menu-promozioni"><span class="menu-resize" style="font-size:14px;mso-line-height-rule:exactly;line-height:22px;">Promozioni</span>
+</mj-navbar-link>
+</mj-navbar>
+
+<mj-image src="img/hero.gif" padding="10px 0px 0px 0px" href="https://www.lovable.it/c/saldi-07/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=main-image"></mj-image>
+
+</mj-column>  
+</mj-section>
+  
+<mj-section>
+<mj-column width="99%">
+<mj-text mj-class="centered" font-size="16px" line-height="24px" padding="40px 10px 0px 10px">
+ Il momento estivo più atteso dopo le vacanze è finalmente arrivato!<br/>
+Approfitta degli sconti fino al <b>-50% sulla collezione Primavera/Estate </b><br/>
+e fino al <b>-30% su collezione Mare*.</b>
+</mj-text>
+  
+</mj-column>  
+</mj-section>
+  
+<mj-section>
+<mj-column>
+<mj-button border-radius="0px" background-color="#000000" font-size="14px" line-height="22px" letter-spacing="1px" color="#FFFFFF" text-transform="uppercase"  inner-padding="14px 15px" padding="40px 0px 40px 0px" href="https://www.lovable.it/c/saldi-07/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=cta-articoli" css-class="button-change">Scopri tutti gli articoli in saldo</mj-button>
+  
+<mj-text mj-class="centered bolded" font-size="24px" line-height="30px" padding="0px 10px 0px 10px">
+Primavera/Estate fino al -50%
+</mj-text>
+</mj-column>  
+</mj-section>
+
+<mj-section padding="9px 8px 10px 9px">
+<mj-column>
+<mj-image src="img/intimo-donna.jpg" href="https://www.lovable.it/c/saldi-intimo-donna-171/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=img-%20intimo-donna"></mj-image>  
+</mj-column>  
+</mj-section>
+  
+<mj-section padding="10px 9px 40px 8px">
+<mj-column>
+<mj-image href="https://www.lovable.it/c/saldi-donna-pigiami-e-maglieria-172/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=img-pigiami-donna#prefn1=productType&prefv1=Pigiameria" src="img/pigiami.jpg" padding-right="6.5px" css-class="padding-change1"></mj-image>  
+</mj-column>
+<mj-column>
+<mj-image href="https://www.lovable.it/c/saldi-donna-pigiami-e-maglieria-172/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=img-maglieria-donna#prefn1=productType&prefv1=Maglieria" src="img/maglieria.jpg" padding-left="6.5px" css-class="padding-change1"></mj-image>  
+</mj-column>
+</mj-section>
+ 
+  
+<mj-section>
+<mj-column>
+<mj-text mj-class="centered bolded" font-size="24px" line-height="30px" padding="0px 10px 20px 10px">
+E per lui...
+</mj-text>  
+</mj-column>  
+</mj-section>
+  
+<mj-section padding="0px 11px 0px 10px">
+<mj-column>
+<mj-image href="https://www.lovable.it/c/saldi-uomo-intimo-271/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=img-intimo-uomo" src="img/Intimo.jpg" padding-right="4.5px" css-class="padding-change1"></mj-image>  
+</mj-column>
+<mj-column>
+<mj-image href="https://www.lovable.it/c/saldi-uomo-pigiameria-272/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=img-pigiami-uomo" src="img/Pigiameria.jpg" padding-left="4.5px" css-class="padding-change1"></mj-image>  
+</mj-column>
+</mj-section>  
+  
+<mj-section>
+<mj-column>
+<mj-text mj-class="centered bolded" font-size="24px" line-height="30px" padding="42px 10px 18px 10px">
+Collezione mare fino al -30%
+</mj-text>  
+</mj-column>  
+</mj-section>  
+  
+<mj-section padding="0px 10px 0px 10px">
+<mj-column>
+<mj-image href="https://www.lovable.it/c/saldi-donna-mare-173/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=img-costumi-donna" src="img/Costumi-donna.jpg" padding-right="5px" css-class="padding-change1"></mj-image>  
+</mj-column>
+<mj-column>
+<mj-image href="https://www.lovable.it/c/saldi-uomo-mare-273/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=img-costumi-uomo" src="img/Costumi-uomo.jpg" padding-left="5px" css-class="padding-change1"></mj-image>  
+</mj-column>
+</mj-section>
+  
+<mj-section>
+<mj-column>
+<mj-text mj-class="centered bolded" font-size="24px" line-height="30px" padding="33px 10px 18px 10px">
+Saldi non ancora iniziati?
+</mj-text>
+  <mj-image href="https://www.lovable.it/c/sconti-privati-club-071-2/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=box-pre-saldi" src="img/box.jpg"></mj-image>
+</mj-column>  
+</mj-section>  
+ 
+ <mj-section>
+<mj-column>
+<mj-text mj-class="centered bolded" font-size="24px" line-height="30px" padding="61px 10px 18px 10px">
+Sconti anche per i baby! 
+</mj-text>
+ <mj-image href="https://www.lovable.it/c/baby-15000/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=box-baby" src="img/box-baby.jpg"></mj-image>
+ <mj-button border-radius="0px" background-color="#000000" font-size="14px" line-height="22px" letter-spacing="1px" color="#FFFFFF" text-transform="uppercase" width="260px" inner-padding="14px 10px" padding="20px 0px 40px 0px" href="https://www.lovable.it/c/baby-15000/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=cta-baby">Acquista ora</mj-button>
+</mj-column>  
+</mj-section> 
+  
+<mj-section>
+<mj-column>
+<mj-image src="img/lovable_green.png" width="43px"></mj-image>
+</mj-column>  
+</mj-section> 
+  
+<mj-section>
+<mj-column>
+<mj-text mj-class="centered bolded" font-size="24px" line-height="30px" padding="30px 10px 18px 10px">
+Più comodità, meno impatto ambientale
+</mj-text>
+  <mj-image href="https://www.lovable.it/c/cotone-bio-40701/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=box-mybio" src="img/banner-bottom.jpg"></mj-image>
+  <mj-button border-radius="0px" background-color="#000000" font-size="14px" line-height="22px" letter-spacing="1px" color="#FFFFFF" text-transform="uppercase" width="260px" inner-padding="14px 10px" padding="20px 0px 30px 0px" href="https://www.lovable.it/c/cotone-bio-40701/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=cta-mybio">Scopri di più</mj-button>
+</mj-column>  
+</mj-section> 
+  
+ 
+  
+<!--Footer Section Starts Here -->  
+  
+  
+<mj-section>
+<mj-column>
+  
+  
+<mj-text font-size="13px" line-height="20px" padding="0px 11px 0px 9px" align="center">
+  
+*Sono esclusi dal saldo i nuovi arrivi. Lista articoli aderenti disponibile in negozio e sul sito.<br></br>
+
+**Operazione riservata ai sottoscrittori del programma Fedeltà Lovable 2021 EveybosyIsUnique, valida dal 24/06 fino a inizio saldi su un’ampia selezione di articoli di collezioni donna e uomo. Elenco articoli partecipanti disponibile in negozio. Non cumulabile con altre iniziative in corso. Regolamento integrale su<a href="https://" style="color:#000000;text-decoration:none;"><span style="color:#000000;text-decoration:none;"> <b><u>Lovable.it</u></b>
+<br></br></span></a>
+***Sconto del 10% applicabile sull'acquisto di una tutina o un pagliaccetto della collezione Lovable Baby. Sconto del 20% all'acquisto di due o più articoli Lovable Baby.
+  
+  
+ 
+
+
+</mj-text>
+  
+
+</mj-column>  
+</mj-section>
+
+<mj-section>
+<mj-column padding="0px 10px">
+<mj-image src="img/cta-negozio.png" width="500px" padding="20px 0px 50px 0px" href="https://www.lovable.it/trova-negozio?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=footer-trova-negozio"></mj-image> 
+</mj-column>
+</mj-section>
+
+<mj-section padding="0px 10px 10px 10px">
+<mj-group css-class="center" width="94%">
+<mj-column>
+<mj-image src="img/footer-icon1.png" width="88px" padding="0px 4px 16px 4px" href="https://"></mj-image>
+  
+<mj-text mj-class="centered" font-size="12px" line-height="16px" text-transform="uppercase" padding="0px 0px 20px 0px"><span style="color:#000000;text-decoration:none;font-weight:bold;">
+consegna<br/>
+standard<br/> 
+o express
+</span>
+</mj-text>
+</mj-column>
+<mj-column>
+<mj-image src="img/footer-icon2.png" width="88px" padding="0px 4px 16px 4px" href="https://"></mj-image>
+
+<mj-text mj-class="centered" font-size="12px" line-height="16px" text-transform="uppercase" padding="0px 0px 20px 0px"><span style="color:#000000;text-decoration:none;font-weight:bold;">
+30 giorni per<br/>
+effettuare<br/>
+il reso
+</span>
+</mj-text>
+</mj-column>
+<mj-column>
+<mj-image src="img/footer-icon3.png" width="88px" padding="0px 4px 16px 4px" href="https://"></mj-image>
+
+<mj-text mj-class="centered" font-size="12px" line-height="16px" text-transform="uppercase" padding="0px 0px 20px 0px"><span style="color:#000000;text-decoration:none;font-weight:bold;">
+pagamento<br/>
+sicuro
+</span>
+</mj-text>
+</mj-column>
+</mj-group>
+</mj-section>
+  
+<mj-section padding="0px">
+<mj-raw>
+<!--[if !mso | !IE]><!-->
+<div class="display-mobile" style="overflow: hidden; display: none;">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:0px 0px 0px 0px;text-align:center;">
+
+<div class="mj-column-per-100 mj-outlook-group-fix center" style="font-size: 0; line-height: 0; display: inline-block; width: 100%; direction: ltr; text-align: center;">
+
+<div class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:middle;padding:0px;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+<tbody>
+
+<tr>
+<td align="center" style="font-size:0px;padding:6px 0px 6px 0px;word-break:break-word;">
+
+<p style="border-top:solid 1px #999999;font-size:1px;margin:0px auto;width:100%;">
+</p>
+
+</td>
+</tr>
+
+</tbody>
+</table>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<div class="mj-column-per-1 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:1%;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:top;padding:0px 0px 0px 0px;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+<tbody>
+
+</tbody>
+</table>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+
+<div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:50%;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:middle;padding:0px;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+<tbody>
+
+<tr>
+<td align="center" style="font-size:0px;padding:6px 0px 6px 0px;word-break:break-word;">
+
+<div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,Arial,sans-serif;font-size:12px;letter-spacing:2px;line-height:16px;text-align:center;text-transform:uppercase;color:#000000;">hai domande?<br>
+<a href="https://www.lovable.it/c/servizio-clienti-40800/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=footer-faq" style="color:#000000;text-decoration:none;"><span style="color:#000000;text-decoration:none;font-weight:bold;"><u>
+Consulta le faq</u>
+</span></a></div>
+
+</td>
+</tr>
+
+</tbody>
+</table>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+
+<div class="mj-column-per-1 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:1%;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:top;padding:0px 0px 0px 0px;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+<tbody>
+
+</tbody>
+</table>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+
+<div class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:middle;padding:0px;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+<tbody>
+
+<tr>
+<td align="center" style="font-size:0px;padding:6px 0px 6px 0px;word-break:break-word;">
+
+<p style="border-top:solid 1px #999999;font-size:1px;margin:0px auto;width:100%;">
+</p>
+
+</td>
+</tr>
+
+</tbody>
+</table>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<!--<![endif]-->
+</mj-raw>
+<mj-raw>
+<!-- END MOBILE -->
+</mj-raw>
+</mj-section>
+
+<mj-section padding="0px 0px 0px 0px" css-class="hidden-mobile">
+<mj-column width="20%" vertical-align="middle">
+<mj-divider border-color="#999999" border-width="1px" width="88px" align="center" padding="6px 0px 6px 0px"></mj-divider>
+</mj-column>
+<mj-column width="1%" padding="0px 0px 0px 0px"></mj-column>
+<mj-column width="20%" vertical-align="middle">
+<mj-text mj-class="centered" font-size="12px" line-height="16px" text-transform="uppercase" letter-spacing="2px" padding="6px 0px 6px 0px">
+hai domande?
+</mj-text>
+</mj-column>
+<mj-column width="26%" vertical-align="middle">
+<mj-text mj-class="centered" font-size="12px" line-height="16px" text-transform="uppercase" letter-spacing="2px" padding="6px 0px 6px 0px"><a href="https://www.lovable.it/c/servizio-clienti-40800/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=footer-faq" style="color:#000000;text-decoration:none;"><span style="color:#000000;text-decoration:none;font-weight:bold;"><u>
+Consulta le faq</u>
+</span></a>
+</mj-text>
+</mj-column>
+<mj-column width="1%" padding="0px 0px 0px 0px"></mj-column>
+<mj-column width="20%" vertical-align="middle">
+<mj-divider border-color="#999999" border-width="1px" width="88px" align="center" padding="6px 0px 6px 0px"></mj-divider>
+</mj-column>
+</mj-section>
+  
+<mj-section padding="34px 10px 0px 10px">
+<mj-group css-class="center" width="90%">
+<mj-column width="33%">
+<mj-image src="img/fb.png" width="38px" padding="0px 0px 16px 0px" href="https://www.facebook.com/LovableOfficialPage/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=footer-facebook"></mj-image>
+  
+<mj-text mj-class="centered" font-size="12px" line-height="16px" text-transform="uppercase" letter-spacing="2px" padding="0px 0px 20px 0px"><a href="https://www.facebook.com/LovableOfficialPage/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=footer-facebook" style="color:#000000;text-decoration:none;"><span style="color:#000000;text-decoration:none;font-weight:bold;">
+facebook
+</span></a>
+</mj-text>
+</mj-column>
+<mj-column width="33%">
+<mj-image src="img/lovable.png" width="38px" padding="0px 0px 16px 0px" href="https://www.lovable.it/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=footer-sito"></mj-image>
+
+<mj-text mj-class="centered" font-size="12px" line-height="16px" text-transform="uppercase" letter-spacing="2px" padding="0px 0px 20px 0px"><a href="https://www.lovable.it/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=footer-sito" style="color:#000000;text-decoration:none;"><span style="color:#000000;text-decoration:none;font-weight:bold;">
+lovable.it
+</span></a>
+</mj-text>
+</mj-column>
+<mj-column width="33%">
+<mj-image src="img/ig.png" width="38px" padding="0px 0px 16px 0px" href="https://www.instagram.com/lovable_official/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=footer-instagram"></mj-image>
+
+<mj-text mj-class="centered" font-size="12px" line-height="16px" text-transform="uppercase" letter-spacing="2px" padding="0px 0px 20px 0px"><a href="https://www.instagram.com/lovable_official/?utm_medium=email&utm_source=newsletter&utm_campaign=dem-sales&utm_content=footer-instagram" style="color:#000000;text-decoration:none;"><span style="color:#000000;text-decoration:none;font-weight:bold;">
+instagram
+</span></a>
+</mj-text>
+</mj-column>
+</mj-group>
+</mj-section>
+  
+<mj-section>
+<mj-column width="98%">
+<mj-text mj-class="centered" font-size="12px" line-height="20px" color="#999999" padding="0px 6px 20px 6px">
+  Hanes Italy Srl / via Boschetti <a href="#" style="color:#999999;text-decoration:none;"><span style="color:#999999;text-decoration:none;">53/55 24050</span></a> Grassobbio (BG) Italy / Tel. <a href="#" style="color:#999999;text-decoration:none;"><span style="color:#999999;text-decoration:none;">+39 035 678 111</span></a>
+  Per disiscriverti da questa newsletter <a href="<%InsertLPLink id='15015'%>" style="color:#999999;text-decoration:none;"><span style="color:#999999;text-decoration:none;"><u>clicca qui</u></span></a>. Per leggere le Privacy Policy Lovable <a href="https://www.lovable.it/informativa-privacy-e-cookies/privacypolicy.html" style="color:#999999;text-decoration:none;"><span style="color:#999999;text-decoration:none;"><u>clicca qui</u></span></a>.
+</mj-text>
+</mj-column>
+</mj-section>
+
+</mj-body>
+</mjml>
