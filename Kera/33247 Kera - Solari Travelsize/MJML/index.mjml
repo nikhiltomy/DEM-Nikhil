@@ -1,0 +1,283 @@
+<mjml>
+  <mj-head>
+    <mj-preview>##</mj-preview>
+    <mj-attributes>
+      <mj-body background-color="#FFF" width="750px"></mj-body>
+      <mj-section padding="0px"></mj-section>
+      <mj-column padding="0px"></mj-column>
+      <mj-image align="center" padding="0px"></mj-image>
+      <mj-text padding="0px" align="center" font-family="Arial" font-size="18px" color="#000"></mj-text>
+      
+    </mj-attributes>
+    <mj-style>
+      .link-nonstyle{
+      color: inherit; text-decoration: none !important;
+    }
+    a:link{
+      color: inherit; text-decoration: none !important;
+    }
+    a:visited{
+      color:inherit; text-decoration: none !important;
+    }
+		
+    .mobile-change,.mobile-change div{
+      font-size:48px !important;
+      mso-line-height-rule:exactly;
+      line-height:51px !important;
+      }
+      .mso-fix {
+      mso-line-height-rule:exactly;
+      }
+		
+    @media only screen and (max-width:480px) {
+      .hidden-mobile {
+        display: none !important;
+      }
+      .display-mobile {
+        display: block !important;
+        max-height: none !important;
+      }
+      
+      .mobile-change,.mobile-change div{
+      font-size:23px !important;
+      line-height:28px !important;
+      mso-line-height-rule:exactly;
+      }
+      .mobile-change2,.mobile-change2 div{
+      font-size:19px!important;
+      line-height:23px !important;
+      mso-line-height-rule:exactly;
+      }
+      .text-change,.text-change div{
+      font-size: 20px!important;
+      mso-line-height-rule:exactly;
+      line-height: 24px!important;
+      }
+      .text-change1,.text-change1 div{
+      font-size:18px !important;
+      mso-line-height-rule:exactly;
+      line-height:22px !important;
+      }
+     .button-change1,.button-change1 div{
+				font-size:20px !important;
+      }
+      .button-change2,.button-change2 div{
+				font-size:15px !important;
+      }
+      .padding-change1 {
+      padding-top:0px!important;
+      }
+      .padding-change2 {
+      padding:20px!important;
+      }
+      .padding-change3{
+      padding-top:10px !important;
+      }
+      .width-fix{
+      	max-width:280px!important;
+      }
+     }
+      
+      
+
+    @media only screen and (min-width:479px) {
+      .hidden-desktop {
+        display: none !important;
+      }
+
+      .display-desktop {
+        display: block !important;
+        max-height: none !important;
+      }
+    }
+    </mj-style>
+  </mj-head>
+  <mj-body width="750px">
+    <mj-section>
+    	<mj-column>
+      	<mj-text padding="10px 0px" font-size="11px">
+          Se non visualizzi correttamente la newsletter,&nbsp; 
+          <a href="<%@ include view='ALL_PPD_Kerastase_MirrorPageUrl' %>" _label="Page miroir" type="mirrorPage" target="_blank">
+            <span style="text-decoration:underline;color:#000000;"> clicca qui</span>
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="25px">
+        <mj-column>
+          <mj-text align="right" padding-right="20px" font-size="13px" font-weight="700"><a href="https://www.mykerastase.it"><span style="color:#000000; font-weight:700; text-decoration:none;">KERASTASE.IT</span></a></mj-text>
+        </mj-column>    
+    </mj-section>
+    
+    <mj-section>
+    	<mj-column>
+      	<mj-divider padding="10px 10px" border-width="12px" border-color="#d7282f"/>
+        <mj-image src="img/logo02.png" width="278px" href="https://www.mykerastase.it" padding="60px 0px"/>
+        <mj-image href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>" src="img/hero.png"/>
+        
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="90%" css-class="width-fix">
+        <mj-text font-family="Times, Arial Narrow,Arial" css-class="padding-change3"  padding="0px 10px 40px" color="#242424"><span class="mobile-change width-fix"> <a href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>" style="color:#242424;text-decoration:none;">
+          QUEST’ESTATE<br/>
+PRENDITI CURA<br/>
+DEI TUOI CAPELLI
+</span></a></mj-text>
+      </mj-column>
+    </mj-section>
+    
+<mj-section>
+<mj-column width="85%" css-class="width-fix">
+<mj-text line-height="31px" color="#242424" font-family="arial" font-weight="400" font-size="21px" padding="0px 10px 40px 10px" css-class="mobile-change2"> 
+         Mare, montagna o città? <br/>
+Ovunque andrai, le travel size di Kérastase ti accompagneranno per prenderti cura dei tuoi capelli anche in vacanza.
+        </mj-text>
+<mj-button href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>" css-class="hidden-mobile" border-radius="0px" background-color="#d7282f" font-family="Arial Narrow, Arial, sans-serif" font-size="29px" text-transform="uppercase"  inner-padding="8px 70px" padding="0px 0px 100px 0px"><span>SCOPRI di più</span></mj-button>
+ 
+<mj-raw>
+        <!-- MOBILE -->
+        <!--[if !mso | !IE]><!-->
+ </mj-raw>
+<mj-button href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>" css-class="hidden-desktop" border-radius="0px" background-color="#d7282f" font-family="Arial Narrow, Arial, sans-serif" font-size="29px"  text-transform="uppercase" css-class="button-change1" inner-padding="8px 30px" padding="0px 0px 100px 0px"><span class="button-change1">SCOPRI di più</span></mj-button>
+<mj-raw>
+        <!-- MOBILE CLOSING -->
+        <!--<![endif]-->
+</mj-raw>
+</mj-column>
+</mj-section>    
+
+    
+   
+<!-- Products section -->
+<mj-section padding="0px 0px 0px 0px">
+<mj-column width="50%" vertical-align="top">
+<mj-image align="center" src="img/p1.png" padding="0px 40px 0px 40px" width="280px"  href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>"></mj-image>
+</mj-column>
+
+
+ 
+<mj-column width="50%">
+<mj-text mj-class="centered" font-family="Times,Arial, sans-serif" padding="30px 10px 0px 10px" css-class="padding-change1 mso-fix">
+<span style="font-size:35px;mso-line-height-rule:exactly;line-height:39px;color:#242424;text-decoration:none;" class="text-change">TRAVEL SIZE<br/>
+BAIN
+</span>
+</mj-text>
+<mj-button href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>" border-radius="0px" background-color="#d7282f" font-family="Arial Narrow, Arial, sans-serif" font-size="23px" inner-padding="3px 30px"  text-transform="uppercase" ><span class="button-change2">SCOPRI di più</span></mj-button>
+</mj-column>
+</mj-section>
+  
+    
+<mj-section padding="80px 0px 0px 0px" direction="rtl">
+<mj-column width="50%" vertical-align="top">
+<mj-image align="center" src="img/p2.png" padding="0px 40px 0px 40px" width="300px"  href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>"></mj-image>
+</mj-column>
+
+<mj-column width="50%">
+<mj-text mj-class="centered" font-family="Times,Arial, sans-serif" padding="15px 10px 0px 10px" css-class="padding-change1 mso-fix">
+<span style="font-size:35px;mso-line-height-rule:exactly;line-height:39px;color:#242424;text-decoration:none;" class="text-change">TRAVEL SIZE<br/>
+MASCHERE
+</span>
+</mj-text>
+<mj-button href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>" border-radius="0px" background-color="#d7282f" font-family="Arial Narrow, Arial, sans-serif" font-size="23px" inner-padding="3px 30px"  text-transform="uppercase" ><span class="button-change2">SCOPRI di più</span></mj-button>
+</mj-column>
+</mj-section>
+  
+<mj-section padding="80px 0px 0px 0px">
+<mj-column width="50%" vertical-align="top">
+<mj-image align="center" src="img/p3.png" padding="0px 40px 0px 40px" width="180px"  href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>"></mj-image>
+</mj-column>
+
+
+ 
+<mj-column width="50%">
+<mj-text mj-class="centered" font-family="Times,Arial, sans-serif" padding="80px 10px 0px 10px" css-class="padding-change1 mso-fix">
+<span style="font-size:35px;mso-line-height-rule:exactly;line-height:39px;color:#242424;text-decoration:none;" class="text-change">TRAVEL SIZE<br/>
+STYLING
+</span>
+</mj-text>
+<mj-button href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>" border-radius="0px" background-color="#d7282f" font-family="Arial Narrow, Arial, sans-serif" font-size="23px" inner-padding="3px 30px"  text-transform="uppercase" ><span class="button-change2">SCOPRI di più</span></mj-button>
+</mj-column>
+</mj-section>
+
+
+    
+    
+    
+
+
+    
+ 
+    
+   
+       
+<mj-section padding="80px 0px 0px 0px">
+<mj-column>
+  <mj-text  mj-class="centered bolded" font-family="Arial, sans-serif" padding="0px 55px 20px 55px" text-transform="uppercase" letter-spacing="0px" css-class="text-change1 mso-fix padding-change2">
+<span style="font-size:27px;mso-line-height-rule:exactly;line-height:36px;color:#242424;text-decoration:none;" class="text-change1">COMPLETA IL TUO LOOK ESTIVO CON LA BAG
+E LE POUCH ESCLUSIVE <span style="color:#d7282f;font-weight:bold">FRENCH RIVIERA
+</span>
+</mj-text>
+<mj-image src="img/bottom-hero.png" href="https://parrucchieri.kerastase.it/?_ga=2.125592010.1322075505.1625155193-1820665090.1619780070&_gac=1.174778902.1624874262.EAIaIQobChMI4dCInIi68QIVT9nVCh1d_wBnEAAYASAAEgI09vD_BwE&utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_travelsize&cin=<%= recipient.record_id %>" padding="10px 0px 40px 0px"></mj-image>
+<mj-button href="https://parrucchieri.kerastase.it/?_ga=2.125592010.1322075505.1625155193-1820665090.1619780070&_gac=1.174778902.1624874262.EAIaIQobChMI4dCInIi68QIVT9nVCh1d_wBnEAAYASAAEgI09vD_BwE&utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_travelsize&cin=<%= recipient.record_id %>" css-class="hidden-mobile" border-radius="0px" background-color="#d7282f" font-family="Arial Narrow, Arial, sans-serif" font-size="29px" text-transform="uppercase" css-class="button-change1" padding="0px 0px 115px 0px" inner-padding="8px 53px" href=""><span class="button-change1">vieni in salone</span></mj-button>   
+<mj-raw>
+        <!-- MOBILE -->
+        <!--[if !mso | !IE]><!-->
+ </mj-raw>
+<mj-button padding-bottom="30px" href="https://parrucchieri.kerastase.it/?_ga=2.125592010.1322075505.1625155193-1820665090.1619780070&_gac=1.174778902.1624874262.EAIaIQobChMI4dCInIi68QIVT9nVCh1d_wBnEAAYASAAEgI09vD_BwE&utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_travelsize&cin=<%= recipient.record_id %>" css-class="hidden-desktop" border-radius="0px" background-color="#d7282f" font-family="Arial Narrow, Arial, sans-serif" font-size="29px" text-transform="uppercase" css-class="button-change1" inner-padding="8px 18px" href=""><span class="button-change1">vieni in salone</span></mj-button>
+<mj-raw>
+        <!-- MOBILE CLOSING -->
+        <!--<![endif]-->
+</mj-raw>
+</mj-column>
+</mj-section>
+  
+<!-- Last Products section -->
+<mj-section padding="0px 0px 100px 0px">
+<mj-column vertical-align="top">
+<mj-image src="img/last-product.png" padding="0px 0px 0px 0px" fluid-on-mobile="true" href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>"></mj-image>
+</mj-column>
+
+
+ 
+<mj-column>
+<mj-text mj-class="centered" font-family="Arial, sans-serif" padding="100px 10px 0px 10px" css-class="padding-change2 mso-fix">
+<span style="font-size:35px;mso-line-height-rule:exactly;line-height:39px;color:#242424;text-decoration:none;" class="text-change">I PRODOTTI<br/>
+DELL’ESTATE
+</span>
+</mj-text>
+<mj-button href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_soleil&cin=<%= recipient.record_id %>" border-radius="0px" background-color="#d7282f" font-family="Arial Narrow, Arial, sans-serif" font-size="23px" inner-padding="3px 30px"  text-transform="uppercase" ><span class="button-change2">SCOPRI di più</span></mj-button>
+</mj-column>
+</mj-section>   
+    
+    
+<!-- Footer Section -->
+    <mj-section >
+      <mj-column background-color="#242424">
+        <mj-text padding-top="20px" color="#FFF"><a href="https:/www.kerastase.it" style="color:#FFF;text-decoration:none;"><span style="color:#FFF;text-decoration:none;">WWW.KERASTASE.IT</span></a><br/><a href="https:/www.mykerastase.it" style="color:#FFF;text-decoration:none;"><br/>seguici su</mj-text>
+        <mj-spacer height="15px"/>
+        <mj-social padding="0px" inner-padding="5px 20px 0px" mode="horizontal" icon-size="50px">
+          <mj-social-element target="_blank" src="img/fb.png" href="https://www.facebook.com/KerastaseItalia/"></mj-social-element>
+          <mj-social-element target="_blank" src="img/ig.png" href="https://www.instagram.com/kerastase_official/"></mj-social-element>
+          <mj-social-element target="_blank" src="img/yt.png" href="https://www.youtube.com/user/KerastaseItalia"></mj-social-element>
+        </mj-social>
+        <mj-spacer height="15px"/>
+      </mj-column>
+    </mj-section>
+		
+      <mj-section>
+      	<mj-column>
+        	<mj-text padding="10px 0px" font-size="11px">
+          Ti contattiamo perchè il tuo nominativo risulta tra coloro che hanno fornito a L'Oréal il consenso al trattamento dei dati personali ai fini informativi e pubblicitari a mezzo e-mail Se non desideri più ricevere questa newsletter,&nbsp; 
+          <a href="<%@ include view='ALL_PPD_Kerastase_UnsubWebApp' %>" _label="Opt-out link" _type="optout" target="_blank">
+            <span style="text-decoration:none;color:#000000;"> clicca qui</span>
+          </a>
+        </mj-text>
+        </mj-column>
+      </mj-section>
+    
+    
+    
+  </mj-body>
+</mjml>

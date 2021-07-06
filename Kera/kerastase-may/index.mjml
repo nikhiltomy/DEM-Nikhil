@@ -1,0 +1,232 @@
+<mjml>
+<mj-head>
+<mj-preview>Pre-header placeholder</mj-preview>
+<mj-attributes>
+<mj-all padding="0px"></mj-all>
+<mj-class name="centered" align="center"></mj-class>
+<mj-class name="blacked" color="#000000"></mj-class>
+<mj-class name="whited" color="#ffffff"></mj-class>
+<mj-class name="bolded" font-weight="bold"></mj-class>
+</mj-attributes>
+<mj-style inline="inline">
+.mso-fix {
+mso-line-height-rule:exactly;
+}
+
+.alignment-change-extra div {
+text-align:right!important;
+}
+</mj-style>
+<mj-style>
+
+a:link{
+color: inherit; text-decoration: none;
+}	
+a:visited{
+color:inherit; text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+.hidden-mobile {
+display: none !important;
+}
+
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+
+.text-change {
+font-size: 12px!important;
+mso-line-height-rule:exactly;
+line-height: 19px!important;
+}
+  
+.text-change1 {
+font-size: 16px!important;
+mso-line-height-rule:exactly;
+line-height: 20px!important;
+}
+
+.text-change2 {
+font-size: 24px!important;
+mso-line-height-rule:exactly;
+line-height: 26px!important;
+}
+  
+.text-change3 {
+font-size: 22px!important;
+mso-line-height-rule:exactly;
+line-height: 26px!important;
+}
+
+.padding-change {
+padding-top:20px!important;
+padding-bottom:30px!important;
+}
+
+.padding-change2 {
+padding-top:20px!important;
+}
+  
+.alignment-change div, .alignment-change-extra div {
+text-align:center!important;
+}
+}
+
+@media only screen and (min-width: 481px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+}
+</mj-style>
+
+</mj-head>
+
+<mj-body background-color="#ffffff" width="580px">
+
+<mj-section padding="0px 0px 0px 0px">
+<mj-column>
+
+<mj-text mj-class="centered" color="#000000" font-size="11px" padding="20px 0px 0px 0px">Se non visualizzi correttamente la newsletter, <a href="<%@ include view='ALL_PPD_Kerastase_MirrorPageUrl' %>" style="color:#000000;text-decoration:none;"><span style="color:#000000;text-decoration:underline;">clicca qui</span></a>
+</mj-text>
+
+<mj-image src="img/kerastase-logov2.jpg" alt="Kérastase" href="https://www.kerastase.it/?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>" padding="5px 0px 0px 0px">
+</mj-image>
+  
+<mj-image src="img/kerastase-head.jpg" href="https://www.kerastase.it/?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>"></mj-image>
+  
+<mj-text mj-class="centered bolded" font-family="Arial, sans-serif" padding="30px 10px 16px 10px" text-transform="uppercase" letter-spacing="0.9px" css-class="text-change mso-fix">
+<span style="font-size:32px;mso-line-height-rule:exactly;line-height:40px;color:#242424;text-decoration:none;" class="text-change1">Sei pronta per partire?
+</span>
+</mj-text>
+  
+<mj-text mj-class="centered bolded" font-family="Verdana,sans-serif" padding="10px 10px 20px 10px" css-class="text-change mso-fix">
+  <span style="font-size:50px;mso-line-height-rule:exactly;line-height:50px;color:#242424;text-decoration:none;" class="text-change2">PORTA KÉRASTASE<br/></span><span style="font-size:44px;mso-line-height-rule:exactly;line-height:50px;color:#242424;text-decoration:none;" class="text-change3">IN VACANZA CON TE!
+</span>
+</mj-text>
+  
+<mj-text mj-class="centered bolded" font-family="Arial, sans-serif" padding="0px 10px 20px 10px" text-transform="uppercase" letter-spacing="0.9px" css-class="text-change mso-fix">
+<span style="font-size:24px;mso-line-height-rule:exactly;line-height:30px;color:#242424;text-decoration:none;" class="text-change1">La guida ai tuoi prodotti per l’estate
+</span>
+</mj-text>
+
+<mj-image src="img/kerastase-main.jpg" href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>" width="360px" padding="10px 30px 16px 30px"></mj-image>
+
+<mj-text mj-class="centered" font-family="Arial, sans-serif" padding="15px 10px 20px 10px" css-class="text-change mso-fix">
+<span style="font-size:21px;mso-line-height-rule:exactly;line-height:30px;color:#242424;text-decoration:none;" class="text-change">Grazie a Kérastase l’estate<br/> non è più un problema per i tuoi capelli.
+</span>
+</mj-text>
+  
+<mj-text mj-class="centered bolded" font-family="Arial, sans-serif" padding="0px 6px 20px 6px" css-class="text-change mso-fix">
+<span style="font-size:28px;mso-line-height-rule:exactly;line-height:30px;color:#242424;text-decoration:none;" class="text-change1">Scopri i TRE MUST-HAVE<br/> da portare sempre in valigia con te:
+</span>
+</mj-text>
+  
+</mj-column>
+</mj-section>
+  
+<mj-section padding="20px 20px 0px 20px">
+<mj-column width="48%" vertical-align="top">
+<mj-image src="img/kerastase-generic1.jpg" padding="0px 0px 0px 0px" width="300px" fluid-on-mobile="true" href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>"></mj-image>
+</mj-column>
+
+<mj-column padding="20px 0px 0px 0px" width="4%" vertical-align="top"></mj-column>
+ 
+<mj-column width="48%" vertical-align="top">
+
+<mj-button border-radius="0px" background-color="#f3c7a7" font-family="Arial Narrow, Arial, sans-serif" font-size="20px" width="100%" inner-padding="8px 10px" href="https://www.kerastase.it/prodotti/soleil?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>">SOLEIL</mj-button>
+
+<mj-text mj-class="centered" font-family="Arial, sans-serif" padding="10px 10px 0px 10px" css-class="text-change mso-fix">
+<span style="font-size:18px;mso-line-height-rule:exactly;line-height:26px;color:#242424;text-decoration:none;" class="text-change">Il set dei solari fondamentale per proteggere e riparare i tuoi capelli esposti al sole.<br/> 
+La routine di Soleil è utile a rinforzare, nutrire e illuminare la tua chioma durante l’estate. 
+</span>
+</mj-text>
+</mj-column>
+</mj-section>
+  
+<mj-section padding="30px 20px 0px 20px" direction="rtl">
+<mj-column width="48%" vertical-align="top">
+<mj-image src="img/kerastase-generic2.jpg" padding="0px 0px 0px 0px" width="300px" fluid-on-mobile="true" href="https://www.kerastase.it/prodotti/elixir-ultime/huile-originale?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>"></mj-image>
+</mj-column>
+
+<mj-column padding="20px 0px 0px 0px" width="4%" vertical-align="top"></mj-column>
+ 
+<mj-column width="48%" vertical-align="top">
+
+<mj-button border-radius="0px" background-color="#f3c7a7" font-family="Arial Narrow, Arial, sans-serif" font-size="20px" width="100%" inner-padding="8px 10px" href="https://www.kerastase.it/prodotti/elixir-ultime/huile-originale?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>">ELIXIR ULTIME</mj-button>
+
+<mj-text mj-class="centered" font-family="Arial, sans-serif" padding="10px 10px 0px 10px" css-class="text-change mso-fix">
+<span style="font-size:18px;mso-line-height-rule:exactly;line-height:26px;color:#242424;text-decoration:none;" class="text-change">L’olio che non potrà assolutamente mancare nel tuo beauty case, per proteggere i tuoi capelli e renderli morbidi e straordinariamente luminosi anche d’estate!
+</span>
+</mj-text>
+</mj-column>
+</mj-section>
+  
+<mj-section padding="30px 20px 0px 20px">
+<mj-column width="48%" vertical-align="top">
+<mj-image src="img/kerastase-generic3.jpg" padding="0px 0px 0px 0px" width="300px" fluid-on-mobile="true" href="https://www.kerastase.it/prodotti/fresh-affair/fresh-affair?utm_source=crm&amp;utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>"></mj-image>
+</mj-column>
+
+<mj-column padding="20px 0px 0px 0px" width="4%" vertical-align="top"></mj-column>
+ 
+<mj-column width="48%" vertical-align="top">
+
+<mj-button border-radius="0px" background-color="#f3c7a7" font-family="Arial Narrow, Arial, sans-serif" font-size="20px" width="100%" inner-padding="8px 10px" href="https://www.kerastase.it/prodotti/fresh-affair/fresh-affair?utm_source=crm&amp;utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>">FRESH AFFAIR</mj-button>
+
+<mj-text mj-class="centered" font-family="Arial, sans-serif" padding="10px 10px 0px 10px" css-class="text-change mso-fix">
+<span style="font-size:18px;mso-line-height-rule:exactly;line-height:26px;color:#242424;text-decoration:none;" class="text-change">È estate, sei in viaggio, ma vorresti sempre capelli perfetti? Fresh Affair sarà il tuo migliore alleato tra un lavaggio e l’altro! Si tratta di uno shampoo secco rinfrescante che assorbe il sebo in eccesso e dona una sensazione di pulito.
+</span>
+</mj-text>
+</mj-column>
+</mj-section>
+
+
+<mj-section padding="40px 20px 0px 20px">
+<mj-column>
+  
+<mj-button border-radius="0px" background-color="#f3c7a7" font-family="Arial Narrow, Arial, sans-serif" font-size="18px" width="100%" inner-padding="8px 10px" href="https://www.kerastase.it/effettua-la-diagnosi?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>">EFFETTUA IL TEST E SCOPRI IL PRODOTTO ADATTO A TE</mj-button>
+
+<mj-text mj-class="centered bolded" font-family="Arial, sans-serif" padding="40px 0px 20px 0px" text-transform="uppercase" letter-spacing="0.9px" css-class="text-change mso-fix">
+<span style="font-size:24px;mso-line-height-rule:exactly;line-height:30px;color:#242424;text-decoration:none;" class="text-change1">SCOPRI IL NUOVO PROGETTO<br/> IN COLLABORAZIONE CON VANITY FAIR
+</span>
+</mj-text>
+  
+<mj-image src="img/video.jpg" href="https://www.youtube.com/watch?v=UfWkaPOKiJY&utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>" padding="10px 0px 50px 0px"></mj-image>
+  
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#242424">
+<mj-column>
+<mj-text mj-class="centered whited" padding-top="20px" font-size="16px" line-height="20px" text-transform="uppercase" font-family="Arial, sans-serif"><a href="http://www.kerastase.it?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>" style="color:#ffffff;text-decoration:none;"><span style="color:#ffffff;text-decoration:none;">www.kerastase.it</span></a></mj-text>
+
+<mj-text mj-class="centered whited" padding-bottom="5px" font-size="16px" line-height="20px" font-family="Arial, sans-serif"><span style="color:#ffffff;text-decoration:none;">seguici su</span></mj-text>
+
+<mj-social mode="horizontal" padding="0px 0px 10px 0px">
+<mj-social-element icon-size="45px" src="img/fb-icon.png" href="https://www.facebook.com/KerastaseItalia?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>" padding="10px 20px" name="facebook" background-color="#242424">
+</mj-social-element>
+<mj-social-element icon-size="45px" src="img/ig-icon.png" href="https://www.instagram.com/kerastase_official/?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>" padding="10px 20px" name="instagram" background-color="#242424">
+</mj-social-element>
+<mj-social-element icon-size="45px" src="img/yt-icon.png" href="https://www.youtube.com/user/KerastaseItalia?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_soleil_text_aw&utm_campaign=ker_haca_soleil_summer&cin=<%= recipient.record_id %>" padding="10px 20px" name="youtube"  background-color="#242424">
+</mj-social-element>
+</mj-social>
+</mj-column>
+</mj-section>
+
+<mj-section>
+<mj-column>
+<mj-text mj-class="centered" padding="15px 30px" font-size="11px" line-height="14px">Ti contattiamo perchè il tuo nominativo risulta tra coloro che hanno fornito a L'Oréal
+il consenso al trattamento dei dati personali ai fini informativi e pubblicitari a mezzo e-mail
+Se non desideri più ricevere questa newsletter, <a href="<%@ include view='ALL_PPD_Kerastase_UnsubWebApp' %>" style="font-weight: bold; color: #000000; text-decoration: none;"><span style="font-weight: bold; color: #000000; text-decoration: underline;">clicca qui</span></a>.
+</mj-text>
+</mj-column>
+</mj-section>
+
+</mj-body>
+</mjml>

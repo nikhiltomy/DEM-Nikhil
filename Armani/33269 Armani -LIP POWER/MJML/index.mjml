@@ -1,0 +1,144 @@
+<mjml>
+  <mj-head>
+    <mj-preview>Vieni a trovarci in Rinascente Duomo per una splendida sorpresa</mj-preview>
+    <mj-attributes>
+			<mj-all padding="0px" font-family="Arial, sans-serif"></mj-all>
+      <mj-class name="centered" align="center"></mj-class>
+  		<mj-class name="blacked" color="#000000"></mj-class>
+      <mj-class name="whited" color="#ffffff"></mj-class>
+      <mj-class name="bolded" font-weight="bold"></mj-class>
+    </mj-attributes>
+    
+    <mj-style>
+    	 .link-nonstyle{
+      color: inherit; text-decoration: none !important;
+    	}
+      a:link{
+      color: inherit; text-decoration: none;
+      }	
+      a:visited{
+      color:inherit; text-decoration: none;
+      }
+      .no-underline { text-decoration: none !important; }
+
+      
+      @media only screen and (max-width: 480px) {
+        .hidden-mobile {
+          display: none !important;
+        }
+
+        .display-mobile {
+          display: block !important;
+          max-height: none !important;
+        }
+      .padding-change1 td{
+      padding:10px 0px 0px 0px !important;
+      }
+      }
+      
+      @media only screen and (min-width: 481px) {
+        .hidden-desktop {
+          display: none !important;
+        }
+
+        .display-desktop {
+          display: block !important;
+          max-height: none !important;
+        }
+  
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#ffffff" width="640px">
+    
+    <mj-section>
+    <mj-column width="85%">
+      <mj-text padding="20px 10px" color="#7f7f7f" align="center" font-family="Arial" font-size="18px" line-height="26px">Add <a href="https://" target="_blank" style="color:#7f7f7f; text-decoration:none;">xxxxx@xxxxx.com </a>to your email adress book to make sure
+you get our emails.<a href="<%@ include view='ALL_LLD_GiorgioArmani_MirrorPageUrl' %>" _label="Page miroir" _type="mirrorPage" target="_blank" style="color:#7f7f7f; text-decoration:underline;"> <span style="color:#7f7f7f; text-decoration:underline;">View in browser.</span></a></mj-text>
+<mj-divider border-color="#b7b7b7" border-width="2px"></mj-divider>  
+    </mj-column>
+    
+    </mj-section>
+    
+   <mj-section>
+    	<mj-column>
+        <mj-image src="img/logo.jpg" width="218px" padding="35px 0px 0px" href="https://www.armanibeauty.it"/>
+     </mj-column>
+    </mj-section>
+   <mj-section padding-top="90px">
+   	<mj-column width="100%">
+     <mj-text mj-class="centered"font-family="Times" font-size="50px" line-height="50px" text-transform="uppercase">LIP POWER</mj-text>
+     </mj-column>
+   </mj-section>
+   <mj-section>
+   	<mj-column>
+     <mj-image src="img/video.png" padding="55px 0px 0px 0px" href="https://www.youtube.com/watch?v=1YhwG8Tph10&cin=<%= recipient.record_id %>"></mj-image>
+     </mj-column>
+   </mj-section>
+   <mj-section padding="0px 0px 0px 0px">
+   	<mj-column width="70%">
+      <mj-text mj-class="centered" font-family="Verdana, Arial, sans-serif" font-size="23px" line-height="28px" padding="60px 15px 60px 15px">
+<b>Lip Power,</b> il nuovo rossetto a lunga tenuta dal colore intenso senza compromessi sul comfort.
+</mj-text>
+      <mj-button border-radius="0px" color="#ffffff" background-color="#000000" font-size="18px" line-height="28px" font-family="Arial, sans-serif" text-transform="uppercase"  inner-padding="15px 29px" padding="0px 0px 0px 0px" href="https://www.sephora.it/p/lip-power---rossetto-stick-labbra-P10013914.html?utm_source=Armani&utm_medium=partners&utm_campaign=LippowerArmani_June21&utm_content=NL&cin=<%= recipient.record_id %>">Scoprilo in anteprima su Sephora.it</mj-button>
+    </mj-column>
+   </mj-section>
+   
+   <mj-section padding="80px 0px 0px 0px">
+    <mj-column>
+     <mj-text padding-bottom="30px" font-size="22px" line-height="28px" align="center" font-weight="bold">MASSIMO COMFORT E LUNGA DURATA</mj-text>
+     <mj-image src="img/hero1.gif"></mj-image>
+     </mj-column>
+    </mj-section>
+    
+   <mj-section padding="0px 0px 40px 0px">
+   	<mj-column width="90%">
+      <mj-text mj-class="centered" font-family="Verdana, Arial, sans-serif" font-size="23px" line-height="28px" padding="60px 5px 60px 5px">
+Formulato con una speciale combinazione di oli e pigmenti altamente concentrati, questo rossetto infonde un colore acceso che offre comfort e non sbiadisce per tutto il giorno.<br/><br/><br/>
+        Iscriviti alla <b>Digiclass gratuita</b> su <a style="color:#000000;text-decoration:none">Sephora.it</a> per scoprire di più su Lip Power.<br/><br/><br/><b> <a style="color:#000000;text-decoration:none"> Giovedì 8 luglio</a></b> Donatella Ferrari, National Make Up Artist di Armani, ti insegnerà come vestire le tue labbra e realizzare un look impeccabile.
+</mj-text>
+      <mj-button border-radius="0px" color="#ffffff" background-color="#000000" font-size="18px" line-height="28px" font-family="Arial, sans-serif" text-transform="uppercase"  inner-padding="15px 55px" padding="0px 0px" href="https://mysephorabeautycoach.it/booking/index.php?service=90&cin=<%= recipient.record_id %>">iscriviti ora</mj-button>
+    </mj-column>
+   </mj-section> 
+    
+    
+    
+ <mj-section padding="100px 0px 0px 0px" css-class="padding-change1">
+    <mj-column>
+     <mj-text padding-bottom="45px" font-size="22px" line-height="28px" align="center" font-weight="bold">UNA GOCCIA DI POTERE SULLE TUE LABBRA</mj-text>
+     <mj-image src="img/hero2.gif"></mj-image>
+     </mj-column>
+    </mj-section>
+    
+   <mj-section padding="0px 0px 40px 0px">
+   	<mj-column width="70%">
+      <mj-text mj-class="centered" font-family="Verdana, Arial, sans-serif" font-size="23px" line-height="28px" padding="60px 10px 50px 10px">
+Lip Power si declina in 25 nuances. Ogni tonalità è infusa di una goccia di potere per accendere di colore le tue labbra.
+
+</mj-text>
+      <mj-button border-radius="0px" color="#ffffff" background-color="#000000" font-size="18px" line-height="28px" font-family="Arial, sans-serif" text-transform="uppercase"  inner-padding="15px 55px" padding="0px 0px 40px 0px" href="https://www.sephora.it/p/lip-power---rossetto-stick-labbra-P10013914.html?utm_source=Armani&utm_medium=partners&utm_campaign=LippowerArmani_June21&utm_content=NL&cin=<%= recipient.record_id %>">acquista ora</mj-button>
+    </mj-column>
+   </mj-section> 
+   
+ <!--Footer Section -->
+<mj-wrapper padding="0px"></mj-wrapper>   
+    	<mj-section background-color="#000">
+      <mj-column padding="0px 0px 30px 0px">
+        <mj-social padding="40px 0px 20px 0px" inner-padding="0px 20px 0px" mode="horizontal" icon-size="40px">
+          <mj-social-element  padding="0px 30px" target="_blank" src="img/icon_insta.jpg" href="https://www.instagram.com/armanibeauty/"></mj-social-element>
+          <mj-social-element padding="0px 30px" target="_blank" src="img/icon_fb.jpg" href="https://www.facebook.com/armanibeautyIT/"></mj-social-element>
+         <mj-social-element padding="0px 30px" target="_blank" src="img/icon_youtube.jpg" href="https://www.youtube.com/user/GiorgioArmaniBeauty"></mj-social-element>
+        </mj-social>
+        
+        <mj-text padding="20px" font-size="13px" color="#fff" align="center"> Per ulteriori dettagli su come trattiamo i tuoi dati, consulta <a href="https://www.armanibeauty.it/customer-service--privacy-policy/privacy-policy/customer-service-privacy-policy.html" target="_blank" style="color:#d4d4d4; text-decoration:underline;">la nostra informativa sulla privacy</a>.<br>
+            <br> Se desideri annullare l'iscrizione alla mailing list e non ricevere più le esclusive offerte di bellezza Armani, segui questo <a href="<%@ include view='ALL_LLD_GiorgioArmani_UnsubWebApp' %>" _label="Opt-out link" _type="optout" target="_blank" style="color:#d4d4d4; text-decoration:underline;">link</a>.<br>
+            <br> Per essere sicuro di ricevere le nostre offerte esclusive, aggiungi <a href="news.it@newsletters.armanibeauty.com" target="_blank" style="color:#d4d4d4; text-decoration:none;">news.it@newsletters.armanibeauty.com</a> alla tua rubrica.<br>
+            <br> Armani beauty è un marchio L’Oréal Produits de Luxe France - « Société par actions simplifiée » - Capitale di 84.000 euro - Sede: 14 rue Royale Parigi 8 ° - RCS Parigi <a href="#" style="text-decoration:none;color:#ffffff;"><span style="text-decoration:none;color:#ffffff;">314 428 186</span></a> - Partita IVA intracomunitaria: <a href="#" style="text-decoration:none;color:#ffffff;"><span style="text-decoration:none;color:#ffffff;">FR 19 314 428 186</span></a>.<br>
+            <br> In caso di domande, contattaci: <a href="mailto:news.it@newsletters.armanibeauty.com" style="color:#d4d4d4; text-decoration:underline;">news.it@newsletters.armanibeauty.com</a>.</mj-text>
+        </mj-column>
+    </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

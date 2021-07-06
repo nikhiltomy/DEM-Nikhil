@@ -1,0 +1,194 @@
+<mjml>
+  <mj-head>
+    <mj-preview>##</mj-preview>
+    <mj-attributes>
+      <mj-body background-color="#FFF" width="750px"></mj-body>
+      <mj-section padding="0px"></mj-section>
+      <mj-column padding="0px"></mj-column>
+      <mj-image align="center" padding="0px"></mj-image>
+      <mj-text padding="0px" align="center" font-family="Arial" font-size="18px" color="#000"></mj-text>
+      
+    </mj-attributes>
+    <mj-style>
+      .link-nonstyle{
+      color: inherit; text-decoration: none !important;
+    }
+    a:link{
+      color: inherit; text-decoration: none !important;
+    }
+    a:visited{
+      color:inherit; text-decoration: none !important;
+    }
+		
+    .mobile-change{
+      font-size:42px !important;
+      line-height:60px !important;
+      }
+      .mobile-change2,.mobile-change2 div{
+      font-size:31px;
+      mso-line-height-rule:exactly;
+      line-height:35px;
+      }
+      .mobile-change3,.mobilechage3 div{
+      font-size:33px !important;
+      mso-line-height-rule:exactly;
+      line-height:41px !important;
+      }
+     .mobile-change1{
+      font-size:50px !important;
+      line-height:50px !important;
+      }
+      .mobile-change4 div{
+      font-size:19px !important;
+      line-height:25px !important;
+      }
+		
+    @media only screen and (max-width:480px) {
+      .hidden-mobile {
+        display: none !important;
+      }
+      .display-mobile {
+        display: block !important;
+        max-height: none !important;
+      }
+      
+      .mobile-change{
+      font-size:25px !important;
+      line-height:35px !important;
+      }
+    .mobile-change2,.mobile-change2 div{
+      font-size:18px !important;
+      mso-line-height-rule:exactly;
+      line-height:22px !important;
+      }
+      .mobile-change1{
+      font-size:25px !important;
+      line-height:30px !important;
+      }
+      .mobile-change3,.mobilechage3 div{
+      font-size:15px !important;
+      mso-line-height-rule:exactly;
+      line-height:18px !important;
+      }
+      .mobile-change4 div{
+      font-size:15px !important;
+      line-height:18px !important;
+      padding:45px 0px 0px 0px!important;
+      }
+      .padding-change1 {
+      padding-top:0px!important;
+      }
+      
+      .width-fix{
+      	max-width: 280px !important;
+      }
+     }
+      
+      
+
+    @media only screen and (min-width:479px) {
+      .hidden-desktop {
+        display: none !important;
+      }
+
+      .display-desktop {
+        display: block !important;
+        max-height: none !important;
+      }
+    }
+    </mj-style>
+  </mj-head>
+  <mj-body width="750px">
+    <mj-section>
+    	<mj-column>
+      	<mj-text padding="10px 0px" font-size="11px">
+          Se non visualizzi correttamente la newsletter,&nbsp; 
+          <a href="<%@ include view='ALL_PPD_Kerastase_MirrorPageUrl' %>" _label="Page miroir" type="mirrorPage" target="_blank">
+            <span style="text-decoration:none;color:#000000;"> clicca qui</span>
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="25px">
+        <mj-column>
+          <mj-text align="right" padding-right="20px" font-size="13px" font-weight="700"><a href="https://www.mykerastase.it"><span style="color:#000000; font-weight:700; text-decoration:none;">KERASTASE.IT</span></a></mj-text>
+        </mj-column>    
+    </mj-section>
+    
+    <mj-section>
+    	<mj-column>
+      	<mj-divider padding="10px 10px" border-width="12px" border-color="#B3B3E7"/>
+        <mj-image src="img/logo02.png" width="278px" href="https://www.mykerastase.it" padding="30px 0px"/>
+        <mj-image href="https://www.kerastase.it/prodotti/blond-absolu?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_blond-absolu_text_aw&utm_campaign=ker_haca_blond-absolu_blond-absolu&cin=<%= recipient.record_id %>" src="img/hero-tiny.png"/>
+        
+      </mj-column>
+    </mj-section>
+
+    
+    <mj-section>
+      <mj-column width="80%">
+        <mj-text padding="35px 10px 35px" line-height="35px" css-class="mobile-change2">
+          <span class="mobile-change2">
+        	Per te che non sei tra i candidati selezionati del Test&Tell Blond Absolu, abbiamo riservato un <b>codice sconto esclusivo</b> per provare la gamma.
+          </span>
+        </mj-text>   
+        </mj-column>
+    </mj-section>
+  
+    
+ <!--NATYxKERA Button -->
+<mj-section  padding="0px 20px 45px 20px">
+<mj-column width="83%">
+<mj-image href="https://kerastaseparagoni.hair-gallery.it/?utm_source=newsletter&utm_medium=email&utm_campaign=NL202107_paragoni_kerastase_blondabsolu_lorealcasamadre&cin=<%= recipient.record_id %>" src="img/b1.png"></mj-image>
+</mj-column>
+</mj-section>
+
+ <!--YOU DARE WE CARE Button -->
+<mj-section padding="0px 20px 45px 20px">
+<mj-column width="83%">
+<mj-image href="https://www.kerastase.it/prodotti/blond-absolu?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_blond-absolu_text_aw&utm_campaign=ker_haca_blond-absolu_blond-absolu&cin=<%= recipient.record_id %>" src="img/b2.png"></mj-image>
+</mj-column>
+</mj-section>
+  
+ <mj-section>
+ <mj-column>
+ <mj-image href="https://www.kerastase.it/prodotti/blond-absolu?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_blond-absolu_text_aw&utm_campaign=ker_haca_blond-absolu_blond-absolu&cin=<%= recipient.record_id %>" src="img/banner-bottom.png"></mj-image>
+ <mj-button padding="22px 0px 0px" text-transform="uppercase" font-weight="600" inner-padding="7px 14px" font-family="Arial Narrow,Arial" background-color="#191c1f" border-radius="0px" color="#ffffff" width="87%" href="https://www.kerastase.it/prodotti/blond-absolu?utm_source=crm&utm_medium=email_brand&utm_content=ker_haca_blond-absolu_text_aw&utm_campaign=ker_haca_blond-absolu_blond-absolu&cin=<%= recipient.record_id %>"><span class="mobile-change3">scrivi la tua recensione</span></mj-button>  
+ </mj-column>   
+ </mj-section>
+    
+<mj-section>
+<mj-column width="92%">
+<mj-text css-class="mobile-change4 padding-change1" font-size="19px" line-height="25px" padding="85px 15px 35px 15px" font-style="italic" font-weight="normal" color="#242424">Iniziativa «TEST&TELL BLOND» Termini e condizioni richiedibili 
+  gratuitamente a <a href="https://" style="color:#242424;text-decoration:none;"><span style="color:#242424;text-decoration:underline;font-weight:bold">servizioconsumatorikerastase.corpit@loreal.com</span></a><br/> oppure consultabile <a href="https://www.kerastase.it/operazione-a-premi" style="color:#242424;text-decoration:none;"><span style="color:#242424;text-decoration:underline;font-weight:bold">qui.</span></a></mj-text>  
+</mj-column>    
+</mj-section>    
+<!-- Footer Section -->
+    <mj-section >
+      <mj-column background-color="#242424">
+        <mj-text padding-top="20px" color="#FFF"><a href="https:/www.kerastase.it" style="color:#FFF;text-decoration:none;"><span style="color:#FFF;text-decoration:none;">WWW.KERASTASE.IT</span></a><br/><a href="https:/www.mykerastase.it" style="color:#FFF;text-decoration:none;"><br/>Seguici su</mj-text>
+        <mj-spacer height="15px"/>
+        <mj-social padding="0px" inner-padding="5px 20px 0px" mode="horizontal" icon-size="50px">
+          <mj-social-element target="_blank" src="img/fb.png" href="https://www.facebook.com/KerastaseItalia/"></mj-social-element>
+          <mj-social-element target="_blank" src="img/ig.png" href="https://www.instagram.com/kerastase_official/"></mj-social-element>
+          <mj-social-element target="_blank" src="img/yt.png" href="https://www.youtube.com/user/KerastaseItalia"></mj-social-element>
+        </mj-social>
+        <mj-spacer height="15px"/>
+      </mj-column>
+    </mj-section>
+		
+      <mj-section>
+      	<mj-column>
+        	<mj-text padding="10px 0px" font-size="11px">
+          Ti contattiamo perchè il tuo nominativo risulta tra coloro che hanno fornito a L'Oréal il consenso al trattamento dei dati personali ai fini informativi e pubblicitari a mezzo e-mail Se non desideri più ricevere questa newsletter,&nbsp; 
+          <a href="<%@ include view='ALL_PPD_Kerastase_UnsubWebApp' %>" _label="Opt-out link" _type="optout" target="_blank">
+            <span style="text-decoration:none;color:#000000;"> clicca qui</span>
+          </a>
+        </mj-text>
+        </mj-column>
+      </mj-section>
+    
+    
+    
+  </mj-body>
+</mjml>

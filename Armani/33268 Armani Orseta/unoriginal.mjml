@@ -1,0 +1,165 @@
+<mjml>
+  <mj-head>
+    <mj-preview>Vieni a trovarci in Rinascente Duomo per una splendida sorpresa</mj-preview>
+    <mj-attributes>
+			<mj-all padding="0px" font-family="Arial, sans-serif"></mj-all>
+      <mj-class name="centered" align="center"></mj-class>
+  		<mj-class name="blacked" color="#000000"></mj-class>
+      <mj-class name="whited" color="#ffffff"></mj-class>
+      <mj-class name="bolded" font-weight="bold"></mj-class>
+    </mj-attributes>
+    
+    <mj-style>
+    	 .link-nonstyle{
+      color: inherit; text-decoration: none !important;
+    	}
+      a:link{
+      color: inherit; text-decoration: none;
+      }	
+      a:visited{
+      color:inherit; text-decoration: none;
+      }
+      .no-underline { text-decoration: none !important; }
+
+      
+      @media only screen and (max-width: 480px) {
+        .hidden-mobile {
+          display: none !important;
+        }
+
+        .display-mobile {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+      
+      @media only screen and (min-width: 481px) {
+        .hidden-desktop {
+          display: none !important;
+        }
+
+        .display-desktop {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#ffffff" width="640px">
+   <mj-section>
+    	<mj-column>
+     		<mj-text padding="20px 0px" color="#7f7f7f" align="center" font-family="Arial" font-size="18px">Armani to provide object.<a href="<%@ include view='ALL_LLD_GiorgioArmani_MirrorPageUrl' %>" _label="Page miroir" _type="mirrorPage" target="_blank" style="color:#7f7f7f; text-decoration:underline;"> <span style="color:#7f7f7f; text-decoration:underline;"><br/>Vedi nel browser</span></a></mj-text>
+        <mj-image src="img/logo.jpg" width="218px" padding="20px 0px 0px" href="https://www.armanibeauty.it?utm_source=newsletter&utm_medium=email&utm_campaign=MYWAY_EMAIL4_IT_LOCAL"/>
+     </mj-column>
+    </mj-section>
+   
+   <mj-section padding-top="50px">
+   	<mj-column width="100%">
+     <mj-text mj-class="centered" css-class="hidden-mobile" font-family="Times" font-size="35px" line-height="40px" text-transform="uppercase">WELCOME TO<br/> 
+ARMANI BEAUTY</mj-text>
+      <mj-raw>
+           <!-- MOBILE IMAGE -->
+          <!--[if !mso | !IE]><!-->
+        </mj-raw>
+        <mj-text mj-class="centered" css-class="hidden-desktop" font-family="Times" font-size="25px" line-height="28px" text-transform="uppercase">WELCOME TO<br/> 
+ARMANI BEAUTY</mj-text>
+        <mj-raw>
+          <!-- MOBILE IMAGE CLOSING -->
+          <!--<![endif]-->
+        </mj-raw>
+     </mj-column>
+   </mj-section>
+   <mj-section>
+   	<mj-column>
+     <mj-image src="img/main.png" padding="30px 0px 20px 0px" href="https://www.rinascente.it/it/item/giorgio-armani-si-intense-eau-de-parfum-50ml-1313989800002"></mj-image>
+     </mj-column>
+   </mj-section>
+   <mj-section padding="0px 0px 40px 0px">
+   	<mj-column width="90%">
+      <mj-text mj-class="centered" font-family="Verdana, Arial, sans-serif" font-size="21px" line-height="30px" padding="20px 15px">Armani è sinonimo di raffinatezza ed eccellenza. L'attenzione al dettaglio è essenziale per la creazione di un prodotto di alta qualità, sia nella moda che nel beauty.<br/><br/> Con un know-how unico, tecnlogia all'avanguardia e materie prime raffinate, i prodotti Armani Beauty esprimono eleganza senza tempo. Ideali per chi preferisce mostrare la propria personalità.
+
+
+</mj-text>
+      <mj-button border-radius="0px" color="#ffffff" background-color="#000000" font-size="14px" line-height="16px" font-family="Arial, sans-serif" text-transform="uppercase" width="190px" inner-padding="15px 20px" padding="10px 0px" href="https://www.rinascente.it/it/item/giorgio-armani-si-intense-eau-de-parfum-50ml-1313989800002">scopri di più</mj-button>
+    </mj-column>
+   </mj-section>
+   
+   <mj-section>
+   	<mj-column vertical-align="bottom" padding="0px 0px 0px">
+     <mj-image src="img/visual1.png" padding="0px 0px 20px 0px" href="https://www.rinascente.it/it/store-milano"></mj-image>
+     
+    </mj-column>
+   </mj-section>
+    
+    
+    
+<mj-wrapper padding="0px"></mj-wrapper>   
+   <mj-raw>
+<!-- Footer Start -->
+</mj-raw>
+
+<mj-section background-color="#000" padding="0px 20px 20px 20px">
+<mj-column>
+<mj-text mj-class="centered whited" padding="40px 10px 20px 10px" font-size="18px" >
+<a href="https://www.mugler.it/it/fragranze/?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" style="color:#fff;text-decoration:none;">
+<span style="color:#fff;text-decoration:none;">
+MAKEUP
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px" width="180px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="15px 10px 15px 10px" font-size="18px" >
+<a href="https://www.mugler.it/it/collezioni-moda/fashion.html?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" style="color:#fff;text-decoration:none;">
+<span style="color:#fff;text-decoration:none;">
+SKINCARE
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" width="180px" border-width="1px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="18px" >
+<a href="https://www.mugler.it/it/collezioni-moda/fashion.html?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" style="color:#fff;text-decoration:none;">
+<span style="color:#fff;text-decoration:none;">
+FRAGRANZE
+</span>
+  </a></mj-text>
+</mj-column>
+</mj-section>
+
+<mj-raw>
+<!-- Footer Start -->
+</mj-raw>
+    
+   
+    
+<mj-section>
+    <mj-column>
+      <mj-image src="img/footer.png" />
+    </mj-column>  		
+</mj-section>   
+
+
+  
+    	<mj-section background-color="#000">
+      <mj-column padding="0px 0px 30px 0px">
+        <mj-social padding="40px 0px 20px 0px" inner-padding="0px 20px 0px" mode="horizontal" icon-size="40px">
+          <mj-social-element  padding="0px 30px" target="_blank" src="img/icon_insta.jpg" href="https://www.instagram.com/armanibeauty/?hl=com&utm_source=newsletter&utm_medium=email&utm_campaign=MYWAY_EMAIL4_IT_LOCAL"></mj-social-element>
+          <mj-social-element padding="0px 30px" target="_blank" src="img/icon_fb.jpg" href="https://www.facebook.com/armanibeautyIT/?brand_redir=732282773455439&utm_source=newsletter&utm_medium=email&utm_campaign=MYWAY_EMAIL4_IT_LOCAL"></mj-social-element>
+         <mj-social-element padding="0px 30px" target="_blank" src="img/icon_youtube.jpg" href="https://www.youtube.com/user/GiorgioArmaniBeauty?utm_source=newsletter&utm_medium=email&utm_campaign=MYWAY_EMAIL4_IT_LOCAL"></mj-social-element>
+        </mj-social>
+        
+        <mj-text padding="20px" font-size="13px" color="#fff" align="center"> Per ulteriori dettagli su come trattiamo i tuoi dati, consulta <a href="https://www.armanibeauty.it/customer-service--privacy-policy/privacy-policy/customer-service-privacy-policy.html?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=MYWAY_EMAIL4_IT_LOCAL" target="_blank" style="color:#d4d4d4; text-decoration:underline;">la nostra informativa sulla privacy</a>.<br>
+            <br> Se desideri annullare l'iscrizione alla mailing list e non ricevere più le esclusive offerte di bellezza Armani, segui questo <a href="<%@ include view='ALL_LLD_GiorgioArmani_UnsubWebApp' %>" _label="Opt-out link" _type="optout" target="_blank" style="color:#d4d4d4; text-decoration:underline;">link</a>.<br>
+            <br> Per essere sicuro di ricevere le nostre offerte esclusive, aggiungi <a href="news.it@newsletters.armanibeauty.com" target="_blank" style="color:#d4d4d4; text-decoration:none;">news.it@newsletters.armanibeauty.com</a> alla tua rubrica.<br>
+            <br> Armani beauty è un marchio L’Oréal Produits de Luxe France - « Société par actions simplifiée » - Capitale di 84.000 euro - Sede: 14 rue Royale Parigi 8 ° - RCS Parigi <a href="#" style="text-decoration:none;color:#ffffff;"><span style="text-decoration:none;color:#ffffff;">314 428 186</span></a> - Partita IVA intracomunitaria: <a href="#" style="text-decoration:none;color:#ffffff;"><span style="text-decoration:none;color:#ffffff;">FR 19 314 428 186</span></a>.<br>
+            <br> In caso di domande, contattaci: <a href="mailto:news.it@newsletters.armanibeauty.com" style="color:#d4d4d4; text-decoration:underline;">news.it@newsletters.armanibeauty.com</a>.</mj-text>
+        </mj-column>
+    </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
