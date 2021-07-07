@@ -1,0 +1,299 @@
+<mjml>
+
+<mj-head>
+<mj-attributes>
+<mj-body background-color="#FFF" width="650px"></mj-body>
+<mj-all padding="0px" font-family="Arial, sans-serif"></mj-all>
+<mj-section padding="0px"></mj-section>
+<mj-column padding="0px"></mj-column>
+<mj-image align="center" padding="0px"></mj-image>
+<mj-text padding="0px" align="center" font-family="Arial" font-size="18px" line-height="26px" color="#000"></mj-text>
+<mj-button padding="0px" align="center" font-size="14.3px" color="#FFF" border-radius="0px" background-color="#1C213F"/>
+<mj-class name="centered" align="center"></mj-class>
+<mj-class
+name="mirror"
+font-size="10px"
+color="#FFF"/>
+<mj-class
+name="privacy"
+line-height="16px"
+font-size="12px"
+color="#646464"/>
+<mj-class
+name="privacy-bold"
+line-height="16px"
+font-weight="bold"
+font-size="12px"
+color="#646464"/>
+<mj-class
+name="title"
+font-size="18px"
+text-transform="uppercase"
+font-weight="800"
+color="#1C213F"/>
+<mj-class
+name="big"
+line-height="35px"
+font-size="25px"
+text-transform="uppercase"
+font-weight="700"
+color="#1C213F"/>
+<mj-class
+name="product"
+font-size="20px" 
+font-weight="800"
+color="#1C213F"
+text-transform="uppercase"/>
+<mj-class
+name="product-gray"
+align="left"
+padding-left="30px"
+padding-bottom="60px"
+font-size="16px"
+line-height="20px"
+color="#9d9d9d"/>
+<mj-class
+name="normal-gray"
+font-size="16px"
+color="#9d9d9d"/>
+
+</mj-attributes>
+<mj-style inline="inline">
+.center {
+text-align:center!important;
+}
+
+</mj-style>
+<mj-style>
+.link-nonstyle{
+color: inherit; text-decoration: none !important;
+}
+a:link{
+color: inherit; text-decoration: none;
+}
+a:visited{
+color: inherit; text-decoration: none;
+}
+
+
+@media only screen and (max-width:480px) {
+.hidden-mobile {
+display: none !important;
+}
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+
+.social-padding-change td{
+padding:0px 5px!important;
+}
+
+.width-fix {
+max-width: 280px!important;
+}
+
+.maintitle-change, .maintitle-change div {
+font-size:24px!important;
+mso-line-height-rule:exactly;
+line-height:28px!important;
+}  
+
+.title-change, .title-change div {
+font-size:20px!important;
+mso-line-height-rule:exactly;
+line-height:24px!important;
+}
+  
+.font-change1, .font-change1 div {
+font-size:16px!important;
+mso-line-height-rule:exactly;
+line-height:22px!important;
+}
+  
+.font-change2, .font-change2 div {
+font-size:14px!important;
+mso-line-height-rule:exactly;
+line-height:20px!important;
+}
+}
+
+
+@media only screen and (min-width:479px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+}
+</mj-style>
+</mj-head>
+
+
+<mj-body width="554px" background-color="#ffffff">
+<mj-raw>
+<!-- Header Start -->
+</mj-raw>
+<mj-section>
+<mj-column width="75%">  
+<mj-text mj-class="centered" font-size="16px" line-height="19px" color="#717171" padding="15px 10px 0px 10px">
+ <u>Scopri la nuova dea Alien.</u></br> Per essere sicuro di ricevere tutte le nostre email, aggiungi <a href="mailto:MUGLER@news.mugler.com" style="color:#717171;text-decoration:none;"><span style="color:#717171;text-decoration:none;">MUGLER@news.mugler.com</span></a> alla tua rubrica. <br/><a href="<%@ include view='MirrorPageUrl'%>" style="color:#717171;text-decoration:none;"><span style="color:#717171;text-decoration:none;">Versione Web</span></a>.
+</mj-text>
+<mj-divider border-color="#ebebeb" border-width="1px" padding="20px 10px 0px 10px"></mj-divider>
+</mj-column>
+</mj-section>
+
+<mj-raw>
+<!-- Header End -->
+</mj-raw>
+
+
+<mj-section>
+<mj-column>
+<mj-image href="https://www.mugler.com/int/who-is-willow-smith--the-alien-goddess-face--/willow-smith-alien-goddess-face.html?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_alien_text_aw&utm_campaign=mug_fraw_alien_launch-goddess-edp-21_face-reveal?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_alien_text_aw&utm_campaign=mug_fraw_alien_launch-goddess-edp-21_face-reveal" src="img/main.jpg"></mj-image>  
+</mj-column>  
+</mj-section>
+</mj-wrapper>
+  
+ 
+<mj-section>
+<mj-column padding="0px 20px 20px 20px">
+
+<mj-divider border-color="#000000" border-width="1px" padding="20px 0px 0px 0px"></mj-divider>
+</mj-column>
+</mj-section>
+
+<mj-raw>
+<!-- Footer Start -->
+</mj-raw>
+
+<mj-section padding="0px 20px 20px 20px">
+<mj-column>
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://www.mugler.it/it/new/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_alien_text_aw&utm_campaign=mug_fraw_alien_launch-goddess-edp-21_face-reveal" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+NOVITA
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://www.mugler.it/it/fragranze/selezioni/regali-e-cofanetti/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_alien_text_aw&utm_campaign=mug_fraw_alien_launch-goddess-edp-21_face-reveal" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+REGALI
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://www.mugler.it/it/fragranze/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_alien_text_aw&utm_campaign=mug_fraw_alien_launch-goddess-edp-21_face-reveal" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+FRAGRANZE
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://www.mugler.it/it/collezioni-moda/fashion.html?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_alien_text_aw&utm_campaign=mug_fraw_alien_launch-goddess-edp-21_face-reveal" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+MODA
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-table cellpadding="0" cellspacing="0" width="130px" align="center" padding="20px 5px 20px 5px">
+<tr>
+<td width="20" height="20" style="width:20px;height:20pxtext-align:center;">
+<img src="img/star.png" width="10"style="width:10px;display:block;mso-line-height-rule:at-least;line-height:20px;"></img>
+</td>
+<td align="center" width="100" style="width;100px;text-align:center;">
+<a href="https://www.mugler.it/it/programma-fedelta-le-cercle/the-circle-loyalty-program.html?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_alien_text_aw&utm_campaign=mug_fraw_alien_launch-goddess-edp-21_face-reveal" style="color:#000000;text-decoration:none;text-align:center;">
+<span style="color:#000000;text-decoration:none;font-size:16px;line-height:16px;text-align:center;">
+LE CERCLE
+</span>
+</a>
+</td>
+</tr>
+</mj-table>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://www.mugler.it/it/trova-un-negozio?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_alien_text_aw&utm_campaign=mug_fraw_alien_launch-goddess-edp-21_face-reveal" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+TROVA UN NEGOZIO
+
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="20px 10px 0px 10px" font-size="16px" line-height="20px">
+<a href="https://www.mugler.it/it/il-mio-account?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_alien_text_aw&utm_campaign=mug_fraw_alien_launch-goddess-edp-21_face-reveal" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+IL MIO ACCOUNT
+</span>
+</a>
+</mj-text>
+
+</mj-column>
+</mj-section>
+  
+  
+<mj-raw>
+<!-- Footer Start -->
+</mj-raw>
+<mj-section background-color="#111111" padding="60px 16px 60px 16px">
+<mj-column>
+<mj-image padding="10px 10px 0px 10px" src="img/logo-white.png" width="90px" href="https://it.mugler.com/"></mj-image>
+
+<mj-social mode="horizontal" icon-size="26px" padding="46px 6px 56px 6px">
+<mj-social-element href="https://twitter.com/Mugler" src="img/social-twitter.png" padding="0px 35px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.facebook.com/Mugler.it" src="img/social-fb.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.youtube.com/user/MuglerOfficial" src="img/social-yt.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.pinterest.it/muglerofficial/_created/" src="img/social-pinterest.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.instagram.com/muglerofficial/" src="img/social-ig.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+</mj-social>
+<mj-text mj-class="centered" color="#FFFAFA" font-size="12px" line-height="14px">
+<a href="https://it.mugler.com/s/muglerit/privacy-policy.html/" style="color:#FFFAFA;text-decoration:none;">
+<span style="color:#FFFAFA;text-decoration:none;">
+<u>privacy policy</u>
+</span>
+</a>&nbsp;|&nbsp;
+<a href="https://it.mugler.com/servizio-consumatori" style="color:#FFFAFA;text-decoration:none;">
+<span style="color:#FFFAFA;text-decoration:none;">
+<u>contattaci</u>
+</span>
+</a>&nbsp;|&nbsp;
+<a href="<%@ include option='NmsServer_URL' %>/webApp/APP270?id=<%=escapeUrl(reversibleCrypt(recipient.id))%>&email=<%= recipient.email %>" style="color:#FFFAFA;text-decoration:none;">
+<span style="color:#FFFAFA;text-decoration:none;">
+<u>disiscriviti</u>
+</span>
+</a>
+</mj-text>
+</mj-column>
+</mj-section>
+<mj-raw>
+<!-- Footer End -->
+</mj-raw>
+
+<mj-raw>
+<!-- Footer End -->
+</mj-raw>
+  <mj-section>
+<mj-column>
+<mj-spacer height="30px"></mj-spacer>  
+</mj-column>  
+</mj-section>
+</mj-body>
+</mjml>

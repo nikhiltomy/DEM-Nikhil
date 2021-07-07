@@ -1,0 +1,604 @@
+<mjml>
+
+<mj-head>
+
+<mj-attributes>
+<mj-body background-color="#FFF" width="650px"></mj-body>
+<mj-all padding="0px" font-family="Arial, sans-serif"></mj-all>
+<mj-section padding="0px"></mj-section>
+<mj-column padding="0px"></mj-column>
+<mj-image align="center" padding="0px"></mj-image>
+<mj-text padding="0px" align="center" font-family="Arial" font-size="18px" line-height="26px" color="#000"></mj-text>
+<mj-button padding="0px" align="center" font-size="14.3px" color="#FFF" border-radius="0px" background-color="#1C213F"/>
+<mj-class name="centered" align="center"></mj-class>
+<mj-class
+name="mirror"
+font-size="10px"
+color="#FFF"/>
+<mj-class
+name="privacy"
+line-height="16px"
+font-size="12px"
+color="#646464"/>
+<mj-class
+name="privacy-bold"
+line-height="16px"
+font-weight="bold"
+font-size="12px"
+color="#646464"/>
+<mj-class
+name="title"
+font-size="18px"
+text-transform="uppercase"
+font-weight="800"
+color="#1C213F"/>
+<mj-class
+name="big"
+line-height="35px"
+font-size="25px"
+text-transform="uppercase"
+font-weight="700"
+color="#1C213F"/>
+<mj-class
+name="product"
+font-size="20px" 
+font-weight="800"
+color="#1C213F"
+text-transform="uppercase"/>
+<mj-class
+name="product-gray"
+align="left"
+padding-left="30px"
+padding-bottom="60px"
+font-size="16px"
+line-height="20px"
+color="#9d9d9d"/>
+<mj-class
+name="normal-gray"
+font-size="16px"
+color="#9d9d9d"/>
+
+</mj-attributes>
+<mj-style>
+.link-nonstyle{
+color: inherit; text-decoration: none !important;
+}
+a:link{
+color: inherit; text-decoration: none;
+}
+a:visited{
+color:#inherit; text-decoration: none;
+}
+
+
+@media only screen and (max-width:480px) {
+.hidden-mobile {
+display: none !important;
+}
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+
+.social-padding-change td{
+padding:0px 5px!important;
+}
+
+.width-fix {
+max-width: 280px!important;
+}
+
+.maintitle-change, .maintitle-change div {
+font-size:24px!important;
+mso-line-height-rule:exactly;
+line-height:28px!important;
+}  
+
+.title-change, .title-change div {
+font-size:20px!important;
+mso-line-height-rule:exactly;
+line-height:24px!important;
+}
+  
+.font-change1, .font-change1 div {
+font-size:16px!important;
+mso-line-height-rule:exactly;
+line-height:22px!important;
+}
+  
+.font-change2, .font-change2 div {
+font-size:14px!important;
+mso-line-height-rule:exactly;
+line-height:20px!important;
+}
+}
+
+
+@media only screen and (min-width:479px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+}
+</mj-style>
+</mj-head>
+
+
+<mj-body width="600px" background-color="#ffffff">
+<mj-raw>
+<!-- Header Start -->
+</mj-raw>
+<mj-section>
+<mj-column width="90%">
+<mj-text mj-class="centered" font-size="14px" line-height="18px" padding="15px 10px 0px 10px">Esplora la straordinaria combinazione della nuova fragranza Mugler</mj-text>
+<mj-text mj-class="centered" font-size="11px" line-height="14px" color="#716e72" padding="15px 10px 0px 10px">
+Per essere sicuro di ricevere tutte le nostre email,<br/> aggiungi <a href="mailto:MUGLER@news.mugler.com" style="color:#716e72;text-decoration:none;"><span style="color:#716e72;text-decoration:none;"><u>MUGLER@news.mugler.com</u></span></a> alla tua rubrica.<br/> <a href="<%@ include view='MirrorPageUrl'%>" style="color:#716e72;text-decoration:none;"><span style="color:#716e72;text-decoration:none;"><u>Versione Web</u></span></a>.
+</mj-text>
+<mj-divider border-color="#ebebeb" border-width="1px" padding="20px 10px 0px 10px"></mj-divider>
+</mj-column>
+</mj-section>
+
+<mj-raw>
+<!-- Header End -->
+</mj-raw>
+
+  
+<mj-section css-class="hidden-mobile">
+<mj-column>
+<mj-image padding="0px" src="img/logo-bg.jpg" href="https://it.mugler.com/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>"></mj-image>
+<mj-image padding="0px" src="img/logo-angel.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>"></mj-image>
+<mj-image padding="0px" src="img/logo-nova.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>"></mj-image>
+
+</mj-column>
+</mj-section>
+<mj-section>
+<mj-raw>
+
+<!--[if !mso | !IE]><!-->
+<div class="display-mobile" style="overflow: hidden; display: none;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+<div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:top;padding:0px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+<tr>
+<td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+<tbody>
+<tr>
+<td style="width:650px;"> <a href="https://it.mugler.com/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" target="_blank">
+
+<img
+height="auto" src="img/logo-bg-mobile.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="650"
+/>
+
+</a> </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--<![endif]-->
+</mj-raw>
+<mj-raw>
+
+<!--[if !mso | !IE]><!-->
+<div class="display-mobile" style="overflow: hidden; display: none;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+<div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:top;padding:0px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+<tr>
+<td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+<tbody>
+<tr>
+<td style="width:650px;"> <a href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" target="_blank">
+
+<img
+height="auto" src="img/logo-angel-mobile.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="650"
+/>
+
+</a> </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--<![endif]-->
+</mj-raw>
+<mj-raw>
+
+<!--[if !mso | !IE]><!-->
+<div class="display-mobile" style="overflow: hidden; display: none;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+<div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:top;padding:0px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+<tr>
+<td align="center" style="font-size:0px;padding:0px 0px 0px 0px;word-break:break-word;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+<tbody>
+<tr>
+<td style="width:650px;"> <a href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" target="_blank">
+
+<img
+height="auto" src="img/logo-nova-mobile.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="650"
+/>
+
+</a> </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--<![endif]-->
+</mj-raw>
+<mj-raw>
+<!-- END MOBILE -->
+</mj-raw>
+</mj-section>  
+
+<mj-section>
+<mj-column>
+<mj-image width="600px" padding="20px 0px 0px 0px" src="img/main.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>"/>
+  
+<mj-image width="600px" padding="20px 0px 20px 0px" src="img/title1.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>"/>
+</mj-column>
+</mj-section>
+
+<mj-section>
+<mj-column width="78%">
+
+<mj-text padding="0px 10px 30px 10px" line-height="26px" color="#231f20" css-class="font-change1">
+<span style="font-size:20px;mso-line-height-rule:exactly;line-height:26px;" class="font-change1">
+Unendo una classica distillazione con innovazione biologica, Angel Nova rivela tutte le sfaccettature della tua femminilità impegnandosi per un lusso più responsabile
+</span>
+</mj-text>
+  
+<mj-button border-radius="0px" background-color="#d11166" inner-padding="12px 50px" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" color="#ffffff" text-decoration="none" font-weight="600" line-height="24px" css-class="font-change2"><span style="font-size:16px;mso-line-height-rule:exactly;line-height:24px;" class="font-change2">SCOPRI DI PIÙ</span></mj-button>
+
+</mj-column>
+</mj-section>
+
+<mj-section>
+<mj-column>
+<mj-image width="600px" padding="40px 0px 0px 0px" src="img/general1.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#rose&cin=<%= recipient.contactInformationName %>"/>
+  
+<mj-image width="600px" padding="0px 0px 20px 0px" src="img/general2.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#rose&cin=<%= recipient.contactInformationName %>"/>
+
+<mj-image width="600px" padding="10px 0px 20px 0px" src="img/title2.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#recharge&cin=<%= recipient.contactInformationName %>"/>
+</mj-column>
+</mj-section>
+
+<mj-section>
+<mj-column width="72%">
+<mj-text padding="0px 10px 10px 10px" line-height="26px" color="#231f20" css-class="font-change1">
+<span style="font-size:20px;mso-line-height-rule:exactly;line-height:26px;" class="font-change1">
+Inizia un’avventura olfattiva e estendi all’infinito il tuo sogno Angel Nova
+</span>
+</mj-text>
+
+</mj-column>
+</mj-section>
+
+<mj-wrapper padding="20px 16px 0px 16px">
+<mj-section padding="20px" background-url="img/background.jpg" background-color="#d11166">
+<mj-column width="46%" background-color="#ffffff" padding="20px">
+  
+<mj-image width="150px" padding="0px 20px 10px 20px" src="img/prod1.png" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#recharge&cin=<%= recipient.contactInformationName %>"/>
+
+<mj-text padding="0px 10px 16px 10px" font-size="16px" line-height="20px" color="#231f20" text-transform="uppercase">
+eau de parfum
+</mj-text>
+
+<mj-button border-radius="0px" background-color="#000000" inner-padding="10px 30px" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#recharge&cin=<%= recipient.contactInformationName %>" color="#ffffff" text-decoration="none" font-weight="600" font-size="14px" line-height="24px">ACQUISTA ORA</mj-button>
+
+</mj-column>
+<mj-column width="2%" padding-bottom="20px"></mj-column>
+<mj-column width="46%" background-color="#ffffff" padding="20px">
+  
+<mj-image width="150px" padding="0px 20px 10px 20px" src="img/prod2.png" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#recharge&cin=<%= recipient.contactInformationName %>"/>
+
+<mj-text padding="0px 10px 16px 10px" font-size="16px" line-height="20px" color="#231f20" text-transform="uppercase">
+FLACONE RICARICA
+</mj-text>
+
+<mj-button border-radius="0px" background-color="#000000" inner-padding="10px 30px" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#recharge&cin=<%= recipient.contactInformationName %>" color="#ffffff" text-decoration="none" font-weight="600" font-size="14px" line-height="24px">ACQUISTA ORA</mj-button>
+
+</mj-column>
+
+</mj-section>
+</mj-wrapper>
+
+
+<mj-section>
+<mj-column>
+
+<mj-image width="600px" padding="30px 0px 20px 0px" src="img/title3.jpg" href="https://it.mugler.com/account?targetPipeline=Article-Show&cgid=my-circle&fdid=circlemag&aid=article-circle-inside-mugler-reveal-nouveau-visage&utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>"/>
+</mj-column>
+</mj-section>
+<mj-section>
+<mj-column width="66%">
+<mj-text padding="0px 10px 10px 10px" line-height="26px" color="#231f20" css-class="font-change1">
+<span style="font-size:20px;mso-line-height-rule:exactly;line-height:26px;" class="font-change1">
+Scopri il trio di eccezionali profumieri
+dietro la fragranza Angel Nova
+</span>
+</mj-text>
+
+</mj-column>
+</mj-section>
+  
+<mj-section>
+<mj-column padding="10px 0px 20px 0px">
+<mj-image padding="20px 10px 30px 10px" src="img/video.jpg" width="572px" href="https://it.mugler.com/account?targetPipeline=Article-Show&cgid=my-circle&fdid=circlemag&aid=article-circle-inside-mugler-reveal-nouveau-visage&utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>"/>
+  
+  <mj-button border-radius="0px" background-color="#d11166" inner-padding="12px 40px" href="https://it.mugler.com/account?targetPipeline=Article-Show&cgid=my-circle&fdid=circlemag&aid=article-circle-inside-mugler-reveal-nouveau-visage&utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" color="#ffffff" text-decoration="none" font-weight="600" line-height="24px" css-class="font-change2"><span style="font-size:16px;mso-line-height-rule:exactly;line-height:24px;" class="font-change2">GUARDA L’INTERVISTA</span></mj-button>
+
+<mj-image width="600px" padding="40px 0px 0px 0px" src="img/title4.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#perfume&cin=<%= recipient.contactInformationName %>"/>
+</mj-column>
+</mj-section>
+
+<mj-section>
+<mj-column css-class="width-fix">
+<mj-image width="182px" padding="0px 0px 20px 0px" src="img/visual1.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#perfume&cin=<%= recipient.contactInformationName %>"/>
+  
+<mj-text padding="0px 10px 40px 10px" line-height="22px" color="#231f20" css-class="font-change2">
+<a href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#perfume&cin=<%= recipient.contactInformationName %>" style="color:#231f20;text-decoration:none;"><span style="font-size:16px;mso-line-height-rule:exactly;line-height:22px;color:#231f20;text-decoration:none;" class="font-change2"><b>MERAVIGLIA</b>
+<br/><br/>
+Una dolce firma 
+di note di lampone  danno una fruttuosa dipendenza alla fragranza
+</span>
+</a>
+</mj-text>
+</mj-column>
+
+<mj-column css-class="width-fix">
+<mj-image width="182px" padding="0px 0px 20px 0px" src="img/visual2.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#perfume&cin=<%= recipient.contactInformationName %>"/>
+  
+<mj-text padding="0px 10px 40px 10px" line-height="22px" color="#231f20" css-class="font-change2">
+<a href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#perfume&cin=<%= recipient.contactInformationName %>" style="color:#231f20;text-decoration:none;">
+<span style="font-size:16px;mso-line-height-rule:exactly;line-height:22px;color:#231f20;text-decoration:none;" class="font-change2"><b>SUPER</b>
+<br/><br/>
+La Rosa Damascena è arricchita da un doppio processo 
+di estratto per una femminilità assoluta 
+</span>
+</a>
+</mj-text>
+</mj-column>
+
+<mj-column css-class="width-fix">
+<mj-image width="182px" padding="0px 0px 20px 0px" src="img/visual3.jpg" href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#perfume&cin=<%= recipient.contactInformationName %>"/>
+  
+<mj-text padding="0px 10px 40px 10px" line-height="22px" color="#231f20" css-class="font-change2">
+<a href="https://it.mugler.com/profumo-angel-nova/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21#perfume&cin=<%= recipient.contactInformationName %>" style="color:#231f20;text-decoration:none;">
+<span style="font-size:16px;mso-line-height-rule:exactly;line-height:22px;color:#231f20;text-decoration:none;" class="font-change2"><b>POTERE</b>
+<br/><br/>
+Una struttura legnosa  di Akigalawood 
+e Benzoin crea contrasto e da un carattere assertivo
+</span>
+</a>
+</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section>
+<mj-column padding="0px 20px 20px 20px">
+
+<mj-divider border-color="#000000" border-width="1px" padding="20px 0px 0px 0px"></mj-divider>
+</mj-column>
+</mj-section>
+
+<mj-raw>
+<!-- Footer Start -->
+</mj-raw>
+
+<mj-section padding="0px 20px 20px 20px">
+<mj-column>
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://it.mugler.com/fragranze/profumi-donna/angel/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+FRAGRANZE
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://it.mugler.com/fashion/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+MODA
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-table cellpadding="0" cellspacing="0" width="130px" align="center" padding="20px 5px 20px 5px">
+<tr>
+<td width="20" height="20" style="width:20px;height:20pxtext-align:center;">
+<img src="img/star.png" width="10"style="width:10px;display:block;mso-line-height-rule:at-least;line-height:20px;"></img>
+</td>
+<td align="center" width="100" style="width;100px;text-align:center;">
+<a href="https://it.mugler.com/programma-fedelta-le-cercle?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" style="color:#000000;text-decoration:none;text-align:center;">
+<span style="color:#000000;text-decoration:none;font-size:16px;line-height:16px;text-align:center;">
+LE CERCLE
+</span>
+</a>
+</td>
+</tr>
+</mj-table>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://it.mugler.com/il-mag/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+IL MAG
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="20px 10px 0px 10px" font-size="16px" line-height="20px">
+<a href="https://it.mugler.com/l-universo-mugler/vision/?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+L'UNIVERSO MUGLER</span>
+</a>
+</mj-text>
+
+</mj-column>
+</mj-section>
+  
+<mj-wrapper background-color="#111111" padding="40px 0px 40px 0px">
+
+<mj-section padding="0px 20px">
+<mj-column width="10%" vertical-align="middle"></mj-column>
+<mj-column width="10%" vertical-align="middle">
+<mj-image width="40px" src="img/footer1.jpg" href="https://www.facebook.com/Mugler.it?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>"></mj-image>
+</mj-column>
+<mj-column width="80%" vertical-align="middle">
+<mj-text mj-class="whited" align="left" padding="10px 20px 0px 20px" font-size="16px" font-weight="bold" line-height="20px">
+<a href="https://www.facebook.com/Mugler.it?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" style="color:#ffffff;text-decoration:none;">
+<span style="color:#ffffff;text-decoration:none;">
+PROVA SENZA PENSIERI</span>
+</a>
+</mj-text>
+<mj-text mj-class="whited" align="left" padding="10px 20px 0px 20px" font-size="12px" line-height="16px">
+<a href="https://www.facebook.com/Mugler.it?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" style="color:#ffffff;text-decoration:none;">
+<span style="color:#ffffff;text-decoration:none;">
+Le tue <b>profumerie</b> di fiducia sono <b>igienizzate e sanificate</b> secondo le norme richieste. La tua Beauty Expert si prenderà cura di te per farti sentire <b>sicura e coccolata</b>. Chiedile di scoprire le fragranze attraverso il <b>tester</b>, direttamente dalle sue mani.</span>
+</a>
+</mj-text>
+</mj-column>
+</mj-section>
+  
+<mj-section>
+<mj-column padding="0px 0px 0px 0px">
+
+<mj-divider border-color="#484848" border-width="1px" padding="20px 0px 10px 0px" width="50%" align="right"></mj-divider>
+</mj-column>
+</mj-section>
+
+<mj-section padding="0px 20px">
+<mj-column width="10%" vertical-align="middle"></mj-column>
+<mj-column width="10%" vertical-align="middle">
+<mj-image width="40px" src="img/footer2.jpg" href="https://www.facebook.com/Mugler.it?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>"></mj-image>
+</mj-column>
+<mj-column width="80%" vertical-align="middle">
+<mj-text mj-class="whited" align="left" padding="10px 20px 0px 20px" font-size="16px" font-weight="bold" line-height="20px">
+<a href="https://www.facebook.com/Mugler.it?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" style="color:#ffffff;text-decoration:none;">
+<span style="color:#ffffff;text-decoration:none;">
+CHIEDI A NOI</span>
+</a>
+</mj-text>
+<mj-text mj-class="whited" align="left" padding="10px 20px 0px 20px" font-size="12px" line-height="16px">
+<a href="https://www.facebook.com/Mugler.it?utm_source=crm&utm_medium=email_brand&utm_content=mug_fraw_angelnova_text_aw&utm_campaign=sustain-nova-edt-21&cin=<%= recipient.contactInformationName %>" style="color:#ffffff;text-decoration:none;">
+<span style="color:#ffffff;text-decoration:none;">
+<b>Serve una qualsiasi informazione?</b> Contattaci direttamente dalla nostra <b>pagina <u>Facebook</u></b>. Risponderemo personalmente a tutte le tue richieste.</span>
+</a>
+</mj-text>
+</mj-column>
+</mj-section> 
+</mj-wrapper>
+
+
+<mj-raw>
+<!-- Footer Start -->
+</mj-raw>
+<mj-section background-color="#111111" padding="10px 16px 40px 16px">
+<mj-column>
+<mj-image padding="10px 10px 0px 10px" src="img/logo-white.png" width="90px" href="https://it.mugler.com/"></mj-image>
+
+<mj-social mode="horizontal" icon-size="26px" padding="46px 6px 56px 6px">
+<mj-social-element href="https://twitter.com/Mugler" src="img/social-twitter.png" padding="0px 35px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.facebook.com/Mugler.it" src="img/social-fb.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.youtube.com/user/MuglerOfficial" src="img/social-yt.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.pinterest.it/muglerofficial/_created/" src="img/social-pinterest.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.instagram.com/muglerofficial/" src="img/social-ig.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+</mj-social>
+<mj-text mj-class="centered" color="#FFFAFA" font-size="12px" line-height="14px">
+<a href="https://it.mugler.com/s/muglerit/privacy-policy.html/" style="color:#FFFAFA;text-decoration:none;">
+<span style="color:#FFFAFA;text-decoration:none;">
+<u>privacy policy</u>
+</span>
+</a>&nbsp;|&nbsp;
+<a href="https://it.mugler.com/servizio-consumatori" style="color:#FFFAFA;text-decoration:none;">
+<span style="color:#FFFAFA;text-decoration:none;">
+<u>contattaci</u>
+</span>
+</a>&nbsp;|&nbsp;
+<a href="<%@ include option='NmsServer_URL' %>/webApp/APP270?id=<%=escapeUrl(reversibleCrypt(recipient.id))%>&email=<%= recipient.email %>" style="color:#FFFAFA;text-decoration:none;">
+<span style="color:#FFFAFA;text-decoration:none;">
+<u>disiscriviti</u>
+</span>
+</a>
+</mj-text>
+</mj-column>
+</mj-section>
+<mj-raw>
+<!-- Footer End -->
+</mj-raw>
+
+<mj-raw>
+<!-- Footer End -->
+</mj-raw>
+</mj-body>
+</mjml>
