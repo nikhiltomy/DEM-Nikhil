@@ -1,0 +1,787 @@
+<mjml>
+  <mj-head>
+    <mj-title>Vichy</mj-title>
+    <mj-breakpoint width="480px" />
+
+    <mj-attributes>
+      <mj-all padding="0" font-family="Arial"></mj-all>
+      <mj-class name="standard_padding_d" padding-left="25px" padding-right="25px" />
+      <mj-class name="standard_padding_m" padding-left="15px" padding-right="15px" />
+      <mj-class name="standard_button" background-color="#1c213f" color="#ffffff" text-transform="uppercase" font-size="13px" inner-padding="13px 50px" border-radius="0px" />
+      <mj-class name="standard_title" line-height="26px" color="#1c213f" font-size="22px" text-transform="uppercase" font-weight="500" letter-spacing="0px" />
+      <mj-class name="standard_p" color="#1C213F" font-size="16px" line-height="25px" padding-left="15px" padding-right="15px" align="center"/>
+    </mj-attributes>
+
+    <mj-style>
+      .img-max > table > tbody > tr > td > a > img {
+      max-width:100%;
+      height: auto;
+      }
+      @media all and (max-width:480px) {
+      /* Show-Hide Desktop/Mobile */
+      .hidden-mobile {
+      display: none !important;
+      }
+      .padding_0 > table >tbody > tr > td {
+        padding-left:0px!important;
+        padding-right:0px!important;
+      }
+      .p_bottom_25 {
+        padding-bottom: 25px;
+      }
+      .p_bottom_40 {
+        padding-bottom: 40px;
+      }
+      .p_bottom_20 {
+        padding-bottom:25px;
+      }
+      .display-mobile {
+      display: block !important;
+      max-height: none !important;
+      }
+      .section-mobile {
+      margin-left: 30px !important;
+      margin-right: 30px !important;
+      }
+      .height_mobile > div, .height_mobile > table {
+        height: 50px!important;
+      }
+      .font-11 > div, .font-11 > table{
+        font-size:11.8px!important;
+      }
+      .font-percent > div, .font-percent > table{
+        font-size:20px!important;
+      }
+      .mj-footer-links .mj-link{
+  display: block !important;
+  }
+
+      /* Mobile Paddings: */
+      .standard_padding_m {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      }
+      .padding_b_30 {
+      padding-bottom: 30px !important;
+      }
+      .mobile_padding_b {
+      margin-bottom: 25px !important;
+      }
+      .mobile_padding_17 > table > tbody > tr > td {
+      padding-bottom: 0px !important;
+      }
+
+      .align-left-mobile {
+      text-align:left!important;
+      }
+      .align-left-mobile > div {
+      text-align:left!important;
+      }
+      .align-left-mobile > table {
+      text-align:left!important;
+      }
+
+      /* Images: */
+      .img_mobile_extend > table {
+      width: 100% !important;
+      }
+
+      /* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+      body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit
+      platforms from changing default text sizes */
+      body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to
+      the body */
+      /* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+      .width-mobile {
+      width: 100% !important;
+      }
+      .container {
+      width:100% !important;
+      }
+
+      .img {
+      width:100% !important;
+      height:auto !important;
+      min-width:0 !important;
+      }
+
+      .addpadding {
+      padding-left:20px !important;
+      padding-right:20px !important;
+      }
+      .addpadding2 {
+      padding-top:20px !important;
+      }
+      .addpadding3 {
+      padding-right:40px !important;
+      }
+      .addpadding4 {
+      padding-left:40px !important;
+      }
+
+      .nozoom {
+      font-size:8px !important;
+      }
+      .bodymobile {
+      font-size:11.5px !important;
+      line-height:1.3em !important;
+      }
+      .bannermobile{
+      font-size:20px !important;
+      }
+      .bodymobile2 {
+      font-size:42px !important;
+      line-height:1em !important;
+      }
+
+      .bodymobile3 {
+      font-size:18px !important;
+      line-height:1em !important;
+      }
+      .bodymobile4 {
+      font-size:24px !important;
+      line-height:1em !important;
+      }
+
+      a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      }
+      }
+
+      @media only screen and (min-width: 481px) {
+      .hidden-desktop {
+      display: none !important;
+      }
+      .display-desktop {
+      display: block !important;
+      max-height: none !important;
+      }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body width="600px" background-color="#F0F0F0">
+    <mj-raw>
+      <style>
+        .img-max {
+                    max-width:100%;
+                    height: auto;
+                  }
+                @media screen and (max-width:480px) {
+                    .hidden-mobile {
+                        display: none !important;
+                    }
+                    .display-mobile {
+                        display: block !important;
+                        max-height: none !important;
+
+                    }
+                    .section-mobile {
+                      margin-left: 50px !important;
+                      margin-right: 50px !important;
+                    }
+
+                    .standard_padding_m {
+                        padding-left: 15px !important;
+                        padding-right: 15px !important;
+                    }
+                    .mobile_padding_b {
+                      margin-bottom: 35px !important;
+                    }
+                    .mobile_padding_17 {
+                        padding-bottom: 25px !important;
+                    }
+                    .padding_b_30 {
+                        padding-bottom: 30px !important;
+                    }
+
+                    .img_mobile_extend > table {
+                        width: 100% !important;
+                    }
+
+                    body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;}
+                            body{width:100% !important; min-width:100% !important;}
+                }
+                @media screen and (min-width: 481px) {
+                    .hidden-desktop {
+                        display: none !important;
+                    }
+                    .display-desktop {
+                        display: block !important;
+                        max-height: none !important;
+                    }
+                }
+            </style>
+    </mj-raw>
+
+    <mj-raw>
+      <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+        #
+      </div>
+    </mj-raw>
+
+    <mj-section>
+      <mj-column>
+        <mj-raw>
+            <!--[if mso | IE]>
+            <table
+            align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+            >
+            <tr>
+            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+            <![endif]-->
+
+
+          <div style="background:#E7E9EB;background-color:#E7E9EB;margin:0px auto;max-width:600px;">
+
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#E7E9EB;background-color:#E7E9EB;width:100%;">
+              <tbody>
+                <tr>
+                  <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+                      <!--[if mso | IE]>
+                      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+
+                      <tr>
+
+                      <td
+                      class="" style="vertical-align:top;width:600px;"
+                      >
+                      <![endif]-->
+
+                    <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                        <tbody>
+                          <tr>
+                            <td style="vertical-align:top;padding:0px;">
+
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+
+                                <tr>
+                                  <td align="center" style="font-size:0px;padding:10px;word-break:break-word;">
+
+                                    <div style="font-family:Arial;font-size:11px;line-height:10px;text-align:center;color:#000000;"><a href="<%@ include view='ALL_ACD_Vichy_MirrorPageUrl' %>" _label="Page miroir" type="mirrorPage" style="color:#000000;text-decoration:none;"><span style="color:#000000;text-decoration:none;">Visualizza sul tuo browser</span></a></div>
+
+                                  </td>
+                                </tr>
+
+                              </table>
+
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+
+                    <!--[if mso | IE]>
+                    </td>
+
+                    </tr>
+
+                    </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+
+
+          <!--[if mso | IE]>
+          </td>
+          </tr>
+          </table>
+            <![endif]-->
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="30px 0px">
+      <mj-column>
+        <mj-image src="img/logo.png" alt="" width="160px" href="https://www.vichy.it?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image css-class="hidden-mobile" src="img/banner_desk.png" alt="" href="https://www.vichy.it/articolo/skinconsult-ai/a75644.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>" />
+        <mj-raw>
+        <!-- MOBILE -->
+        <!--[if !mso | !IE]><!-->
+        </mj-raw>
+        <mj-image css-class="hidden-desktop" src="img/banner_mob.png" alt="" href="https://www.vichy.it/articolo/skinconsult-ai/a75644.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>" />
+        <mj-raw>
+        <!-- MOBILE CLOSING -->
+        <!--<![endif]-->
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+    
+    
+    
+    
+ <mj-section background-color="#ffffff">
+    	<mj-column width="90%">
+        <mj-text mj-class="standard_title"
+        align="center"
+        padding="39px 19px 15px 19px" color="#000000">
+          <b>SCOPRI IL PROTOCOLLO SKINCARE ADATTO
+ALLE TUE ESIGENZE GRAZIE AI SERVIZI PERSONALIZZATI DI VICHY</b>
+        </mj-text>
+        
+ </mj-column>
+ </mj-section>
+ <mj-section background-color="#ffffff">
+ <mj-column width="82%">
+   <mj-text
+          align="center"
+          font-size="16px"
+          padding="0px 27px 34px 27px"
+          color="#000000"
+           line-height="25px" letter-spacing="0px">
+          Fai il test della tua pelle con SkinConsult AI o chiama
+la nostra esperta di dermocosmesi per una consulenza gratuita
+        </mj-text>
+ </mj-column>   
+ </mj-section>   
+ 
+    
+<mj-section background-color="#F0F0F0">
+      <mj-column>
+        <mj-spacer height="25px" />
+      </mj-column>
+    </mj-section> 
+ 
+    
+<mj-section background-color="#ffffff">
+<mj-column>
+  <mj-text mj-class="standard_title" css-class="hidden-mobile"
+        align="center"
+        padding="24px 31px 11px 32px" color="#1A2241">
+          ANALIZZA LA TUA PELLE CON
+        </mj-text>
+  
+  <mj-raw>
+        <!-- MOBILE -->
+        <!--[if !mso | !IE]><!-->
+ </mj-raw>
+  <mj-text mj-class="standard_title" css-class="hidden-desktop"
+        align="center"
+        padding="24px 31px 11px 32px" color="#1A2241">
+          <b>ANALIZZA<br/> LA TUA PELLE CON</b>
+   </mj-text>
+  <mj-raw>
+        <!-- MOBILE CLOSING -->
+        <!--<![endif]-->
+</mj-raw>
+  <mj-image src="img/skinconsult.png" width="254px" padding="0px 33px" href="https://www.vichy.it/articolo/skinconsult-ai/a75644.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>"></mj-image>
+  <mj-text font-size="12px" font-weight="300" letter-spacing="0" line-height="13.65px" align="center" padding="11px 45px 11px 45px" color="#1A2241" font-family="Futura PT">L'ALGORITMO DI VALUTAZIONE DELLA PELLE AD ALTA PRECISIONE</mj-text>
+  <mj-image src="img/banner2_desk.png" href="https://www.vichy.it/articolo/skinconsult-ai/a75644.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>"></mj-image>
+  
+</mj-column>    
+</mj-section>    
+<mj-section background-color="#ffffff">
+<mj-column width="80%">
+<mj-text
+mj-class="standard_p"
+font-size="14px"
+line-height="18px"
+padding="22px 20px 20px 22px">
+Identifica le priorità della tua pelle e ricevi direttamente a casa un campione di MINÉRAL 89 abbinato ad un altro adatto alle tue esigenze.
+</mj-text> 
+
+<mj-button
+href="https://www.vichy.it/articolo/skinconsult-ai/a75644.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>"
+mj-class="standard_button" font-size="12px" line-height="23px" inner-padding="10px 45px" padding-bottom="30px">
+<span style="letter-spacing: .3px; font-weight: 600;">ANALIZZA LA MIA PELLE</span>
+</mj-button>
+</mj-column>  
+</mj-section>
+    
+<mj-section background-color="#F0F0F0">
+  <mj-column>
+    <mj-spacer height="33px" />
+  </mj-column>
+</mj-section>   
+    
+<mj-section background-color="#ffffff">
+<mj-column>
+  <mj-text mj-class="standard_title" align="center" color="#1A2241" letter-spacing="0" padding="42px 30px 29px 30px">
+     CHIEDI ALL<b>'ESPERTO</b>     
+  </mj-text>
+  <mj-image src="img/bottom_banner.png"></mj-image>
+ </mj-column>
+</mj-section>    
+    
+
+ 
+    
+<!--Footer Section -->    
+         
+  
+<mj-section background-color="#F0F0F0">
+      <mj-column>
+        <mj-spacer height="25px" />
+      </mj-column>
+    </mj-section>
+
+<mj-raw>
+<!--[if mso | IE]>
+<table width="600" border="0" cellpadding="0" cellspacing="0" style="background:#1c213f;background-color:#1c213f;" align="center">
+
+<tr>
+
+<td
+class="" style="vertical-align:top;width:600px;"
+>
+<![endif]-->
+<div style="background:#1c213f;background-color:#1c213f;margin:0px auto;max-width:600px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#1c213f;background-color:#1c213f;width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+<!--[if mso | IE]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+
+<td
+class="" style="vertical-align:top;width:600px;"
+>
+<![endif]-->
+<div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:top;padding:0px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+<tr>
+<td style="font-size:0px;padding:0px;word-break:break-word;">
+<!--[if mso | IE]>
+
+<table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="vertical-align:top;height:15px;">
+
+<![endif]-->
+<div style="height:15px;"> &nbsp; </div>
+<!--[if mso | IE]>
+
+</td></tr></table>
+
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+<div style="font-family:Arial;font-size:13px;line-height:26px;text-align:center;color:#FFFFFF;text-transform:uppercase;font-weight:bold">SEGUICI</div>
+</td>
+</tr>
+<tr>
+<td style="font-size:0px;padding:0px;word-break:break-word;">
+<!--[if mso | IE]>
+
+<table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="vertical-align:top;height:15px;">
+
+<![endif]-->
+<div style="height:15px;"> &nbsp; </div>
+<!--[if mso | IE]>
+
+</td></tr></table>
+
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+<!--[if mso | IE]>
+<table
+align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+>
+<tr>
+
+<td>
+<![endif]-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+<tr>
+<td style="padding:5px 20px 0px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
+<tr>
+<td style="font-size:0;height:40px;vertical-align:middle;width:40px;"> <a href="https://it-it.facebook.com/VichyItalia/?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>" target="_blank">
+<img height="40" src="img/fb.png" style="border-radius:3px;display:block;" width="40" />
+</a> </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if mso | IE]>
+</td>
+
+<td>
+<![endif]-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+<tr>
+<td style="padding:5px 20px 0px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
+<tr>
+<td style="font-size:0;height:40px;vertical-align:middle;width:40px;"> <a href="https://www.instagram.com/vichy_it/?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>" target="_blank">
+<img height="40" src="img/ig.png" style="border-radius:3px;display:block;" width="40" />
+</a> </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if mso | IE]>
+</td>
+
+<td>
+<![endif]-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+<tr>
+<td style="padding:5px 20px 0px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:40px;">
+<tr>
+<td style="font-size:0;height:40px;vertical-align:middle;width:40px;"> <a href="https://www.youtube.com/user/VichyItalia?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>" target="_blank">
+<img height="40" src="img/yt.png" style="border-radius:3px;display:block;" width="40" />
+</a> </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if mso | IE]>
+</td>
+
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+
+<tr>
+<td style="font-size:0px;padding:0px;word-break:break-word;">
+<!--[if mso | IE]>
+
+<table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="vertical-align:top;height:15px;">
+
+<![endif]-->
+<div style="height:15px;"> &nbsp; </div>
+<!--[if mso | IE]>
+
+</td></tr></table>
+
+<![endif]-->
+</td>
+</tr>
+
+<tr>
+<td style="vertical-align:top;padding:0;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+
+<tr>
+<td style="font-size:0px;padding:10px 35px;word-break:break-word;">
+
+<p style="border-top:solid 1px #ffffff;font-size:1;margin:0px auto;width:100%;">
+</p>
+
+<!--[if mso | IE]>
+<table
+align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #ffffff;font-size:1;margin:0px auto;width:540px;" role="presentation" width="540px"
+>
+<tr>
+<td style="height:0;line-height:0;">
+&nbsp;
+</td>
+</tr>
+</table>
+<![endif]-->
+
+
+</td>
+</tr>
+
+<tr>
+<td align="center" style="font-size:0px;word-break:break-word;padding-bottom:20px;">
+<div class="mj-footer-links" style="">
+<!--[if mso | IE]>
+
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+
+
+<td
+style="padding:0px 15px;" class=""
+>
+
+<![endif]-->
+<a class="mj-link" href="https://www.vichy.it/farmacie/tutte-le-province/sl.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>" target="_blank" style="display:inline-block;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:22px;text-decoration:none;text-transform:uppercase;padding:10px 10px;font-weight:bold"> ACQUISTA IN FARMACIA </a>
+<!--[if mso | IE]>
+
+</td>
+
+
+
+<td
+style="padding:10px 15px;" class=""
+>
+
+<![endif]-->
+<a class="mj-link" href="https://www.vichy.it/articolo/dove-acquistare-online/a78238.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>" target="_blank" style="display:inline-block;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:22px;text-decoration:none;text-transform:uppercase;padding:10px 10px;font-weight:bold"> ACQUISTA ONLINE </a>
+<!--[if mso | IE]>
+
+</td>
+
+
+
+<td
+style="padding:10px 15px;" class=""
+>
+
+<![endif]-->
+<a class="mj-link" href="https://www.vichy.it/articolo/skinconsult-ai/a75644.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>" target="_blank" style="display:inline-block;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:22px;text-decoration:none;text-transform:uppercase;padding:10px 10px;font-weight:bold">
+SKINCONSULT AI </a>
+<!--[if mso | IE]>
+
+</td>
+
+
+<td
+style="padding:10px 15px;" class=""
+>
+
+<![endif]-->
+<a class="mj-link" href="https://www.vichy.it/vichy-mag?utm_source=crm&utm_medium=email_brand&utm_campaign=Servizi_Consulenza&cin=<%= recipient.record_id %>" target="_blank" style="display:inline-block;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:22px;text-decoration:none;text-transform:uppercase;padding:10px 10px;font-weight:bold"> VICHY MAG </a>
+<!--[if mso | IE]>
+
+</td>
+
+
+
+</tr></table>
+
+<![endif]-->
+</div>
+</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]>
+</td>
+
+</tr>
+
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]>
+</td>
+</tr>
+</table>
+
+<table
+align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+>
+<tr>
+<td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]-->
+<div style="margin:0px auto;max-width:600px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+<!--[if mso | IE]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0">
+
+<tr>
+
+<td
+class="" style="vertical-align:top;width:600px;"
+>
+<![endif]-->
+<div class="mj-column-per-100 outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:top;padding:0px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+<tr>
+<td style="font-size:0px;padding:0px;word-break:break-word;">
+<!--[if mso | IE]>
+
+<table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="20" style="vertical-align:top;height:20px;">
+
+<![endif]-->
+<div style="height:20px;"> &nbsp; </div>
+<!--[if mso | IE]>
+
+</td></tr></table>
+
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td align="center" style="font-size:0px;padding:10px 20px;word-break:break-word;">
+<div style="font-family:Arial;font-size:14px;line-height:16px;text-align:center;color:#646464;">
+Se non desideri più ricevere questa newsletter, <a href="<%@ include view='ALL_ACD_Vichy_UnsubWebApp' %>" _label="Opt-out link" _type="optout" target="_blank" style="color:#a8a8a8;">
+<span style="text-decoration:none;color:#a8a8a8;">clicca qui</span>
+</a>
+  <br /><br />
+
+  </div>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]>
+</td>
+
+</tr>
+
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</mj-raw>
+<mj-raw>
+<!-- END -->  
+</mj-raw>
+
+    
+  </mj-body>
+  
+</mjml>

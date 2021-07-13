@@ -1,0 +1,300 @@
+<mjml>
+  <mj-head>
+    <mj-preview>TBD</mj-preview>
+    <mj-attributes>
+      <mj-all padding="0px" align="center"></mj-all>
+      <mj-text font-family="Arial, sans-serif"></mj-text>
+      <mj-button font-family="Arial, sans-serif"></mj-button>
+      <mj-social font-family="Arial, sans-serif"></mj-social>
+      <mj-class name="centered" align="center"></mj-class>
+  		<mj-class name="blacked" color="#000000"></mj-class>
+      <mj-class name="whited" color="#ffffff"></mj-class>
+      <mj-class name="bolded" font-weight="bold"></mj-class>
+  		<mj-class name="upped" text-transform="uppercase"></mj-class>
+    </mj-attributes>
+
+    <mj-style>
+       .link-nonstyle{
+      color: inherit; text-decoration: none !important;
+    	}
+      a:link{
+      color: inherit; text-decoration: none;
+      }	
+      a:visited{
+      color:inherit; text-decoration: none;
+      }
+      .no-underline { text-decoration: none !important; }
+      .stronger { font-weight: bold; }
+      
+      
+      
+      @media only screen and (max-width: 480px) {
+        .hidden-mobile {
+          display: none !important;
+        }
+
+        .display-mobile {
+          display: block !important;
+          max-height: none !important;
+        }
+      
+      
+      	.font-change1 {
+      	 font-size:20px!important;
+      	 line-height:25px!important;
+        }
+      
+      	.font-change2 {
+      	 font-size:20px!important;
+      	 line-height:24px!important;
+        }
+      
+      	.font-change3 {
+      	 font-size:14px!important;
+      	 line-height:14px!important;
+        }
+       }
+
+      @media only screen and (min-width: 481px) {
+        .hidden-desktop {
+          display: none !important;
+        }
+
+        .display-desktop {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="640px">
+    <mj-section>
+    	<mj-column>
+      	<mj-text mj-class="centered" color="#000000" font-size="12px" line-height="16px" align="center" padding="20px 5px 0px 5px" font-weight="bold">
+         Se non visualizzi correttamente la newsletter<br/>
+          <a href="<%@ include view='ALL_LLD_Ysl_MirrorPageUrl' %>" _label="Page miroir" type="mirrorPage" target="_blank" style="color:#000000;text-decoration:none;">
+          	<span style="color:#000000;text-decoration:underline;">
+             Clicca qui
+            </span>
+          </a>
+      </mj-text>
+      
+      <mj-image href="https://www.yslbeauty.com/?cin=<%= recipient.record_id %>" src="img/logo.png" href="#" width="280px" padding="50px 30px 0px 30px"></mj-image>
+      
+      
+      </mj-column>
+    </mj-section>
+      
+      
+    <mj-section>
+    <mj-column width="70%">
+      <mj-text mj-class="centered" color="#000000" padding="50px 5px" font-weight="bold" text-transform="uppercase" css-class="font-change1">
+         <span style="font-size:30px; line-height:40px" class="font-change1">
+          ABBIAMO UN<br/>REGALO ESCLUSIVO PER TE. RITIRALO IN NEGOZIO!
+				 </span>
+      </mj-text>
+      </mj-column>
+    </mj-section>  
+   
+       
+    <mj-section>
+    	<mj-column>
+      <mj-image href="https://www.yslbeauty.com/?cin=<%= recipient.record_id %>" src="img/c1.png" width="505px" padding="0px 30px 0px 30px" ></mj-image>
+      </mj-column>
+    </mj-section>  
+ 
+      <mj-section padding-top="45px">
+    	<mj-column width="70%">
+        <mj-text css-class="hidden-mobile" line-height="30px" font-size="20px" mj-class="centered" color="#000000" padding="0px 10px 0px">
+Preparati a festeggiare il tuo compleanno.<br/> 
+Ti abbiamo riservato una sorpresa,<br/> 
+vieni a ritirare il tuo regalo esclusivo<br/> 
+presso La Rinascente più vicina a te.<br/>
+Ti basterà mostrare questa Newsletter<br/> 
+al corner di YSL Beauté! <b>*</b>
+</mj-text>
+    <mj-raw>
+        <!-- MOBILE -->
+        <!--[if !mso | !IE]><!-->
+ </mj-raw>    
+ <mj-text css-class="hidden-desktop"  line-height="30px" font-size="20px" mj-class="centered" color="#000000" padding="0px 10px 0px">
+Preparati a festeggiare il tuo compleanno. 
+Ti abbiamo riservato una sorpresa,
+vieni a ritirare il tuo regalo esclusivo 
+presso La Rinascente più vicina a te.
+Ti basterà mostrare questa Newsletter 
+al corner di YSL Beauté! <b>*</b>
+</mj-text>
+   <mj-raw>
+        <!-- MOBILE CLOSING -->
+        <!--<![endif]-->
+</mj-raw>
+      </mj-column>
+    </mj-section>     
+      
+   
+       
+    <mj-section>
+    	<mj-column>
+      
+        <mj-text mj-class="centered" color="#000000" padding="50px 10px " text-transform="uppercase" css-class="font-change2">
+         <span style="font-size:25px; line-height:30px" class="font-change2">
+           <b>I PRODOTTI ICONICI:</b>
+				 </span>
+      </mj-text>
+      <mj-image href="https://www.yslbeauty.com/fragrance/fragrance-for-her/libre/libre-eau-de-toilette/WW-50789YSL.html#start=4&cgid=fragrance-free?cin=<%= recipient.record_id %>" src="img/c2.png" width="505px" padding="20px 30px 0px 30px" ></mj-image>
+      </mj-column>
+    </mj-section>
+      
+    
+    
+    
+    
+    <mj-section>
+    <mj-column width="55%">
+     <mj-text mj-class="centered" color="#000000" padding="30px 10px 10px" text-transform="uppercase" css-class="font-change2">
+         <span style="font-size:25px; line-height:30px" class="font-change2">
+         <b> LIBRE</b>
+				 </span>
+      </mj-text>
+        <mj-text line-height="22px" font-size="18px" mj-class="centered" color="#000000" padding="0px 20px 30px">Libre Eau de Parfum, una fragranza per una donna libera e audace. Scatena il tuo istinto con Libre.
+          </mj-text>
+     <mj-button   text-transform="uppercase" padding="10px 0px 0px" href="https://www.yslbeauty.com/fragrance/fragrance-for-her/libre/libre-eau-de-toilette/WW-50789YSL.html#start=4&cgid=fragrance-free?cin=<%= recipient.record_id %>" background-color="#000000" border-radius="0px" color="#ffffff" inner-padding="20px 60px" font-size="16px"><span class="font-change3">SCOPRI DI PIÙ
+</span></mj-button>
+    </mj-column>
+    </mj-section>  
+      
+ <mj-section padding-top="50px">
+ <mj-column>
+   <mj-image href="https://www.yslbeauty.com/fragrance/fragrance-for-her/black-opium/black-opium-eau-de-parfum/WW-40701YSL.html#start=13&cgid=fragrance-black-opium?cin=<%= recipient.record_id %>" src="img/c3.png" width="505px" padding="0px 30px 0px 30px" ></mj-image>
+ </mj-column>   
+ </mj-section>   
+ <mj-section>
+    <mj-column width="59%">
+     <mj-text mj-class="centered" color="#000000" padding="30px 10px 10px" text-transform="uppercase" css-class="font-change2">
+         <span style="font-size:25px; line-height:30px" class="font-change2">
+         <b>BLACK OPIUM</b>
+				 </span>
+      </mj-text>
+        <mj-text line-height="22px" font-size="18px" mj-class="centered" color="#000000" padding="0px 20px 30px">Black Opium l’iconica fragranza sensuale, elettrica, sfrontata, irresistibile. Black come il colore simbolo del rock. 
+          </mj-text>
+     <mj-button   text-transform="uppercase" padding="10px 0px 0px" href="https://www.yslbeauty.com/fragrance/fragrance-for-her/black-opium/black-opium-eau-de-parfum/WW-40701YSL.html#start=13&cgid=fragrance-black-opium?cin=<%= recipient.record_id %>" background-color="#000000" border-radius="0px" color="#ffffff"  inner-padding="20px 60px" font-size="16px"><span class="font-change3">SCOPRI DI PIÙ
+</span></mj-button>
+    </mj-column>
+    </mj-section>  
+    
+<mj-section padding-top="50px">
+ <mj-column>
+   <mj-image href="https://www.yslbeauty.com/makeup/eye-makeup/mascara/mascara-volume-effet-faux-cils/WW-20541YSL.html#start=10&cgid=makeup-mascara?cin=<%= recipient.record_id %>" src="img/c4.png" width="505px" padding="0px 30px 0px 30px" ></mj-image>
+ <mj-text mj-class="centered" color="#000000" padding="30px 10px 10px" text-transform="uppercase" css-class="font-change2">
+         <span style="font-size:25px; line-height:30px" class="font-change2">
+         <b>MASCARA VOLUME EFFET FAUX CILS</b>
+				 </span>
+      </mj-text>
+ </mj-column>   
+ </mj-section>   
+ <mj-section>
+    <mj-column width="75%">
+     
+        <mj-text line-height="22px" font-size="18px" mj-class="centered" color="#000000" padding="0px 20px 30px">I mascara che rendono il tuo sguardo intenso.
+ Il CLASSICO per ciglia dal volume drammatico,
+THE CURLER per ciglia incurvate e 
+il RADICAL per un volume estremo. 
+          </mj-text>
+     <mj-button   text-transform="uppercase" padding="10px 0px 0px" href="https://www.yslbeauty.com/makeup/eye-makeup/mascara/mascara-volume-effet-faux-cils/WW-20541YSL.html#start=10&cgid=makeup-mascara?cin=<%= recipient.record_id %>" background-color="#000000" border-radius="0px" color="#ffffff"  inner-padding="20px 60px" font-size="16px"><span class="font-change3">SCOPRI DI PIÙ
+</span></mj-button>
+    </mj-column>
+    </mj-section>  
+    
+    
+ <mj-section padding-top="50px">
+ <mj-column>
+   <mj-image href="https://www.yslbeauty.com/makeup/lips/lipstick/rouge-pur-couture-the-slim/WW-50192YSL.html#start=12&cgid=makeup-lipstick?cin=<%= recipient.record_id %>" src="img/c5.png" width="505px" padding="0px 30px 0px 30px" ></mj-image>
+ <mj-text mj-class="centered" color="#000000" padding="30px 10px 10px" text-transform="uppercase" css-class="font-change2">
+         <span style="font-size:25px; line-height:30px" class="font-change2">
+         <b>ROUGE PUR COUTURE THE SLIM</b>
+				 </span>
+      </mj-text>
+ </mj-column>   
+ </mj-section>   
+ <mj-section>
+    <mj-column width="70%">
+     
+        <mj-text line-height="22px" font-size="18px" mj-class="centered" color="#000000" padding="0px 20px 30px">Rouge Pur Couture The Slim,<br/>il rossetto matte a lunga durata dal colore intenso, che rende le tue labbra irresistibili. 
+          </mj-text>
+     <mj-button  text-transform="uppercase" padding="10px 0px 40px" href="https://www.yslbeauty.com/makeup/lips/lipstick/rouge-pur-couture-the-slim/WW-50192YSL.html#start=12&cgid=makeup-lipstick?cin=<%= recipient.record_id %>" background-color="#000000" border-radius="0px" color="#ffffff" inner-padding="20px 60px" font-size="16px"><span class="font-change3">SCOPRI DI PIÙ
+</span></mj-button>
+    </mj-column>
+    </mj-section>   
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <mj-section background-color="#08020e" padding="0px 10px 10px 10px">
+    	<mj-column>
+      	<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="14px" line-height="20px">
+          <a href="https://www.yslbeauty.com/makeup?utm_source=crm&utm_medium=email_brand&utm_content=ysl_make_branding_text_eg&utm_campaign=larinascente&cin=<%= recipient.record_id %>" style="color:#ffffff;text-decoration:none;">
+            <span style="color:#ffffff;text-decoration:none;">
+          MAKEUP
+            </span>
+          </a>
+        </mj-text>
+        
+       	<mj-divider border-color="#676568" border-width="1px"></mj-divider>
+        
+        <mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="14px" line-height="20px">
+          <a href="https://www.yslbeauty.com/fragrance?utm_source=crm&utm_medium=email_brand&utm_content=ysl_frag_branding_text_eg&utm_campaign=larinascente&cin=<%= recipient.record_id %>" style="color:#ffffff;text-decoration:none;">
+            <span style="color:#ffffff;text-decoration:none;">
+          FRAGRANZE
+            </span>
+          </a>
+        </mj-text>
+
+        <mj-divider border-color="#676568" border-width="1px"></mj-divider>
+
+        <mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="14px" line-height="20px">
+          <a href="https://www.yslbeauty.com/skincare?utm_source=crm&utm_medium=email_brand&utm_content=ysl_skin_branding_text_eg&utm_campaign=larinascente&cin=<%= recipient.record_id %>" style="color:#ffffff;text-decoration:none;">
+          <span style="color:#ffffff;text-decoration:none;">
+          TRATTAMENTO
+          </span>
+        </a>
+       </mj-text>
+        
+       	<mj-divider border-color="#676568" border-width="1px"></mj-divider>
+        
+        <mj-spacer height="30px"></mj-spacer>
+        
+        <mj-social mode="horizontal" icon-size="27px" inner-padding="20px">
+          <mj-social-element name="facebook" background-color="#08020e" href="https://www.facebook.com/yslbeautyitaly" src="img/fb.jpg"></mj-social-element>
+          <mj-social-element name="youtube" background-color="#08020e" href="https://www.youtube.com/user/yslparfums" src="img/yt.jpg"></mj-social-element>
+          <mj-social-element name="instagram" background-color="#08020e" href="https://www.instagram.com/yslbeauty" src="img/ig.jpg"></mj-social-element>
+        </mj-social>
+        
+        
+        
+        <mj-text mj-class="centered" padding="30px 10px 0px" font-size="12px" line-height="16px" color="#fff">
+        	*Offerta valida entro 1 mese dalla ricezione di questa e-mail<br></br>
+        </mj-text>
+        
+        <mj-text mj-class="centered" padding="0px 10px 10px" font-size="12px" line-height="16px" color="#fff">
+        	Se non desideri più ricevere questa newsletter,  <a href="<%@ include view='ALL_LLD_Ysl_UnsubWebApp' %>" _label="Opt-out link" _type="optout" target="_blank" style="color:#6e6e6e;text-decoration:none;">
+          <span style="color:#6e6e6e;text-decoration:underline;">clicca qui</span></a>.<br/>
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,501 @@
+<mjml>
+  <mj-head>
+    <mj-preview>##</mj-preview>
+    <mj-attributes>
+      <mj-breakpoint width="480px" />
+      <mj-section padding="0px" />
+      <mj-column padding="0px" />
+      <mj-text padding="0px" align="center" />
+      <mj-image padding="0px" align="center" />
+      <mj-class name="nav-text" color="#FFF" />
+      <mj-class name="pre-header" color="#000" font-size="18px" line-height="22px" align="center" padding="0px" text-decoration="none" />
+      <mj-class name="header-text" color="#747272" font-size="11px" align="left" padding="0px" />
+      <mj-class name="footer-text" color="#747272" font-size="11px" line-height="15px" align="center" padding="0px" />
+      <mj-class name="blue-text" color="#00A7FF" font-size="24px" line-height="29px" align="center" padding="0px" font-family="Arial, Helvetica, sans-serif;" />
+      <mj-class name="white-line-bottom" border-bottom="2px solid white" width="100%" />
+      <mj-class name="bolded" font-weight="bold"></mj-class>
+      <mj-class name="white-color" color="#ffffff"></mj-class>
+      <mj-class name="menu1" padding="0px 0px 0px 80px"></mj-class>
+    </mj-attributes>
+     <mj-style> 
+      .link-nonstyle{ 
+        color: inherit; 
+        text-decoration: none !important;
+      } 
+      a:link{ 
+        color: inherit; 
+        text-decoration: none !important; 
+      } 
+      a:visited{ 
+        color:inherit; 
+        text-decoration: none !important; 
+      }
+      .padding-override{
+      	padding:15px 88px !important;
+      }
+      .mobile-change {
+    		  font-size: 23px;
+    	  }
+      @media only screen and (max-width:470px) { 
+        .hidden-mobile { 
+          display: none !important; 
+        } 
+        .display-mobile { 
+          display:block !important; 
+          margin:0 !important; 
+          overflow:visible !important; 
+          width:auto !important; 
+          max-height:inherit !important; 
+          font-size:inherit !important; 
+          line-height:inherit !important 
+        } 
+      	.padding-override{
+      	padding:15px 33px !important;
+      }
+      .mobile-change {
+    		  font-size: 18px;
+          line-height: 23px !important;
+    	  }
+       .width-fix {
+      		max-width:280px !important;
+      	}
+       .news_fixed_width{
+          max-width: 280px!important;
+        }
+      } 
+      @media only screen and (min-width:470px) { 
+        .hidden-desktop { 
+          display: none !important; 
+        } 
+        .display-desktop { 
+          display:block !important; 
+          margin:0 !important; 
+          overflow:visible !important; 
+          width:auto !important; 
+          max-height:inherit !important; 
+          font-size:inherit !important; 
+          line-height:inherit !important;
+        }
+      } 
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-raw>
+      <style> 
+      .link-nonstyle{ 
+        color: inherit; 
+        text-decoration: none !important;
+      } 
+      a:link{ 
+        color: inherit; 
+        text-decoration: none !important; 
+      } 
+      a:visited{ 
+        color:inherit; 
+        text-decoration: none !important; 
+      }
+      .padding-override{
+      	padding:15px 88px !important;
+      }
+      .mobile-change {
+    		  font-size: 23px;
+    	  }
+      @media only screen and (max-width:470px) { 
+        .hidden-mobile { 
+          display: none !important; 
+        } 
+        .display-mobile { 
+          display:block !important; 
+          margin:0 !important; 
+          overflow:visible !important; 
+          width:auto !important; 
+          max-height:inherit !important; 
+          font-size:inherit !important; 
+          line-height:inherit !important 
+        } 
+      	.padding-override{
+      	padding:15px 33px !important;
+      }
+      .mobile-change {
+    		  font-size: 18px;
+          line-height: 23px !important;
+    	  }
+       .width-fix {
+      		max-width:280px !important;
+      	}
+        .news_fixed_width{
+          max-width: 280px!important;
+        }
+      } 
+      @media only screen and (min-width:470px) { 
+        .hidden-desktop { 
+          display: none !important; 
+        } 
+        .display-desktop { 
+          display:block !important; 
+          margin:0 !important; 
+          overflow:visible !important; 
+          width:auto !important; 
+          max-height:inherit !important; 
+          font-size:inherit !important; 
+          line-height:inherit !important;
+        }
+      } 
+    </style>
+    </mj-raw>
+    
+        <mj-section>
+      <mj-column padding="12px">
+        <mj-spacer height="20px" />
+        <mj-text padding-left="10px" padding-bottom="10px"><a href="<%@ include view='ALL_ACD_LaRochePosay_MirrorPageUrl' %>" _label="Page miroir" type="mirrorPage" target="_blank"><span style="text-decoration:none;color:#000;">Visualizza sul tuo browser</span></a></mj-text>
+        <mj-spacer height="10px" /> </mj-column>
+    </mj-section>
+<mj-section>
+      <mj-column>
+        <mj-image src="img/logo-top.png" css-class="image-padding-mso no-border" border="0px" padding="0px" width="205px" href="https://www.larocheposay.it/?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>"></mj-image>
+        <mj-spacer height="23px" /> </mj-column>
+    </mj-section>
+ 
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image css-class="hidden-mobile" padding-bottom="10px" padding-top="0px" src="img/hero_desk.png" alt="" href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" />
+        <mj-raw>
+        <!-- MOBILE -->
+        <!--[if !mso | !IE]><!-->
+        </mj-raw>
+        <mj-image css-class="hidden-desktop" padding-top="0px" src="img/hero_mob.png" alt="" href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>"/>
+        <mj-raw>
+        <!-- MOBILE CLOSING -->
+        <!--<![endif]-->
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+ 
+ 
+ <mj-section>
+  <mj-column width="90%" >
+    <mj-text font-size="24px" line-height="29px" font-family="Arial, Helvetica, sans-serif;" color="#000000" text-transform="uppercase" letter-spacing="0" padding="39px 10px 34px" font-weight="bold">
+     (NOME DELLA PERSONA)<br>
+SCOPRI COME PRENDERTI CURA
+DELLA TUA PELLE SECCA O MOLTO SECCA DURANTE LA BELLA STAGIONE  
+  </mj-text>  
+      </mj-column>
+    </mj-section>
+   
+   <mj-section>
+   <mj-column width="83%">
+     <mj-text padding="0px 15px 0px" line-height="24px" align="center" font-size="16px" color="#000000" font-family="Arial, Helvetica, sans-serif;" color="#000000">
+       Noi di <span style="color: #00A7FF"><b>LA ROCHE-POSAY </b></span>abbiamo pensato ad una routine
+estiva personalizzata da utilizzare per la cura della pelle sensibile,
+molto secca e a tendenza atopica.     
+        </mj-text>
+   </mj-column>
+   </mj-section> 
+    
+    
+
+  
+    
+    
+    <mj-section>
+    	<mj-column padding="23px 25px 21px" width="90%">
+      	<mj-text text-transform="uppercase" font-size="24px" line-height="24px" font-family="Arial, Helvetica, sans-serif;" color="#000000">
+         <b>Scopri la routine completa </b>consigliata per l’estate
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    
+    
+    <mj-section padding="6px" css-class="mob-padding" >
+      
+    	<mj-column width="32%" border="2px solid #f6f7f8" css-class="news_fixed_width" vertical-align="top" >
+        
+        <mj-image href="https://www.larocheposay.it/kerium-trattamenti-per-cuoio-capelluto-e-pelle/kerium-dolcezza-estrema?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" src="img/step1_desk.png" css-class="hidden-mobile"></mj-image>
+        <mj-raw>
+        <!--[if !mso | !IE]><!-->
+        </mj-raw>
+       <mj-image href="https://www.larocheposay.it/kerium-trattamenti-per-cuoio-capelluto-e-pelle/kerium-dolcezza-estrema?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>"src="img/step1_mob.png" css-class="hidden-desktop" fluid-on-mobile="true"></mj-image> 
+        <mj-raw>
+        <!--<![endif]-->
+        </mj-raw>
+        
+      	<mj-image css-class="hidden-mobile" src="img/pro1_desk.png" width="106px" padding-top="30px" href="https://www.larocheposay.it/kerium-trattamenti-per-cuoio-capelluto-e-pelle/kerium-dolcezza-estrema?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" />
+        
+        <mj-raw><!--[if !mso]><!-- --></mj-raw>
+        <mj-image css-class="hidden-desktop" src="img/pro1_mob.png" width="260px" padding-top="40px" href="https://www.larocheposay.it/kerium-trattamenti-per-cuoio-capelluto-e-pelle/kerium-dolcezza-estrema?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" />
+        <mj-raw><!--<![endif]--></mj-raw>
+        
+        <mj-text padding="25px 5px 0px" align="center" font-size="16px" line-height="18px" text-transform="uppercase" height="50px">
+          <a style="text-decoration: none; color: #000;" href="https://www.larocheposay.it/kerium-trattamenti-per-cuoio-capelluto-e-pelle/kerium-dolcezza-estrema?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>"><span style="color: #000000"><b>KERIUM</b><br />DOLCEZZA ESTREMA</span>
+            </a>
+        </mj-text>
+        
+        
+        
+        <mj-text padding="10px 10px" align="center" font-size="14px" line-height="16px" height="65px">
+        	 Shampoo-gel fisiologico
+per capelli normali
+e fragili
+        </mj-text>
+        
+        
+        <mj-text padding="5px 10px 30px" align="center" color="#00A7FF" font-size="14px" line-height="18px" text-decoration="underline" font-weight="bold">
+        	<a style="color: #00A7FF; font-size: 14px; line-height: 18px; text-decoration: underline;" href="https://www.larocheposay.it/kerium-trattamenti-per-cuoio-capelluto-e-pelle/kerium-dolcezza-estrema?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>"><u>Scopri di più</u></a>
+        </mj-text>
+        
+      </mj-column>      
+      
+      <mj-column padding-top="10px" width="1%"></mj-column>
+      
+      
+      
+      
+      
+      
+      
+      <mj-column width="32%" border="2px solid #f6f7f8" css-class="news_fixed_width" vertical-align="top" >
+        
+        <mj-image href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-gel-lavant-la-roche-posay?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" src="img/step2_desk.png" css-class="hidden-mobile"></mj-image>
+        <mj-raw>
+        <!--[if !mso | !IE]><!-->
+        </mj-raw>
+       <mj-image href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-gel-lavant-la-roche-posay?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" src="img/step2_mob.png" css-class="hidden-desktop" fluid-on-mobile="true"></mj-image> 
+        <mj-raw>
+        <!--<![endif]-->
+        </mj-raw>
+        
+      	<mj-image css-class="hidden-mobile" src="img/pro2_desk.png" width="117px" padding-top="10px" href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-gel-lavant-la-roche-posay?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" />
+        
+        <mj-raw><!--[if !mso]><!-- --></mj-raw>
+        <mj-image css-class="hidden-desktop" src="img/pro2_mob.png" padding-top="40px" width="260px" href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-gel-lavant-la-roche-posay?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" />
+        <mj-raw><!--<![endif]--></mj-raw>
+        
+        <mj-text padding="23px 10px 0px" align="center" font-size="16px" line-height="18px" text-transform="uppercase" height="50px">
+          <a style="text-decoration: none; color: #000;" href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-gel-lavant-la-roche-posay?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>"><span style="color: #000000"><b>LIPIKAR</b><br />GEL LAVANT</span>
+            </a>
+        </mj-text>
+        
+        
+        
+        <mj-text padding="10px 4px" align="center" font-size="14px" line-height="16px" height="65px" css-class="hidden-mobile">
+        	Gel doccia protettivo lenitivo per tutta la famiglia
+        </mj-text>
+        
+        <mj-raw><!--[if !mso]><!-- --></mj-raw>
+         <mj-text padding="10px" align="center" font-size="14px" line-height="16px" css-class="hidden-desktop">
+        	Gel doccia protettivo lenitivo<br/>
+per tutta la famiglia
+        </mj-text>
+        <mj-raw><!--<![endif]--></mj-raw>
+        
+        <mj-text padding="5px 10px 30px" align="center" color="#00A7FF" font-size="14px" line-height="18px" text-decoration="underline" font-weight="bold">
+        	<a style="color: #00A7FF; font-size: 14px; line-height: 18px; text-decoration: underline;" href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-gel-lavant-la-roche-posay?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>"><u>Scopri di più</u></a>
+        </mj-text>
+        
+      </mj-column>
+      
+      <mj-column padding-top="10px" width="1%"></mj-column>
+      
+      
+      
+      
+    	<mj-column width="32%" border="2px solid #f6f7f8" css-class="news_fixed_width" vertical-align="top" >
+        
+        <mj-image href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-fluide?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" src="img/step3_desk.png" css-class="hidden-mobile"></mj-image>
+        <mj-raw>
+        <!--[if !mso | !IE]><!-->
+        </mj-raw>
+       <mj-image href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-fluide?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" src="img/step3_mob.png" css-class="hidden-desktop" fluid-on-mobile="true"></mj-image> 
+        <mj-raw>
+        <!--<![endif]-->
+        </mj-raw>
+        
+        
+      	<mj-image css-class="hidden-mobile" src="img/pro3_desk.png" padding-top="7px" width="128px" href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-fluide?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" />
+        
+        <mj-raw><!--[if !mso]><!-- --></mj-raw>
+        <mj-image css-class="hidden-desktop"  src="img/pro3_mob.png" padding-top="40px" width="260px" href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-fluide?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" />
+        <mj-raw><!--<![endif]--></mj-raw>
+        
+        <mj-text padding="25px 10px 0px" align="center" font-size="16px" line-height="18px" text-transform="uppercase" height="50px">
+          <a style="text-decoration: none; color: #000;" href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-fluide?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>"><span style="color: #000000"><b>LIPIKAR</b><br />
+             FLUIDE</span>
+            </a>
+        </mj-text>
+        
+       
+        
+        <mj-text padding="10px 10px" align="center" font-size="14px" line-height="16px" height="65px">
+        	Fluido lenitivo,<br/>
+protettivo e idratante
+        </mj-text>
+        
+        
+        
+        <mj-text padding="6px 10px 30px" align="center" color="#00A7FF" font-size="14px" line-height="18px" text-decoration="underline" font-weight="bold">
+        	<a style="color: #00A7FF; font-size: 14px; line-height: 18px; text-decoration: underline;" href="https://www.larocheposay.it/lipikar-il-trattamento-per-la-pelle-a-tendenza-atopica/lipikar-fluide?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>"><u>Scopri di più</u></a>
+        </mj-text>
+        
+      </mj-column>       
+    </mj-section>
+    
+   
+   
+   
+   
+   
+    <mj-section>
+    	<mj-column padding="95px 30px 30px" width="90%">
+      	<mj-text font-size="24px" line-height="24px" text-transform="uppercase">
+          <b>I NOSTRI CONSIGLI PER PRENDERTI</b><br />CURA DELLA PELLE
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    
+    <mj-section padding="6px" css-class="mob-padding">
+    	<mj-column width="49.5%" border="2px solid #f6f7f8" css-class="news_fixed_width">
+        <mj-image src="img/news_1.png" href="https://www.larocheposay.it/article/la-pelle-a-tendenza-atopica-nei-bambini-gestire-la-pelle-a-tendenza-atopica-durante-lo-sport?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" />
+        <mj-text align="left" text-transform="uppercase" font-size="16px" line-height="18px" padding="20px 20px 75px" font-weight="bold">
+          <a style="text-decoration: none; color: #000;" href="https://www.larocheposay.it/article/la-pelle-a-tendenza-atopica-nei-bambini-gestire-la-pelle-a-tendenza-atopica-durante-lo-sport?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>">LA PELLE A TENDENZA ATOPICA NEI BAMBINI</a>
+        </mj-text>
+        
+         
+        <mj-text padding="0px 20px 30px" align="left" color="#00A7FF" font-size="14px" line-height="18px" text-decoration="underline" font-weight="bold">
+        	<a style="color: #00A7FF; font-size: 14px; line-height: 18px; text-decoration: underline;" href="https://www.larocheposay.it/article/la-pelle-a-tendenza-atopica-nei-bambini-gestire-la-pelle-a-tendenza-atopica-durante-lo-sport?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>">Scopri di più</a>
+        </mj-text>
+      </mj-column>
+      
+      <mj-column width="1%" padding-top="15px"></mj-column>
+      
+      <mj-column width="49.5%" border="2px solid #f6f7f8" css-class="news_fixed_width">
+        <mj-image src="img/news_2.png" href="https://www.larocheposay.it/article/pelle-secca-e-pelle-a-tendenza-atopica-a-confronto?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" />
+        <mj-text align="left" text-transform="uppercase" font-size="16px" line-height="18px" padding="20px 20px 57px" font-weight="bold">
+          <a style="text-decoration: none; color: #000;" href="https://www.larocheposay.it/article/pelle-secca-e-pelle-a-tendenza-atopica-a-confronto?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>">PELLE SECCA E A<br/> TENDENZA ATOPICA<br/>
+A CONFRONTO</a>
+        </mj-text>
+        
+   
+        <mj-text padding="0px 20px 30px" align="left" color="#00A7FF" font-size="14px" line-height="18px" text-decoration="underline" font-weight="bold">
+        	<a style="color: #00A7FF; font-size: 14px; line-height: 18px; text-decoration: underline;" href="https://www.larocheposay.it/article/pelle-secca-e-pelle-a-tendenza-atopica-a-confronto?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>">Scopri di più</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+      
+      
+      
+
+      
+      
+
+
+ <mj-raw>
+	<!-- Start2 -->
+</mj-raw>
+  
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="60px" /> 
+        <mj-image width="304px"  padding="0px 15px" height="100px" src="img/icon-orange-icon-blue.png"></mj-image>
+      <mj-spacer height="60px" /> </mj-column>
+      
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+<mj-raw>
+	<!-- Start -->
+</mj-raw>
+    
+<mj-wrapper background-color="#00A7FF" padding="40px 0px">
+     <mj-section padding="0px 30px">
+       <mj-column>
+       	<mj-image src="img/logo_negativo.png" href="https://www.larocheposay.it/?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>" width="169px"></mj-image>
+       
+       </mj-column>
+     </mj-section>
+     <mj-section padding="45px 30px 0px 30px">
+      <mj-column>
+        <mj-text font-size="16px" color="#ffffff" font-weight="bold" padding-bottom="20px" align="center" line-height="24px">
+          <a style="color:#ffffff;text-decoration:none!important;" href="https://www.larocheposay.it/prodotti/gamme/tutti-i-prodotti-ca.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>">
+          <span style="color:#ffffff;text-decoration:none!important;">
+            VISO
+          </span>
+          </a>
+        </mj-text>
+      </mj-column>
+      
+      <mj-column>
+        <mj-text font-size="16px" color="#ffffff" font-weight="bold" padding-bottom="20px" align="center" line-height="24px">
+          <a style="color:#ffffff;text-decoration:none!important;" href="https://www.larocheposay.it/prodotti/gamme/tutti-i-prodotti-ca.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>">
+            <span style="color:#ffffff;text-decoration:none!important;">
+              CORPO
+            </span>
+          </a>
+        </mj-text>
+      </mj-column>
+      
+      <mj-column>
+        <mj-text font-size="16px" color="#ffffff" font-weight="bold" padding-bottom="20px" align="center" line-height="24px">
+          <a style="color:#ffffff;text-decoration:none!important;" href="https://www.larocheposay.it/prodotti/gamme/tutti-i-prodotti-ca.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>">
+            <span style="color:#ffffff;text-decoration:none!important;">
+              SOLARI
+            </span>
+          </a>
+        </mj-text>
+      </mj-column>
+      
+      <mj-column>
+        <mj-text font-size="16px" color="#ffffff" font-weight="bold" padding-bottom="30px" align="center" line-height="24px">
+          <a style="color:#ffffff;text-decoration:none!important;" href="https://www.larocheposay.it/prodotti/gamme/tutti-i-prodotti-ca.aspx?utm_source=crm&utm_medium=email_brand&utm_campaign=Lipikar-Estate&cin=<%= recipient.record_id %>">
+            <span style="color:#ffffff;text-decoration:none!important;">
+              MAKE-UP
+            </span>
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+		<mj-section background-color="#00A7FF">
+      <mj-column padding="0px 0px 30px 0px" width="90%">
+      <mj-divider border-color="#ffffff" border-width="2px" padding="0px 30px"></mj-divider>
+        <mj-social padding="40px 0px 20px 0px" inner-padding="0px 35px 0px" mode="horizontal" icon-size="25px">
+          <mj-social-element target="_blank" src="img/facebook.png" href="https://www.facebook.com/LaRochePosayItalia"></mj-social-element>
+          <mj-social-element target="_blank" src="img/instagram.png" href="https://www.instagram.com/larocheposay"></mj-social-element>
+          <mj-social-element target="_blank" src="img/youtube.png" href="https://www.youtube.com/user/LaRochePosayItalia"></mj-social-element>
+        </mj-social>
+
+        
+        <mj-text mj-class="centered whited" padding="30px 30px 0px 30px" color="#FFFAFA" font-size="12px" line-height="16px">          
+Ricevi questa email perché hai prestato il tuo consenso a L'Oréal Italia S.p.A. ad inviarti comunicazioni pubblicitarie e promozionali in relazione al brand La Roche Posay. Puoi revocare in qualsiasi momento il consenso espresso<a href="<%@ include view='ALL_ACD_LaRochePosay_UnsubWebApp' %>" style="color:#ffffff;text-decoration:none;">
+          <span style="color:#ffffff;text-decoration:underline;">cliccando qui</span></a>
+                 
+        </mj-text>
+      </mj-column>
+    </mj-section>
+      
+    <mj-section>
+     <mj-column>
+      	<mj-text mj-class="centered whited" font-size="12px" line-height="14px" color="#ffffff">
+          <a href="https://www.larocheposay.it/-/media/files/informativa_privacy_privacy_policy_lrp.pdf" style="color:#ffffff;text-decoration:none;">
+          	<span style="color:#ffffff;text-decoration:underline;">
+            	privacy policy</span>
+          </a>&nbsp;|&nbsp;
+          <a href="<%@ include view='ALL_ACD_LaRochePosay_UnsubWebApp' %>" style="color:#ffffff;text-decoration:none;">
+          	<span style="color:#ffffff;text-decoration:underline;">
+            	disiscriviti
+            </span>
+          </a>
+        </mj-text>
+     </mj-column>
+    </mj-section>
+  </mj-wrapper>
+
+<mj-raw>
+	<!-- End -->
+</mj-raw>  
+</mjml>

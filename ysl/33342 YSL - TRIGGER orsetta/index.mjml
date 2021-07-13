@@ -1,0 +1,254 @@
+<mjml>
+  <mj-head>
+    <mj-preview>TBD</mj-preview>
+    <mj-attributes>
+      <mj-all padding="0px" align="center"></mj-all>
+      <mj-text font-family="Arial, sans-serif"></mj-text>
+      <mj-button font-family="Arial, sans-serif"></mj-button>
+      <mj-social font-family="Arial, sans-serif"></mj-social>
+      <mj-class name="centered" align="center"></mj-class>
+  		<mj-class name="blacked" color="#000000"></mj-class>
+      <mj-class name="whited" color="#ffffff"></mj-class>
+      <mj-class name="bolded" font-weight="bold"></mj-class>
+  		<mj-class name="upped" text-transform="uppercase"></mj-class>
+    </mj-attributes>
+
+    <mj-style>
+       .link-nonstyle{
+      color: inherit; text-decoration: none !important;
+    	}
+      a:link{
+      color: inherit; text-decoration: none;
+      }	
+      a:visited{
+      color:inherit; text-decoration: none;
+      }
+      .no-underline { text-decoration: none !important; }
+      .stronger { font-weight: bold; }
+      
+      
+      
+      @media only screen and (max-width: 480px) {
+        .hidden-mobile {
+          display: none !important;
+        }
+
+        .display-mobile {
+          display: block !important;
+          max-height: none !important;
+        }
+      
+      
+      	.font-change1 {
+      	 font-size:20px!important;
+      	 line-height:25px!important;
+        }
+      
+      	.font-change2 {
+      	 font-size:15px!important;
+      	 line-height:25px!important;
+        }
+      
+      	.font-change3 {
+      	 font-size:14px!important;
+      	 line-height:14px!important;
+        }
+       }
+
+      @media only screen and (min-width: 481px) {
+        .hidden-desktop {
+          display: none !important;
+        }
+
+        .display-desktop {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="640px">
+		<mj-wrapper background-color="#000">
+    <mj-section>
+    	<mj-column>
+      	<mj-text mj-class="centered" color="#ffffff" font-size="12px" line-height="16px" align="center" padding="20px 5px 0px 5px" font-weight="bold">
+         Se non visualizzi correttamente la newsletter<br/>
+          <a href="<%@ include view='ALL_LLD_Ysl_MirrorPageUrl' %>" _label="Page miroir" type="mirrorPage" target="_blank" style="color:#ffffff;text-decoration:none;">
+          	<span style="color:#ffffff;text-decoration:underline;">
+             Clicca qui
+            </span>
+          </a>
+      </mj-text>
+      
+      <mj-image src="img/ysl-logo.png" href="#" width="280px" padding="50px 30px 30px 30px"></mj-image>
+      
+      <mj-text mj-class="centered" color="#ffffff" padding="20px 5px" font-weight="bold" text-transform="uppercase" css-class="font-change1">
+         <span style="font-size:30px; line-height:40px" class="font-change1">
+          RENDI IL TUO SGUARDO<br/>
+ANCORA PIù ACCATTIVANTE 
+				 </span>
+      </mj-text>
+      </mj-column>
+    </mj-section>
+      
+      
+      
+   <mj-section>
+    	<mj-column width="90%">
+        <mj-text  line-height="30px" font-size="20px" mj-class="centered" color="#ffffff" padding="0px 10px 20px">
+          Scopri in anteprima da Sephora la nuova collezione
+di matite occhi e ombretti e realizza il look
+che più ti rappresenta.</mj-text>
+      </mj-column>
+    </mj-section> 
+     
+      
+    <mj-section>
+    	<mj-column>
+      <mj-image src="img/banner.png" width="505px" padding="20px 30px 0px 30px" ></mj-image>
+      </mj-column>
+    </mj-section>  
+      
+      
+      
+    <mj-section background-color="#000" padding-top="20px" direction="rtl">
+      <mj-column background-color="#000" width="200px" vertical-align="middle">
+      	<mj-image padding="20px 0px" src="img/pdt01.png" href="https://www.sephora.it/YSL-BrandUniverse-4.html  " width="197px"/>
+      </mj-column> 
+      <mj-column vertical-align="middle" width="360px">
+      	<mj-text line-height="30px" font-size="20px" mj-class="centered" color="#ffffff" padding="20px 10px 20px">
+          In regalo per te l’esclusiva pouch firmata YSL Beauté all’acquisto<br/>di 1 prodotto make up occhi YSL. Solo dal 7 al 27 giugno<br/>nei Beauty Store Sephora!*</mj-text>
+      </mj-column>  	
+    </mj-section>
+    
+    <mj-section>
+    	<mj-column>
+      <mj-button  text-transform="uppercase" padding="20px 0px 10px" href="https://www.sephora.it/YSL-BrandUniverse-4.html  " background-color="#fff" border-radius="0px" color="#000" font-weight="800" inner-padding="20px 60px" font-size="16px"><span class="font-change3">SCOPRI DI PIÙ
+</span></mj-button>
+        
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+    	<mj-column>
+      <mj-image src="img/image01.png" width="505px" padding="20px 30px 0px 30px" ></mj-image>
+        <mj-text mj-class="centered" color="#ffffff" padding="20px 5px" font-weight="bold" text-transform="uppercase" css-class="font-change1">
+         <span style="font-size:30px; line-height:40px" class="font-change1">
+          MATITA OCCHI CRUSHLINER 
+				 </span>
+      </mj-text>
+        <mj-text line-height="30px" font-size="20px" mj-class="centered" color="#ffffff" padding="0px 10px 20px">
+          La matita occhi waterproof ultra pigmentata,<br/> modulabile per definire ed intensificare il tuo sguardo</mj-text>
+        <mj-button   text-transform="uppercase" padding="10px 0px 10px" href="https://www.sephora.it/p/P10016657.html  " background-color="#fff" border-radius="0px" color="#000" font-weight="800" inner-padding="20px 60px" font-size="16px"><span class="font-change3">SCOPRI DI PIÙ
+</span></mj-button>
+        
+      </mj-column>
+    </mj-section>
+      
+      
+      
+    <mj-section>
+    	<mj-column>
+      <mj-image src="img/image02.png" width="505px" padding="20px 30px 0px 30px" ></mj-image>
+        <mj-text mj-class="centered" color="#ffffff" padding="20px 5px" font-weight="bold" text-transform="uppercase" css-class="font-change1">
+         <span style="font-size:30px; line-height:40px" class="font-change1">
+          OMBRETTO LAMé & VELVET CRUSH
+				 </span>
+      </mj-text>
+        <mj-text line-height="30px" font-size="20px" mj-class="centered" color="#ffffff" padding="0px 10px 20px">
+          La nuova gamma di ombretti dai colori intensi,<br/>
+finish metallici o vellutati per uno sguardo ancora più magnetico.</mj-text>
+        <mj-button   text-transform="uppercase" padding="10px 0px 10px" href="https://www.sephora.it/p/P10016656.html  " background-color="#fff" border-radius="0px" color="#000" font-weight="800" inner-padding="20px 60px" font-size="16px"><span class="font-change3">SCOPRI DI PIÙ
+</span></mj-button>
+      </mj-column>
+    </mj-section> 
+      
+      
+      
+   <mj-section>
+    	<mj-column>
+      <mj-image src="img/image03.png" width="505px" padding="20px 30px 0px 30px" ></mj-image>
+        <mj-text mj-class="centered" color="#ffffff" padding="20px 5px" font-weight="bold" text-transform="uppercase" css-class="font-change1">
+         <span style="font-size:30px; line-height:40px" class="font-change1">
+          MASCARA VOLUME EFFET FAUX CILS
+				 </span>
+      </mj-text>
+        <mj-text line-height="30px" font-size="20px" mj-class="centered" color="#ffffff" padding="0px 10px 20px">
+          I mascara che rendono il tuo sguardo accattivante e sensuale,<br/>
+scegli tra il CLASSICO per un effetto ciglia dal volume drammatico,<br/>
+THE CURLER per ciglia allungate e incurvate, e il RADICAL<br/>
+per un nero intenso e un volume estremo.</mj-text>
+        <mj-button   text-transform="uppercase" padding="10px 0px 10px" href=" https://www.sephora.it/tutti-i-prodotti/make-up/occhi/mascara-c366/?prefn1=brand&prefv1=YSL&srule=rank9#topbreadcrumb " background-color="#fff" border-radius="0px" color="#000" font-weight="800" inner-padding="20px 60px" font-size="16px"><span class="font-change3">SCOPRI DI PIÙ
+</span></mj-button>
+      </mj-column>
+    </mj-section>     
+      
+      
+    <mj-section>
+      <mj-column width="96%">
+      	<mj-text color="#fff" font-size="12px" line-height="18px" padding="20px 10px">*Acquista n. 1 prodotto make-up occhi (mascara, matita occhi e sopracciglia, eyeliner, palette occhi, ombretti) di Yves Saint Laurent, riceverai direttamente in cassa n. 1 pouch firmata Yves Saint Laurent Beauté.<br/><br/>
+
+Regolamento integrale richiedibile gratuitamente a ServizioConsumatoriYSL.corpit@loreal.com 
+Operazione a premi “SEPHORA EYE EVENT" valida dal 07.06.2021 al 27.06.2021 nelle profumerie Sephora
+</mj-text>
+      </mj-column>
+      
+      </mj-section>
+      
+
+    <mj-section background-color="#08020e" padding="0px 10px 10px 10px">
+    	<mj-column>
+      	<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="14px" line-height="20px">
+          <a href="https://www.yslbeauty.com/makeup?utm_source=crm&utm_medium=email_brand&utm_content=ysl_make_branding_text_eg&utm_campaign=larinascente&cin=<%= recipient.contactInformationName %>" style="color:#ffffff;text-decoration:none;">
+            <span style="color:#ffffff;text-decoration:none;">
+          MAKEUP
+            </span>
+          </a>
+        </mj-text>
+        
+       	<mj-divider border-color="#676568" border-width="1px"></mj-divider>
+        
+        <mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="14px" line-height="20px">
+          <a href="https://www.yslbeauty.com/fragrance?utm_source=crm&utm_medium=email_brand&utm_content=ysl_frag_branding_text_eg&utm_campaign=larinascente&cin=<%= recipient.contactInformationName %>" style="color:#ffffff;text-decoration:none;">
+            <span style="color:#ffffff;text-decoration:none;">
+          FRAGRANZE
+            </span>
+          </a>
+        </mj-text>
+
+        <mj-divider border-color="#676568" border-width="1px"></mj-divider>
+
+        <mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="14px" line-height="20px">
+          <a href="https://www.yslbeauty.com/skincare?utm_source=crm&utm_medium=email_brand&utm_content=ysl_skin_branding_text_eg&utm_campaign=larinascente&cin=<%= recipient.contactInformationName %>" style="color:#ffffff;text-decoration:none;">
+          <span style="color:#ffffff;text-decoration:none;">
+          TRATTAMENTO
+          </span>
+        </a>
+       </mj-text>
+        
+       	<mj-divider border-color="#676568" border-width="1px"></mj-divider>
+        
+        <mj-spacer height="30px"></mj-spacer>
+        
+        <mj-social mode="horizontal" icon-size="27px" inner-padding="20px">
+          <mj-social-element name="facebook" background-color="#08020e" href="https://www.facebook.com/yslbeautyitaly" src="img/fb.jpg"></mj-social-element>
+          <mj-social-element name="youtube" background-color="#08020e" href="https://www.youtube.com/user/yslparfums" src="img/yt.jpg"></mj-social-element>
+          <mj-social-element name="instagram" background-color="#08020e" href="https://www.instagram.com/yslbeauty" src="img/ig.jpg"></mj-social-element>
+        </mj-social>
+        
+        
+        <mj-text mj-class="centered" padding="30px 10px 0px" font-size="12px" line-height="16px" color="#fff">
+        	*Regolamento integrale richiedibile gratuitamente a L’Oreal Italia S.p.A. – Dir. Fiscale – Via Primaticcio n. 155 – 20147 Milano. Operazione a premi «GLAMBOX BLACK OPIUM SAN VALENTINO 2021» valida dal 20.01.2021 al 28.02.2021 nelle profumerie aderenti e su  <a  style="color:#fff;text-decoration:none;">
+          <span style="color:#fff;text-decoration:none;">Pinalli.it, ditano.com, beautye.it, sabbioni.it e esserbella.it</span></a>.<br/>
+        </mj-text>
+        
+        <mj-text mj-class="centered" padding="20px 10px 10px" font-size="12px" line-height="16px" color="#fff">
+        	Se non desideri più ricevere questa newsletter,  <a href="<%@ include view='ALL_LLD_Ysl_UnsubWebApp' %>" _label="Opt-out link" _type="optout" target="_blank" style="color:#6e6e6e;text-decoration:none;">
+          <span style="color:#6e6e6e;text-decoration:underline;">clicca qui</span></a>.<br/>
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+   </mj-wrapper> 
+  </mj-body>
+</mjml>

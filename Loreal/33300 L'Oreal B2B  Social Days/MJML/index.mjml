@@ -1,0 +1,257 @@
+<mjml>
+  <mj-head>
+    <mj-preview>L'estate è iniziata ma la formazione su l'Oréal Access non si ferma</mj-preview>
+   <mj-attributes>
+      <mj-all align="center" padding="0px" font-family="Arial, sans-serif"></mj-all>
+			<mj-class name="centered" align="center"></mj-class>
+  		<mj-class name="blacked" color="#000000"></mj-class>
+      <mj-class name="whited" color="#ffffff"></mj-class>
+      <mj-class name="bolded" font-weight="bold"></mj-class>
+      <mj-class name="mirror" color="#928f8f"></mj-class>
+     	<mj-class name="f11" font-size="11px"></mj-class>
+      <mj-class name="f14" font-size="14px"></mj-class>
+      <mj-class name="f16" font-size="16px"></mj-class>
+      <mj-class name="f24" font-size="24px"></mj-class>
+      <mj-class name="f25" font-size="25px"></mj-class>
+      <mj-class name="f30" font-size="30px"></mj-class>
+   </mj-attributes>
+   <mj-style inline="inline">a { text-decoration: underline; color: inherit; }</mj-style>
+    <mj-style>
+      a:link{
+      color: inherit; text-decoration: none;
+      }	
+      a:visited{
+      color:#inherit; text-decoration: none;
+      }
+      
+      .font-change{
+      	font-size:30px;
+      	
+      }
+
+     	@media only screen and (max-width: 480px) {
+        .hidden-mobile {
+          display: none !important;
+        }
+
+        .display-mobile {
+          display: block !important;
+          max-height: none !important;
+        }
+      
+   		 .font-change-menu {
+      	 font-size:8px!important;
+        }
+      .font-change{
+      	font-size:25px;
+      }
+      .width-fix {
+       max-width:255px;
+     }
+      .padding-change1{
+        padding-top:20px!important;
+       }
+      .padding-change2{
+      padding-top:15px!important;
+      }
+      .padding-change3{
+      padding-bottom:30px!important;
+      }
+
+      }
+     
+      @media only screen and (min-width: 481px) {
+        .hidden-desktop {
+          display: none !important;
+        }
+
+        .display-desktop {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+    
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-raw>
+    	<style>
+      	 a:link{
+      color: inherit; text-decoration: none;
+      }	
+      a:visited{
+      color:#inherit; text-decoration: none;
+      }
+
+     	@media only screen and (max-width: 480px) {
+        .hidden-mobile {
+          display: none !important;
+        }
+
+        .display-mobile {
+          display: block !important;
+          max-height: none !important;
+        }
+      
+   		 .font-change-menu {
+      	 font-size:8px!important;
+        }
+        .font-change{
+      	font-size:25px;
+      }
+        
+       .font-change {
+      	 font-size:25px!important;
+        }
+        .width-fix {
+       max-width:255px;
+     }
+      .padding-change1{
+        padding-top:20px!important;
+       }
+      .padding-change2{
+      padding-top:15px!important;
+      }
+      .padding-change3{
+      padding-bottom:30px!important;
+      }
+      }
+     
+      @media only screen and (min-width: 481px) {
+        .hidden-desktop {
+          display: none !important;
+        }
+
+        .display-desktop {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+    
+      </style>
+    </mj-raw>
+    
+    
+
+<mj-section background-color="#ffffff">
+<mj-column width="100%">
+<mj-text color="#646464" align="center" font-size="12px" padding="15px 0 15px 0">Se non visualizzi correttamente questa mail, <a href="<%syslink_message_read url='/public/read_message.jsp'%>" _label="Page miroir" _type="mirrorPage" target="_blank" class="link-nostyle" style="font-weight:bold;color:#646464"><span style="font-weight:bold;color:#646464">clicca qui</span></a>
+</mj-text>
+</mj-column>
+</mj-section>
+    <mj-section background-color="#000000" padding-bottom="10px">
+     <mj-column>
+    	<mj-image src="img/logo.png" width="114px" href="https://it.lorealaccess.com/learn?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo" padding="20px 0px 10px"></mj-image>
+     </mj-column>
+    </mj-section>
+    
+ 
+      <mj-section>
+     <mj-column>
+        <mj-image src="img/hero.png" href="https://it.lorealaccess.com/learn/catalog/view/627?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo"/> 
+       <mj-text line-height="32px" text-transform="uppercase" color="#000000" padding="30px 10px 5px" font-weight="700" font-size="27px">L’ESTATE È INIZIATA MA LA FORMAZIONE
+SU L’ORÉAL ACCESS NON SI FERMa</mj-text>
+       
+       <mj-text line-height="19px" color="#000" padding="0px 10px" font-weight="500" font-size="17px" text-transform="uppercase">Scopri tutti i nuovi corsi disponibili da questo mese</mj-text>
+       
+       <mj-button font-size="24px" href="https://it.lorealaccess.com/learn/catalog/view/627?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo" background-color="#f45f85" border-radius="0px" padding="30px 10px 30px" inner-padding="2px 55px" font-size="26px" line-height="40px">ENTRA ORA
+</mj-button>
+        </mj-column>
+    </mj-section>
+      
+      
+
+    
+    
+    
+<mj-section background-color="#f9f9f9">
+<mj-column>
+<mj-image fluid-on-mobile="true" href="https://it.lorealaccess.com/learn/course/38803/session/62074/multibrand-social-day-12-luglio-ore-10-17?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo" src="img/c1.png" width="300px"></mj-image> 
+</mj-column>
+<mj-column  vertical-align="middle" css-class="padding-change1">
+<mj-text line-height="26px" text-transform="uppercase" color="#000000" padding="40px 10px 5px" font-weight="700" font-size="22px" css-class="padding-change2">UNA GIORNATA <br/>
+EDUCATION DEDICATA<br/> 
+AL MONDO SOCIAL
+</mj-text>
+ <mj-text line-height="22px" color="#000000" padding="0px 10px" font-weight="500" font-size="18px" text-transform="uppercase"><b>6 incontri 6 tematiche</b>
+</mj-text>
+<mj-text line-height="20px" color="#000000" padding="0px 15px 40px" font-weight="500" font-size="17px" text-transform="uppercase">per imparare tutti i segreti 
+dei Social network Per far crescere il tuo business
+</mj-text>
+ <mj-button font-size="24px" href="https://it.lorealaccess.com/learn/course/38803/session/62074/multibrand-social-day-12-luglio-ore-10-17?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo" background-color="#f45f85" border-radius="0px" padding="6px 10px 10px" inner-padding="8px 42px" font-size="26px" >ISCRIVITI ORA
+</mj-button>
+</mj-column>
+</mj-section>    
+    
+<mj-section direction="rtl" background-color="#f9f9f9">
+<mj-column css-class="padding-change1">
+<mj-image fluid-on-mobile="true" href="https://it.lorealaccess.com/learn/course/39191/play/93447/video-diretta?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo" src="img/c2.png" width="300px"></mj-image> 
+</mj-column>
+<mj-column  vertical-align="middle" css-class="padding-change1">
+<mj-text line-height="26px" text-transform="uppercase" color="#000000" padding="20px 10px 15px" font-weight="700" font-size="22px">SCOPRI TUTTI I SEGRETI 
+DI CURL MANIFESTO<br/> 
+CON SALVO FILETTI
+</mj-text>
+<mj-text line-height="20px" color="#000000" padding="0px 10px 20px" font-weight="500" font-size="17px" text-transform="uppercase">Se ti sei perso la diretta del 
+6 giugno recuperala subito con il corso on-demand 
+su L’Oréal Access
+</mj-text>
+ <mj-button font-size="24px" href="https://it.lorealaccess.com/learn/course/39191/play/93447/video-diretta?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo" background-color="#f45f85" border-radius="0px" padding="0px 10px 15px" inner-padding="8px 42px" font-size="26px" >ISCRIVITI ORA
+</mj-button>
+</mj-column>
+</mj-section>   
+    
+<mj-section background-color="#f9f9f9">
+<mj-column css-class="padding-change1">
+<mj-image fluid-on-mobile="true" href="https://it.lorealaccess.com/learn/course/internal/view/elearning/39030/matrix-socolor-sync-pre-bonded?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo" src="img/c3.png" width="300px"></mj-image> 
+</mj-column>
+<mj-column  vertical-align="middle" css-class="padding-change1">
+<mj-text line-height="26px" text-transform="uppercase" color="#000000" padding="25px 10px 10px" font-weight="700" font-size="22px">UN VIAGGIO ALLA SCOPERTA DELLA PALETTE SOCOLOR SYNC BY MATRIX
+</mj-text>
+<mj-text line-height="20px" color="#000000" padding="0px 10px 20px" font-weight="500" font-size="17px" text-transform="uppercase">Mille usi e tantissime shades. Approfondisci le tecnologie con gli esperti Matrix e inizia 
+a creare le tue colorazioni!
+
+</mj-text>
+ <mj-button font-size="24px" href="https://it.lorealaccess.com/learn/course/internal/view/elearning/39030/matrix-socolor-sync-pre-bonded?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo" background-color="#f45f85" border-radius="0px" padding="0px 10px 10px" inner-padding="8px 42px" font-size="26px" css-class="padding-change3">ISCRIVITI ORA
+</mj-button>
+</mj-column>
+</mj-section>    
+    
+    
+    
+    
+<!--Footer Section -->
+    
+ <mj-wrapper>
+   <mj-section background-color="#000">
+   <mj-column width="85%">
+   <mj-text line-height="22px" color="#ffffff" padding="20px 15px" font-weight="500" font-size="15px" text-transform="uppercase" font-family="Arial">La formazione L’Oréal Prodotti Professionali è sempre
+con te grazie alle app L’Oréal Access per Android e iOs.</mj-text>  
+   </mj-column>
+   </mj-section>
+  	<mj-section background-color="#000">
+      	<mj-group>
+      	<mj-column>
+        	<mj-image align="right" href="https://play.google.com/store/apps/details?id=com.loreal.lorealaccess&hl=it?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo" padding="20px 0px 10px" width="130px" src="img/gplay.png"/> 
+        </mj-column>
+        <mj-column>
+        	<mj-image align="left" padding="20px 0px 10px" width="130px" src="img/astore.png" href="https://apps.apple.com/it/app/lor%C3%A9al-access/id1450759540?utm_source=crm&amp;utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo"/>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+   
+   <mj-section background-color="#000">
+   	<mj-column>
+     	<mj-image  padding="20px 0px 20px" src="img/footer-logo2.png" width="300px"href="https://it.lorealaccess.com/learn?utm_source=crm&utm_medium=email_multibrand&utm_campaign=social_days&utm_term=20210712&utm_content=education_filetti_mx_socolo"/> 
+     </mj-column>
+   </mj-section>
+ <mj-section padding="0px 20px" background-color="#000000">
+<mj-column width="90%">
+  <mj-text padding-bottom="40px" align="center" color="#ffffff" line-height="18px" font-size="12px">Hai ricevuto questa newsletter perché sei iscritto alla mailing list di L'Oréal Access.<br/></br/>Puoi prendere visione della Privacy Policy a <a href="https://signup-lorealaccess.azurewebsites.net/legal_docs/IT/PP-IT.pdf" class="link-nostyle" target="_blank" style="color:#ffffff;"><span style="color:#ffffff;">questo link.</span></a><br/> Se vuoi disiscriverti, <a href="<%unsubscribe_link_text%>" _label="Opt-out link" _type="optout" class="link-nostyle" target="_blank" style="color:#ffffff;"><span style="color:#ffffff;">clicca qui</a></mj-text>
+</mj-column>
+</mj-section>  
+  </mj-wrapper>
+  </mj-body>
+</mjml>

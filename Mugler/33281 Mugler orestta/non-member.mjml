@@ -1,0 +1,327 @@
+<mjml>
+
+<mj-head>
+
+<mj-attributes>
+<mj-body background-color="#FFF" width="640px"></mj-body>
+<mj-all padding="0px" font-family="Arial, sans-serif"></mj-all>
+<mj-section padding="0px"></mj-section>
+<mj-column padding="0px"></mj-column>
+<mj-image align="center" padding="0px"></mj-image>
+<mj-text padding="0px" align="center" font-family="Arial" font-size="18px" line-height="26px" color="#000"></mj-text>
+<mj-button padding="0px" align="center" font-size="14.3px" color="#FFF" border-radius="0px" background-color="#1C213F"/>
+<mj-class name="centered" align="center"></mj-class>
+<mj-class
+name="mirror"
+font-size="10px"
+color="#FFF"/>
+<mj-class
+name="privacy"
+line-height="16px"
+font-size="12px"
+color="#646464"/>
+<mj-class
+name="privacy-bold"
+line-height="16px"
+font-weight="bold"
+font-size="12px"
+color="#646464"/>
+<mj-class
+name="title"
+font-size="18px"
+text-transform="uppercase"
+font-weight="800"
+color="#1C213F"/>
+<mj-class
+name="big"
+line-height="35px"
+font-size="25px"
+text-transform="uppercase"
+font-weight="700"
+color="#1C213F"/>
+<mj-class
+name="product"
+font-size="20px" 
+font-weight="800"
+color="#1C213F"
+text-transform="uppercase"/>
+<mj-class
+name="product-gray"
+align="left"
+padding-left="30px"
+padding-bottom="60px"
+font-size="16px"
+line-height="20px"
+color="#9d9d9d"/>
+<mj-class
+name="normal-gray"
+font-size="16px"
+color="#9d9d9d"/>
+
+</mj-attributes>
+<mj-style>
+.link-nonstyle{
+color: inherit; text-decoration: none !important;
+}
+a:link{
+color: inherit; text-decoration: none;
+}
+a:visited{
+color:#inherit; text-decoration: none;
+}
+
+
+@media only screen and (max-width:480px) {
+.hidden-mobile {
+display: none !important;
+}
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+
+.social-padding-change td{
+padding:0px 5px!important;
+}
+
+.width-fix {
+max-width: 280px!important;
+}
+
+.maintitle-change, .maintitle-change div {
+font-size:24px!important;
+mso-line-height-rule:exactly;
+line-height:28px!important;
+}  
+
+.title-change, .title-change div {
+font-size:20px!important;
+mso-line-height-rule:exactly;
+line-height:24px!important;
+}
+  
+.font-change1, .font-change1 div {
+font-size:16px!important;
+mso-line-height-rule:exactly;
+line-height:22px!important;
+}
+  
+.font-change2, .font-change2 div {
+font-size:14px!important;
+mso-line-height-rule:exactly;
+line-height:20px!important;
+}
+}
+
+
+@media only screen and (min-width:479px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+}
+</mj-style>
+</mj-head>
+
+
+<mj-body width="600px" background-color="#ffffff">
+<mj-raw>
+<!-- Header Start -->
+</mj-raw>
+<mj-section padding-bottom="40px">
+<mj-column>
+
+<mj-text mj-class="centered" font-size="11px" line-height="14px" color="#716e72" padding="15px 10px 0px 10px"> <a href="#" style="color:#716e72;text-decoration:none;"><span style="color:#716e72;text-decoration:none;"><u>Scopri Le Cercle.
+</u></span></a><br/>
+Per essere sicuro di ricevere tutte le nostre email, aggiungi 
+</mj-text>
+<mj-text mj-class="centered" font-size="11px" line-height="14px" color="#716e72" padding="0px 10px 0px 10px">
+<a href="mailto:MUGLER@news.mugler.com" style="color:#716e72;text-decoration:none;"><span style="color:#716e72;text-decoration:none;"><u>MUGLER@news.mugler.com</u></span></a> alla tua rubrica. <a href="<%@ include view='MirrorPageUrl'%>" style="color:#716e72;text-decoration:none;"><span style="color:#716e72;text-decoration:none;"><u>Versione Web</u></span></a>.
+</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-raw>
+<!-- Header End -->
+</mj-raw>
+
+
+  
+<mj-wrapper background-color="#000" padding="0px 0px 40px 0px">
+  
+<mj-section >
+<mj-column >
+<mj-image width="336px"  padding="60px 20px 0px" src="img/logo.png" href="https://www.mugler.it/it/profumi-e-fragranze?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm"></mj-image>
+</mj-column>
+</mj-section>  
+  
+<mj-section>
+<mj-column >
+
+<mj-image width="600px" padding="30px 0px 0px 0px" src="img/main.png" href="https://www.mugler.it/it/programma-fedelta-le-cercle/the-circle-loyalty-program.html?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm
+"/>
+</mj-column>
+</mj-section>
+  
+  
+<mj-section padding-bottom="70px" background-color="#fff">
+<mj-column width="85%">
+<mj-text font-weight="800" font-size="35px" line-height="40px" padding="55px 0px 30px">PARTECIPA A LE CERCLE PER VIVERE A PIENO
+LA TUA PASSIONE
+PER MUGLER</mj-text>
+<mj-text padding="0px 10px 30px 10px" line-height="26px" color="#000" css-class="font-change1">
+<span style="font-size:22px;mso-line-height-rule:exactly;line-height:35px;" class="font-change1">
+Acquista un prodotto Mugler dal 1 Marzo al 31 Dicembre 2021, oppure effettua una ricarica della fragranza alla Fontana Mugler, e avrai diritto, sulla base dei prodotti acquistati ad un regalo composto da una fragranza Angel/Alien da 1,2ML,  e da una Body Lotion Angel/Alien da 30ml.  
+</span>
+</mj-text>
+<mj-button width="300px" letter-spacing="1px" text-transform="uppercase" border-radius="0px"  inner-padding="20px 0px" href="https://www.mugler.it/it/il-mio-account?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" color="#fff" background-color="#000" text-decoration="none" font-weight="500" line-height="24px" ><span style="font-size:18px;mso-line-height-rule:exactly;line-height:24px;" class="font-change2">ISCRIVITI ORA!</span></mj-button>
+</mj-column>
+</mj-section>  
+  
+  
+<mj-section>
+<mj-column>
+  <mj-image padding-top="60px"  src="img/main02.png" href="https://www.mugler.it/it/programma-fedelta-le-cercle/the-circle-loyalty-program.html?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm"/>
+  <mj-text padding="20px 10px 30px 10px" line-height="26px" color="#fff" css-class="font-change1">
+<span style="font-size:22px;mso-line-height-rule:exactly;line-height:35px;" class="font-change1">
+Per richiedere il regalo pensato a te, collegati al sito Mugler.it entro il 31/12/2021, registrati ed inserisci il codice unico,  presente nella confezione del prodotto acquistato, oppure la ricevuta della ricarica effettuata alla Fontana Mugler.<br/><br/>Operazione a premi “LE CERCLE MUGLER” valida
+dal 01.03.2021 al 31.12.2021. Regolamento integrale e disponibile  su Mugler.it
+</span>
+</mj-text>
+  <mj-button width="300px" border="1px solid #fff" letter-spacing="1px" text-transform="uppercase" border-radius="0px"  inner-padding="20px 0px" href="https://www.mugler.it/it/il-mio-account?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" color="#fff" background-color="#000" text-decoration="none" font-weight="500" line-height="24px" ><span style="font-size:18px;mso-line-height-rule:exactly;line-height:24px;" class="font-change2">LEGGI IL REGOLAMENTO</span></mj-button>
+  <mj-image padding-top="50px" src="img/main03.png" href="https://www.mugler.it/on/demandware.store/Sites-NGMugler-ILM-Site/it/Search-ShowContent?fdid=blog-category-inside-the-circle-mag&utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm"/>
+<mj-text padding="60px 10px 30px 10px" line-height="26px" color="#fff" css-class="font-change1">
+<span style="font-size:22px;mso-line-height-rule:exactly;line-height:35px;" class="font-change1">
+Scopri tutti i segreti MUGLER<br/>
+ed i contenuti esclusivi del<br/>
+MAGAZINE LE CERCLE
+</span>
+</mj-text>
+  <mj-button width="300px" border="1px solid #fff" letter-spacing="1px" text-transform="uppercase" border-radius="0px"  inner-padding="20px 0px" href="https://www.mugler.it/on/demandware.store/Sites-NGMugler-ILM-Site/it/Search-ShowContent?fdid=blog-category-inside-the-circle-mag&utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" color="#fff" background-color="#000" text-decoration="none" font-weight="500" line-height="24px" ><span style="font-size:18px;mso-line-height-rule:exactly;line-height:24px;" class="font-change2">Scopri di più</span></mj-button>
+</mj-column>
+</mj-section> 
+  
+  
+
+ 
+
+  
+</mj-wrapper>
+
+ 
+  
+  
+ 
+  
+  
+
+  
+<mj-raw>
+<!-- Footer Start -->
+</mj-raw>
+
+<mj-section padding="0px 20px 20px 20px">
+<mj-column>
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://www.mugler.it/it/fragranze/?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+FRAGRANZE
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://www.mugler.it/it/collezioni-moda/fashion.html?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+MODA
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-table cellpadding="0" cellspacing="0" width="130px" align="center" padding="20px 5px 20px 5px">
+<tr>
+<td width="20" height="20" style="width:20px;height:20pxtext-align:center;">
+<img src="img/star.png" width="10"style="width:10px;display:block;mso-line-height-rule:at-least;line-height:20px;"></img>
+</td>
+<td align="center" width="100" style="width;100px;text-align:center;">
+<a href="https://www.mugler.it/it/programma-fedelta-le-cercle/the-circle-loyalty-program.html?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" style="color:#000000;text-decoration:none;text-align:center;">
+<span style="color:#000000;text-decoration:none;font-size:16px;line-height:16px;text-align:center;">
+LE CERCLE
+</span>
+</a>
+</td>
+</tr>
+</mj-table>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="20px 10px 20px 10px" font-size="16px" line-height="20px">
+<a href="https://www.mugler.it/on/demandware.store/Sites-NGMugler-ILM-Site/it/Search-ShowContent?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+IL MAG
+</span>
+</a>
+</mj-text>
+
+<mj-divider border-color="#ebebeb" border-width="1px"></mj-divider>
+
+<mj-text mj-class="centered whited" padding="20px 10px 0px 10px" font-size="16px" line-height="20px">
+<a href="https://www.mugler.it/it/visione-mugler/vision.html?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_others_text_aw&utm_campaign=mug_frag_others_others-crm" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">
+L'UNIVERSO MUGLER</span>
+</a>
+</mj-text>
+
+</mj-column>
+</mj-section>
+
+<mj-raw>
+<!-- Footer Start -->
+</mj-raw>
+<mj-section background-color="#111111" padding="40px 16px 40px 16px">
+<mj-column>
+<mj-image padding="10px 10px 0px 10px" src="img/logo-white.png" width="90px" href="https://it.mugler.com/?utm_source=crm&utm_medium=email_brand&utm_content=mug_frag_range_text_aw&utm_campaign=mug_frag_range_other_sisterhoodbiotherm&cin=<%= recipient.record_id %>"></mj-image>
+
+<mj-social mode="horizontal" icon-size="26px" padding="46px 6px 56px 6px">
+<mj-social-element href="https://twitter.com/Mugler" src="img/social-twitter.png" padding="0px 35px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.facebook.com/Mugler.it" src="img/social-fb.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.youtube.com/user/MuglerOfficial" src="img/social-yt.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.pinterest.it/muglerofficial/_created/" src="img/social-pinterest.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+<mj-social-element href="https://www.instagram.com/muglerofficial/" src="img/social-ig.png" padding="0px 34px" css-class="social-padding-change"></mj-social-element>
+</mj-social>
+<mj-text mj-class="centered" color="#FFFAFA" font-size="12px" line-height="14px">
+<a href="https://www.mugler.it/it/servizio-clienti/informativa-sulla-privacy/customer-service-privacy-policy.html" style="color:#FFFAFA;text-decoration:none;">
+<span style="color:#FFFAFA;text-decoration:none;">
+<u>privacy policy</u>
+</span>
+</a>&nbsp;|&nbsp;
+<a href="https://www.mugler.it/it/servizio-clienti/contattaci/customer-service-contact-us.html" style="color:#FFFAFA;text-decoration:none;">
+<span style="color:#FFFAFA;text-decoration:none;">
+<u>contattaci</u>
+</span>
+</a>&nbsp;|&nbsp;
+<a href="<%@ include view='ALL_LLD_Mugler_UnsubWebApp' %>" style="color:#FFFAFA;text-decoration:none;">
+<span style="color:#FFFAFA;text-decoration:none;">
+<u>disiscriviti</u>
+</span>
+</a>
+</mj-text>
+</mj-column>
+</mj-section>
+<mj-raw>
+<!-- Footer End -->
+</mj-raw>
+
+<mj-raw>
+<!-- Footer End -->
+</mj-raw>
+</mj-body>
+</mjml>

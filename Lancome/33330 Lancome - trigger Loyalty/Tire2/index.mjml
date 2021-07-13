@@ -1,0 +1,388 @@
+<mjml>
+<mj-head>
+<mj-preview>Dai il benvenuto all'estate
+</mj-preview>
+<mj-attributes>
+<mj-body width="600px" background-color="#FFF"/>
+<mj-all font-family="Arial, sans-serif"></mj-all>
+<mj-section padding="0px"></mj-section>
+<mj-column padding="0px"></mj-column>
+<mj-text padding="0px" font-size="16px" align="center" font-family="Arial, sans-serif"></mj-text>
+<mj-divider padding="0px"  border-width="1px" border-color="#CFCFCF" />
+<mj-image padding="0px"></mj-image>
+<mj-button align="left" padding="0px" color="#FFF" background-color="#000" border-radius="0px"></mj-button>
+<mj-class name="footer-text" font-size="12px" color="#999999" line-height="12px"/>      
+</mj-attributes>
+
+<mj-style inline="inline">
+.bordered-right {
+border-right: 1px solid #000000;
+mso-border-alt: none!important;
+}
+
+.bordered-right2 {
+border-right: 1px solid #DADADA;
+mso-border-alt: none!important;
+}
+
+.bordered-left {
+border-left: 1px solid #000000;
+mso-border-alt: none!important;
+}
+
+.bordered-bottom {
+border-bottom: 1px solid #DADADA;
+mso-border-alt: none!important;
+}
+</mj-style>
+<mj-style>
+a:link{
+color: inherit; text-decoration: none;
+}
+a:visited{
+color:#inherit; text-decoration: none;
+}
+
+.width-mobile {
+width: 49%!important;
+}
+
+@media only screen and (max-width:490px) {
+.hidden-mobile {
+display: none !important;
+}
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+
+.width-fix {
+max-width:280px;
+}
+
+.border-hide {
+border-right:0px!important;	
+}
+
+.reset-height div {
+height:auto!important;
+}
+  
+.font-change, .font-change div {
+font-size:24px!important;
+mso-line-height-rule:exactly;
+line-height:30px!important;
+}
+  
+.font-change2, .font-change2 div {
+font-size:18px!important;
+mso-line-height-rule:exactly;
+line-height:24px!important;
+}
+.padding-change1{
+padding-top:10px;  
+}
+}
+
+@media only screen and (min-width:490px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+}
+</mj-style>
+</mj-head>
+<mj-body width="600px">
+
+<mj-raw>
+<style>
+a:link{
+color: inherit; text-decoration: none;
+}
+a:visited{
+color:#inherit; text-decoration: none;
+}
+
+.width-mobile {
+width: 49%!important;
+}
+
+@media only screen and (max-width:490px) {
+.hidden-mobile {
+display: none !important;
+}
+
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+
+.width-fix {
+max-width:280px;
+}
+
+.border-hide {
+border-right:0px!important;	
+}
+
+.reset-height div {
+height:auto!important;
+}
+  
+.font-change, .font-change div {
+font-size:24px!important;
+mso-line-height-rule:exactly;
+line-height:30px!important;
+}
+  
+.font-change2, .font-change2 div {
+font-size:18px!important;
+mso-line-height-rule:exactly;
+line-height:24px!important;
+}
+.padding-change1{
+padding-top:10px;  
+}
+}
+
+@media only screen and (min-width:490px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+}
+</style>
+</mj-raw>
+
+<mj-section padding="0px">
+<mj-raw>
+<!--[if !mso | !IE]><!-->
+<div class="display-mobile" style="overflow: hidden; display: none;">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+<div style="margin:0px auto;max-width:600px;">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:top;padding:10px 0px;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+
+<tr>
+<td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+
+<div style="font-family:Arial;font-size:12px;line-height:1;text-align:center;color:#000000;"><a href="<%@ include view='ALL_LLD_Lancome_MirrorPageUrl' %>" style="color:#000000;text-decoration:none;">
+<span style="color:#000000;text-decoration:none;">Visualizza tramite browser
+</span>
+</a></div>
+
+</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<div style="background:#E0B177;background-color:#E0B177;margin:0px auto;max-width:600px;">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#E0B177;background-color:#E0B177;width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+
+<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:top;padding:10px 0px;">
+
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+
+<tr>
+<td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+
+<div style="font-family:Arial;font-size:12px;line-height:1;text-align:center;color:#000000;"><b>Spedizione gratuita</b> a partire da 50€ d'acquisto</div>
+
+</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<!--<![endif]-->
+</mj-raw>
+<mj-raw>
+<!-- END MOBILE -->
+</mj-raw>
+</mj-section>
+
+<mj-section background-color="#E0B177" css-class="hidden-mobile">
+<mj-column padding="10px 0px">
+<mj-text mj-class="centered" font-size="12px" line-height="20px"><b>Spedizione gratuita</b> a partire da 50€ d’acquisto | <a href="<%@ include view='ALL_LLD_Lancome_MirrorPageUrl' %>" style="color:#000000;text-decoration:none;"><span style="color:#000000;text-decoration:none;">Visualizza tramite browser
+</span></a></mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section padding-top="10px">
+<mj-column>
+<mj-image src="img/logo.jpg" width="125px"href="https://www.lancome.it/?cin=<%= recipient.record_id %>"></mj-image>
+</mj-column>
+</mj-section>
+
+  
+<mj-raw>
+<!-- INIZIO MENU -->
+</mj-raw>
+<mj-section>
+<mj-column width="100%" padding="0px">
+<mj-navbar padding="0px 0px 0px 0px">
+<mj-navbar-link font-size="12px" href="https://www.lancome.it/make-up/?utm_source=crm&utm_medium=email_trigger&utm_content=lan_brde_branding_text_aw&utm_campaign=lan_brde_branding_menu_make-up&cin=<%= recipient.record_id %>" color="#242424" padding-top="10px">MAKE-UP</mj-navbar-link>
+<mj-navbar-link font-size="12px" href="https://www.lancome.it/trattamenti/?utm_source=crm&utm_medium=email_trigger&utm_content=lan_brde_branding_text_aw&utm_campaign=lan_brde_branding_menu_trattamenti&cin=<%= recipient.record_id %>" color="#242424" padding-top="10px">TRATTAMENTI</mj-navbar-link>
+<mj-navbar-link font-size="12px" href="https://www.lancome.it/fragranze/?utm_source=crm&utm_medium=email_trigger&utm_content=lan_brde_branding_text_aw&utm_campaign=lan_brde_branding_menu_fragranze&cin=<%= recipient.record_id %>" color="#242424" padding-top="10px">FRAGRANZE</mj-navbar-link>
+<mj-navbar-link font-size="12px" href="https://www.lancome.it/best-seller/?utm_source=crm&utm_medium=email_trigger&utm_content=lan_brde_branding_text_aw&utm_campaign=lan_brde_branding_menu_best-seller&cin=<%= recipient.record_id %>" color="#242424" padding-top="10px">BEST-SELLER</mj-navbar-link>
+<mj-navbar-link font-size="12px" href="https://www.lancome.it/landing-page/it-it---e-services/?utm_source=crm&utm_medium=email_trigger&utm_content=lan_brde_branding_text_aw&utm_campaign=lan_brde_branding_menu_servizi-online&cin=<%= recipient.record_id %>" color="#242424" padding-top="10px">SERVIZI ONLINE</mj-navbar-link>
+</mj-navbar>
+</mj-column>
+</mj-section>
+<mj-section background-color="#000000" padding="10px">
+<mj-column>
+<mj-text font-size="13px" line-height="15px" vertical-align="middle" color="#ffffff" padding="0px 30px">Gentile Membro del Lancôme Élite Club (se non c’è il nome)</mj-text>  
+</mj-column>  
+</mj-section>
+<mj-raw>
+<!-- END OF HEADER -->
+</mj-raw>  
+  
+  
+
+<mj-section>
+<mj-column width="90%">
+ <mj-text padding="25px 10px 0px 10px" font-family="Times" color="#D51B51" align="center" text-transform="uppercase" font-size="30px" line-height="36px">COMPLIMENTI!<br/>
+UN'ALTRA SORPRESA TI ASPETTA</mj-text>
+
+  <mj-text padding="10px 20px 25px 20px" font-size="17px" align="center" line-height="19px" vertical-align="middle">Hai diritto ad un  <b>nuovo prodotto in omaggio</b> con il tuo prossimo acquisto. Ti basterà usare il tuo codice al momento del pagamento su <a style="color:#000000; text-decoration:none;"><span style="color:#000000; text-decoration:none;">lancome.it</span></a> e scegliere il tuo preferito tra una selezione di prodotti.<br></br>Il tuo codice speciale:<span style="color:#D51B51;font-weight:bold">XXX</span></mj-text>
+<mj-button href="https://www.lancome.it/best-seller/?utm_source=crm&utm_medium=email_trigger&utm_content=lan_brde_branding_text_cv&utm_campaign=lan_brde_branding_tier-2-loyalty&cin=<%= recipient.record_id %>" font-size="16px" align="center" border-radius="3px" text-transform="uppercase" line-height="18px" inner-padding="12px 63px">PREMIATI
+</mj-button>
+</mj-column>
+</mj-section>  
+  
+  
+<mj-section padding="0px 0px 10px 0px" css-class="padding-change1">
+<mj-column>
+<mj-image src="img/hero-half.png" href="https://www.lancome.it/loyalty-program/?utm_source=crm&utm_medium=email_trigger&utm_content=lan_brde_branding_text_cv&utm_campaign=lan_brde_branding_tier-2-loyalty&cin=<%= recipient.record_id %>"></mj-image>
+</mj-column>
+</mj-section> 
+<mj-raw>
+<!-- START OF FOOTER -->
+</mj-raw>
+<mj-section padding="30px" background-color="#F6F6F6">
+<mj-column>
+  <mj-text color="#000000" align="center" font-size="18px" font-weight="bold" >4 MOTIVI PER ACQUISTARE SU <a style="color:#000000; text-decoration:none;"><span style="color:#000000; text-decoration:none;">LANCOME.IT</span></a></mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#F6F6F6">
+<mj-group>
+<mj-column background-color="#F6F6F6" css-class="width-mobile">
+<mj-image src="img/consegna_gratuita-2.png" width="70px" padding-top="10px"></mj-image>
+<mj-text padding="16px 0px" text-transform="uppercase" font-weight="bold" font-size="13px" line-height="18px">Consegna <br/>gratuita</mj-text>
+</mj-column>
+<mj-column background-color="#F6F6F6">
+<mj-image src="img/campioni_deluxe-2.png" width="70px" padding-top="10px"></mj-image>
+<mj-text padding="16px 0px" text-transform="uppercase" font-weight="bold" font-size="13px" line-height="18px">Campioni <br/>deluxe</mj-text>
+</mj-column>
+</mj-group>
+
+<mj-group>
+<mj-column background-color="#F6F6F6">
+<mj-image src="img/pagamenti_sicuri-2.png" width="70px" padding-top="10px"></mj-image>
+<mj-text padding="16px 0px" text-transform="uppercase" font-weight="bold" font-size="13px" line-height="18px">Pagamento <br/>sicuro</mj-text>
+</mj-column>
+<mj-column background-color="#F6F6F6" css-class="width-mobile">
+<mj-image src="img/confezione_regalo-2.png" width="70px" padding-top="10px"></mj-image>
+<mj-text padding="16px 0px" text-transform="uppercase" font-weight="bold" font-size="13px" line-height="18px">Confezione <br/>regalo</mj-text>
+</mj-column>
+</mj-group>
+
+</mj-section>
+  
+<mj-section>
+<mj-column>
+<mj-social inner-padding="0px 10px 0px " mode="horizontal" icon-size="27px" padding="20px 0px 10px 0px">
+<mj-social-element target="_blank" src="img/facebook.png" href="https://www.facebook.com/LancomeItalia/"></mj-social-element>
+<mj-social-element target="_blank" src="img/twitter.png" href="https://twitter.com/lancomeitalia"></mj-social-element>
+<mj-social-element target="_blank" src="img/instagram.png" href="https://www.instagram.com/lancomeofficial/"></mj-social-element>
+<mj-social-element target="_blank" src="img/youtube.png" href="https://www.youtube.com/c/lancomeitalia"></mj-social-element>
+</mj-social>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#D51B51" padding="8px 10px 8px 10px">
+<mj-group>
+<mj-column>
+<mj-text font-size="10px" line-height="12px" font-weight="bold" text-transform="uppercase" align="center">
+<a href="https://www.lancome.it/modiface-trova-il-tuo-finish/?cin=<%= recipient.record_id %>" style="color:#ffffff;text-decoration:none;"><span style="color:#ffffff;text-decoration:none;">VIRTUAL TRY-ON | PROVA IL TUO MAKE-UP ONLINE</span></a>
+</mj-text>
+</mj-column>
+</mj-group>
+</mj-section>
+
+<mj-section>
+<mj-column >
+<mj-text mj-class="footer-text" padding="20px 25px 50px 25px" font-size="11px" line-height="14px">
+Se non desideri più ricevere le newsletter Lancôme, <a href="<%@ include view='ALL_LLD_Lancome_UnsubWebApp' %>" _label="Opt-out link" _type="optout" target="_blank" style="color:#999999; text-decoration:none;"><span style="color:#999999; text-decoration:none;font-weight:bold;"><u>clicca qui</u></span></a> .<br/>
+Per qualsiasi consiglio riguardante Lancôme e i nostri prodotti contattaci scrivendo a <a href="mailto:servizioconsumatorilancome@it.loreal.com" style="color:#999999; text-decoration:none;"><span style="color:#999999; text-decoration:none;">servizioconsumatorilancome@it.loreal.com</span></a></mj-text>
+</mj-column>
+</mj-section>
+
+</mj-body>
+</mjml>

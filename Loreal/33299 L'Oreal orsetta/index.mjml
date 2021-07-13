@@ -1,0 +1,210 @@
+<mjml>
+  <mj-head>
+    <mj-preview>Hai mai pensato ad un balsamo con un tocco di Colore?</mj-preview>
+   <mj-attributes>
+      <mj-all align="center" padding="0px" font-family="Arial, sans-serif"></mj-all>
+			<mj-class name="centered" align="center"></mj-class>
+  		<mj-class name="blacked" color="#000000"></mj-class>
+      <mj-class name="whited" color="#ffffff"></mj-class>
+      <mj-class name="bolded" font-weight="bold"></mj-class>
+      <mj-class name="mirror" color="#928f8f"></mj-class>
+     	<mj-class name="f11" font-size="11px"></mj-class>
+      <mj-class name="f14" font-size="14px"></mj-class>
+      <mj-class name="f16" font-size="16px"></mj-class>
+      <mj-class name="f24" font-size="24px"></mj-class>
+      <mj-class name="f25" font-size="25px"></mj-class>
+      <mj-class name="f30" font-size="30px"></mj-class>
+   </mj-attributes>
+   <mj-style inline="inline">a { text-decoration: underline; color: inherit; }</mj-style>
+    <mj-style>
+      a:link{
+      color: inherit; text-decoration: none;
+      }	
+      a:visited{
+      color:#inherit; text-decoration: none;
+      }
+      
+      .font-change{
+      	font-size:30px;
+      	
+      }
+
+     	@media only screen and (max-width: 480px) {
+        .hidden-mobile {
+          display: none !important;
+        }
+
+        .display-mobile {
+          display: block !important;
+          max-height: none !important;
+        }
+      
+   		 .font-change-menu {
+      	 font-size:8px!important;
+        }
+      .font-change{
+      	font-size:25px;
+      }
+      .width-fix {
+       max-width:255px;
+     }
+
+      }
+     
+      @media only screen and (min-width: 481px) {
+        .hidden-desktop {
+          display: none !important;
+        }
+
+        .display-desktop {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+    
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-raw>
+    	<style>
+      	 a:link{
+      color: inherit; text-decoration: none;
+      }	
+      a:visited{
+      color:#inherit; text-decoration: none;
+      }
+
+     	@media only screen and (max-width: 480px) {
+        .hidden-mobile {
+          display: none !important;
+        }
+
+        .display-mobile {
+          display: block !important;
+          max-height: none !important;
+        }
+      
+   		 .font-change-menu {
+      	 font-size:8px!important;
+        }
+        .font-change{
+      	font-size:25px;
+      }
+        
+       .font-change {
+      	 font-size:25px!important;
+        }
+        .width-fix {
+       max-width:255px;
+     }
+      }
+     
+      @media only screen and (min-width: 481px) {
+        .hidden-desktop {
+          display: none !important;
+        }
+
+        .display-desktop {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+    
+      </style>
+    </mj-raw>
+    
+    <
+  	
+  
+  
+    <mj-section background-color="#000000" padding-bottom="10px">
+     <mj-column>
+    	<mj-image src="img/logo.png" width="114px" href="#" padding="20px 0px 10px"></mj-image>
+     </mj-column>
+    </mj-section>
+    
+  
+   
+  
+    
+    
+      
+      
+      <mj-section>
+     <mj-column>
+       <mj-image src="img/image.png" href="https://it.lorealaccess.com/learn/course/internal/view/elearning/39687/biolage-colorbalm-i-conditioner-di-biolage-che-ami-ora-con-un-tocco-colore"/>   
+       <mj-text line-height="35px" text-transform="uppercase" css-class="hidden-mobile"  color="#93bb55" padding="30px 0px" font-weight="700" font-size="30px">I BALSAMI BIOLAGE CHE AMI,<br/> 
+ORA CON UN TOCCO DI COLORE IN PIù</mj-text>
+       <mj-raw>
+        <!-- MOBILE -->
+        <!--[if !mso | !IE]><!-->
+    </mj-raw>
+     <mj-text line-height="25px" text-transform="uppercase" css-class="hidden-desktop"  color="#93bb55" padding="30px 10px" font-weight="700" font-size="25px">I BALSAMI BIOLAGE CHE AMI,
+ORA CON UN TOCCO DI COLORE IN PIù</mj-text>
+    <mj-raw>
+        <!-- MOBILE CLOSING -->
+        <!--<![endif]-->
+    </mj-raw>
+       
+       <mj-text line-height="27px" color="#000" padding="0px 10px" font-weight="500" font-size="22px">Entra in L’Oréal Access e scopri le <b>7 nuove shades</b> 
+di <b>BIOLAGE COLORBALM</b> in un corso esclusivo.  </mj-text>
+       
+       <mj-button font-size="24px" href="https://it.lorealaccess.com/learn/course/internal/view/elearning/39687/biolage-colorbalm-i-conditioner-di-biolage-che-ami-ora-con-un-tocco-colore" background-color="#93BB55" border-radius="0px" padding="30px 10px 40px"> ISCRIVITI AL CORSO
+</mj-button>
+       <mj-image src="img/image02.png" href="https://it.lorealaccess.com/learn/course/internal/view/elearning/39687/biolage-colorbalm-i-conditioner-di-biolage-che-ami-ora-con-un-tocco-colore"/>
+        </mj-column>
+    </mj-section>
+      
+      
+    <mj-section>
+      <mj-column width="310px">
+        <mj-text  color="#000" padding="30px 10px 0px" font-weight="700" font-size="27px">Per essere contattato</mj-text>
+         <mj-text line-height="27px" color="#000" padding="0px 10px" font-weight="500" font-size="22px">dal tuo agente di zona e
+scoprire l’offerta esclusiva
+dedicata a te! </mj-text>
+      </mj-column>
+    </mj-section>
+  
+  
+ 
+  <mj-section>
+      <mj-column width="400px">
+               <mj-button text-transform="uppercase" width="240px" font-size="24px" href="https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3D2avh5MfqcUqrUtpcmYqnuvkQt8yH3ilNkeg8akmPJnlUNDc2OFJSU0UzMFc3SExOU1BKUTNEQTJGRC4u%26Token%3Df90539df29b34b53bba4d9f00822986b" background-color="#93BB55" border-radius="0px" padding="30px 10px 40px"> clicca qui
+</mj-button>
+      </mj-column>
+    </mj-section>
+   
+      
+  
+  	
+  
+  
+  
+  
+ <mj-wrapper>
+  	<mj-section background-color="#000">
+    	<mj-group>
+      	<mj-column>
+        	<mj-image align="right" href="#" padding="20px 0px 10px" width="130px" src="img/gplay.png" href="#"/> 
+        </mj-column>
+        <mj-column>
+        	<mj-image align="left" href="#" padding="20px 0px 10px" width="130px" src="img/astore.png" href="#"/>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+   
+   <mj-section background-color="#000">
+   	<mj-column>
+     	<mj-image  padding="20px 0px 30px" width="260px" src="img/logo-footer.png" href="#"/> 
+     </mj-column>
+   </mj-section>
+  </mj-wrapper>
+  
+  
+  
+      
+ 
+  </mj-body>
+</mjml>
