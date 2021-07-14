@@ -1,0 +1,277 @@
+<mjml>
+<mj-head>
+<mj-preview>#</mj-preview>
+<mj-attributes>
+<mj-all padding="0px" font-family="Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,Arial,sans-serif"></mj-all>
+<mj-class name="centered" align="center"></mj-class>
+<mj-class name="blacked" color="#000000"></mj-class>
+<mj-class name="whited" color="#ffffff"></mj-class>
+<mj-class name="bolded" font-weight="bold"></mj-class>
+<mj-class name="upped" text-transform="uppercase"></mj-class>
+</mj-attributes>
+
+<mj-style inline="inline">
+.center {
+text-align:center!important;
+}
+</mj-style>
+<mj-style>
+@media only screen and (min-width:480px) {
+.mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-49 { width:49% !important; max-width: 49%; }
+.mj-column-per-2 { width:2% !important; max-width: 2%; }
+.mj-column-per-20 { width:20% !important; max-width: 20%; }
+.mj-column-per-1 { width:1% !important; max-width: 1%; }
+.mj-column-per-50 { width:50% !important; max-width: 50%; }
+}  
+</mj-style>
+<mj-style>
+a:link{
+color: inherit; text-decoration: none;
+}	
+a:visited{
+color:inherit; text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+.hidden-mobile {
+display: none !important;
+}
+
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+  
+.menu-resize {
+font-size:13px!important;
+mso-line-height-rule:exactly;
+line-height:22px!important;
+}
+  
+.padding-menu {
+padding-right:10px!important;
+padding-left:10px!important;
+}
+  
+.width-fix {
+max-width: 240px!important;
+}
+  
+.font-change, .font-change div {
+font-size:20px!important;
+line-height:30px!important;
+}
+  
+.font-change2, .font-change2 div {
+font-size:13px!important;
+line-height:16px!important;
+}
+  
+.reset-height div {
+height:auto!important;
+}
+.background-change1 div{
+ background-color:#ffffff !important;
+ padding-top:10px;
+}
+.padding-change1{
+ padding-top:20px!important; 
+}
+}
+
+@media only screen and (min-width: 481px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+}
+
+</mj-style>
+</mj-head>
+
+<mj-body background-color="#ffffff" width="800px">
+  
+  <mj-section>
+  	<mj-column padding="15px">
+      <mj-text align="center" font-size="12px" color="#484649">
+        Se non visualizzi correttamente la newsletter clicca <a href="%%view_email_url%%" style="color:#484649;text-decoration:underline;"><span style="color:#484649;text-decoration:underline;">qui</span></a>. 
+       </mj-text>
+    	<mj-image src="img/logo.png" width="250px" href="https://miamo.com/?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21" />
+    </mj-column>
+  </mj-section>
+  
+
+  <mj-section direction="rtl" background-color="#f6e7d1" css-class="background-change1">  
+  <mj-column vertical-align="middle">
+  <mj-image href="https://" src="img/banner.png"></mj-image>  
+  </mj-column>
+  <mj-column  vertical-align="middle">
+    <mj-text font-size="30px" line-height="41px" align="center" text-transform="uppercase" color="#04567d"><b>Special edition!</b><br/>
+tre protocolli mirati</mj-text>
+  <mj-button   font-size="18px" line-height="28px" text-transform="uppercase" font-weight="bold" color="#ffffff" background-color="#04567d" border-radius="0" inner-padding="4px 10px" padding="20px 0px 0px 0px" width="200px" href="https://">	
+Scopri di più</mj-button>
+  </mj-column>
+  </mj-section>
+  
+  
+  <mj-section>
+  	<mj-column width="70%">
+   <mj-text align="center" font-size="25px" line-height="28px" text-transform="uppercase" color="#04567d" padding="45px 10px 30px 10px" font-weight="bold">Scopri i PROTOCOLLI DEL BENESSERE</mj-text>
+    	
+      <mj-text padding="0px 10px 55px 10px" align="center" font-size="20px" line-height="28px" color="#04567d" >
+      	<b>IN REGALO PER TE* </b> l'esclusiva skin pouch in cotone abbinata ai prodotti più adatti alle tue esigenze
+ </mj-text>
+    </mj-column>
+  </mj-section>
+  
+
+<mj-section>
+<mj-column vertical-align="middle">
+<mj-image src="img/card1.gif" href="https://"></mj-image>  
+</mj-column>
+<mj-column vertical-align="middle">
+<mj-text padding="0px 10px 0px 10px" font-size="24px" line-height="28px" color="#04567d" align="center" font-weight="bold" css-class="padding-change1">Protocollo Anti-aging</mj-text>
+<mj-text padding="15px 10px 0px 10px" font-size="18px" line-height="28px" color="#303030" align="center">
+Il kit Miamo con i migliori<br/> 
+4 prodotti per migliorare <br/>
+la visibilità dei segni<br/> dell'invecchiamento per una<br/> pelle distesa e ringiovanita.
+</mj-text>
+<mj-button   font-size="18px" line-height="28px" text-transform="uppercase" font-weight="bold" color="#ffffff" background-color="#04567d" border-radius="0" inner-padding="4px 10px" padding="20px 0px 0px 0px" width="200px" href="https://">	
+Acquista ora</mj-button>
+</mj-column>
+</mj-section>
+ 
+<mj-section direction="rtl" padding-top="50px">
+<mj-column vertical-align="middle">
+<mj-image src="img/card2.gif" href="https://"></mj-image>  
+</mj-column>
+<mj-column vertical-align="middle">
+<mj-text padding="0px 10px 0px 10px" font-size="24px" line-height="28px" color="#04567d" align="center" font-weight="bold" css-class="padding-change1">Protocollo Acne Tardiva</mj-text>
+<mj-text padding="15px 10px 0px 10px" font-size="18px" line-height="28px" color="#303030" align="center">
+La combinazione di prodotti<br/>ideata per aiutare a purificare la<br/> pelle del viso e ridurre la visibilità<br/> delle imperfezioni.
+</mj-text>
+<mj-button   font-size="18px" line-height="28px" text-transform="uppercase" font-weight="bold" color="#ffffff" background-color="#04567d" border-radius="0" inner-padding="4px 10px" padding="20px 0px 0px 0px" width="200px" href="https://">	
+Acquista ora</mj-button>
+</mj-column>
+</mj-section>
+  
+<mj-section padding-top="50px">
+<mj-column vertical-align="middle">
+<mj-image src="img/card3.gif" href="https://"></mj-image>  
+</mj-column>
+<mj-column vertical-align="middle">
+<mj-text padding="0px 10px 0px 10px" font-size="24px" line-height="28px" color="#04567d" align="center" font-weight="bold" css-class="padding-change1">Protocollo Arrossamento</mj-text>
+<mj-text padding="15px 10px 0px 10px" font-size="18px" line-height="28px" color="#303030" align="center">
+I prodotti ideali per aiutare a<br/> lenire e idratare la pelle sensibile<br/> e secca di tutta la famiglia.
+</mj-text>
+<mj-button   font-size="18px" line-height="28px" text-transform="uppercase" font-weight="bold" color="#ffffff" background-color="#04567d" border-radius="0" inner-padding="4px 10px" padding="20px 0px 0px 0px" width="200px" href="https://">	
+Acquista ora</mj-button>
+</mj-column>
+</mj-section>  
+  
+  
+<mj-section>
+<mj-column>
+<mj-text padding="45px 10px 45px 10px" font-size="16px" line-height="22px" color="#04567d" align="center">*Offerta valida fino ad esaurimento scorte. Online e nelle farmacie aderenti.</mj-text>
+</mj-column>  
+</mj-section> 
+  
+  
+  
+  
+
+
+  
+  
+
+
+  
+
+  
+    
+  
+<mj-wrapper background-color="#edf3f6">
+
+<mj-section>
+<mj-column>
+<mj-text text-transform="uppercase" align="center" color="#04567d"line-height="28px" font-weight="bold" padding="40px 15px 20px" css-class="font-change">
+  <span class="font-change" style="font-size:27px;mso-line-height-rule:exactly;line-height:28px;">i nostri vantaggi online</span>
+</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section padding="20px">
+<mj-group>
+<mj-column padding="20px 0px" vertical-align="top">
+<mj-image src="img/assistance.png" width="76px" href="https://miamo.com/contact?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21" />
+<mj-text line-height="18px" color="#04567d" align="center" padding="20px 10px 0px" height="80px" css-class="font-change2 reset-height">
+<a href="https://miamo.com/contact?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21" style="color:#04567d;text-decoration:none;"><span style="color:#04567d;text-decoration:none;font-size:15px;mso-line-height-rule:exactly;line-height:18px;" class="font-change2">Assistenza durante
+l’acquisto su chat
+o 800 192 714</span></a>
+</mj-text>
+</mj-column>
+<mj-column padding="20px 0px" vertical-align="top">
+<mj-image src="img/scalepay.png" width="76px" href="https://miamo.com/lp/scalapay/index.php?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21" />
+<mj-text line-height="18px" color="#04567d" align="center" padding="20px 10px 0px" height="80px" css-class="font-change2 reset-height">
+<a href="https://miamo.com/lp/scalapay/index.php?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21" style="color:#04567d;text-decoration:none;"><span style="color:#04567d;text-decoration:none;font-size:15px;mso-line-height-rule:exactly;line-height:18px;" class="font-change2">Pagamento <br/>a rate con</br> Scalapay</span></a>
+</mj-text>
+</mj-column>
+</mj-group>
+<mj-group>
+<mj-column padding="20px 0px" vertical-align="top">
+<mj-image src="img/icon2.png" width="76px" href="https://miamo.com/ordini-e-pagamenti?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21"/>
+<mj-text line-height="18px" color="#04567d" align="center" padding="20px 10px 0px" height="80px" css-class="font-change2 reset-height">
+<a href="https://miamo.com/ordini-e-pagamenti?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21" style="color:#04567d;text-decoration:none;"><span style="color:#04567d;text-decoration:none;font-size:15px;mso-line-height-rule:exactly;line-height:18px;" class="font-change2">Consegna gratuita<br/>
+in Italia su tutti<br/>
+gli ordini</span></a>
+</mj-text>
+</mj-column>
+<mj-column padding="20px 0px" vertical-align="top">
+<mj-image src="img/icon3.png" width="76px" href="https://miamo.com/?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21"/>
+<mj-text line-height="18px" color="#04567d" align="center" padding="20px 10px 0px" height="80px" css-class="font-change2 reset-height">
+<a href="https://miamo.com/?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21" style="color:#04567d;text-decoration:none;font-size:15px;mso-line-height-rule:exactly;line-height:18px;" class="font-change2"><span style="color:#04567d;text-decoration:none;">Campioni esclusivi</br>
+  con qualsiasi</br>
+ordine</span></a>
+</mj-text>
+</mj-column>
+</mj-group>
+</mj-section>
+
+<mj-section>
+<mj-column>
+<mj-text font-size="23px" line-height="29px" align="center" color="#005e7c" font-weight="bold" padding="10px 15px 0px">
+#daoggiMIAMO
+</mj-text>
+
+<mj-social icon-size="40px" inner-padding="10px" padding="10px">
+
+<mj-social-element src="img/insta.png" href="https://www.instagram.com/miamoskincare/?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21" />
+
+<mj-social-element src="img/fb.png" href="https://www.facebook.com/miamoskincare?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21" />
+<mj-social-element src="img/yt.png" href="https://www.youtube.com/channel/UCAaRXrFHDddugfzsWVzioOA?utm_source=salesforce&utm_medium=email&utm_campaign=enzyme-peel-1-07-21" />
+</mj-social>
+
+</mj-column>
+</mj-section>
+
+<mj-section border-bottom="6px solid #04567d">
+<mj-column padding="10px 0px 25px" width="85%">
+<mj-text font-size="13px" line-height="20px" align="center" color="#6d6f71" padding="15px">
+Per aggiornare lo stato dei tuoi consensi e / o annullare le tue iscrizioni ti invitiamo a fare click <a href="http://cloud.crm.miamo.com/unsubscribe?Id=%%_subscriberKey%%" style="text-decoration: underline; color:#6d6f71;"><span style="text-decoration: underline; color:#6d6f71;">qui</span></a>,<br /> oppure a scrivere una e-mail a <a href="mailto:privacy@medspa.it" target="_blank" style="text-decoration: underline; color:#6d6f71;"><span style="text-decoration: underline; color:#6d6f71;">privacy@medspa.it</span></a>; ti preghiamo di non rispondere a questa e-mail.
+Per garantire la consegna nella tua casella di posta (ed evitare che l'e-mail vada nella casella "posta indesiderata") puoi aggiungere, <a href="mailto:crm@medspa.it" target="_blank" style="text-decoration: underline; color:#6d6f71;"><span style="text-decoration: underline; color:#6d6f71;">news@crm.miamo.com</span></a> alla tua rubrica.
+<br /><br />
+Medspa S.r.l., Corso Sempione n. 17, 20145 - Milano, IT - @ Miamo 2021<br></br>
+  <a href="http://cloud.crm.miamo.com/unsubscribe?Id=%%_subscriberKey%%" style="text-decoration: underline; color:#6d6f71;"><span style="text-decoration: underline; color:#6d6f71;"> Annulla l'iscrizione</span></a>
+</mj-text>
+</mj-column>
+</mj-section>
+
+</mj-wrapper>
+  
+</mj-body>
+</mjml>

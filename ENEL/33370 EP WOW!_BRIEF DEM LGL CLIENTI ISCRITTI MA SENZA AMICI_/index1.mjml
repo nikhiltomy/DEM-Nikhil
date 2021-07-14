@@ -1,0 +1,180 @@
+<mjml>
+<mj-head>
+ <mj-raw>
+%%[
+SET @versione = ''
+SET @CampaignCode = ''
+SET @OfferCode = ''
+SET @OfferName = ''
+ContentBlockByID("217")
+ContentBlockByID("")
+]%%
+</mj-raw>
+<mj-attributes>
+<mj-all padding="0px" font-family="Arial, sans-serif"></mj-all>
+<mj-text font-size="15px" letter-spacing="0.3px" line-height="22px" padding="0px 5px" font-family="sans-serif, serif"></mj-text>
+<mj-social-element color="#7D7D7D" icon-padding="5px" icon-size="27px" background-color="#FAFAFA"></mj-social-element>
+<mj-image padding="0px"></mj-image>
+<mj-class name="footer-p" padding="0px 0px 15px 0px" color="#8B8B8B" font-size="11px" line-height="15px"></mj-class>
+<mj-class name="centered" align="center"></mj-class>
+<mj-class name="blacked" color="#222222"></mj-class>
+<mj-class name="m-0" margin="0px" padding="0px"></mj-class>
+<mj-class name="bg-greyed" background-color="#FAFAFA"></mj-class>
+<mj-class name="arial" font-family="Arial, sans-serif, serif"></mj-class>
+<mj-class name="footer-class" padding="0px 22px"></mj-class>
+<mj-class name="p-t-20" padding-top="23px"></mj-class>
+</mj-attributes>
+<mj-style inline="inline">
+.width-gift table, .width-gift td {
+width:56px;
+min-width:56px;
+max-width:56px;
+}
+</mj-style>
+<mj-style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); a:link { color: inherit; text-decoration: none; } a:visited { color: inherit; text-decoration: none; } .greyed { color: #7D7D7D; } .float-left { float: left !important; } .float-right { float: right !important; margin: 6px; } .grey-bord-btm { border-top: 2px solid #E1E1E1; } .hidden-mobile, .display-mobile { position: relative; } .underline { text-decoration: underline !important; color: #7D7D7D !important; } @media only screen and (max-width: 480px) { .hidden-mobile { display: none !important; } .display-mobile { display: block !important; max-height: none !important; } } @media only screen and (min-width: 481px) { .hidden-desktop { display: none !important; } .display-desktop { display: block !important; max-height: none !important; } }</mj-style>
+</mj-head>
+<mj-body background-color="#FAFAFA" width="600px">
+<mj-raw>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+a:link {
+color: inherit;
+text-decoration: none;
+}
+
+a:visited {
+color: inherit;
+text-decoration: none;
+}
+
+.hidden-mobile,
+.display-mobile {
+position: relative;
+}
+
+.underline {
+text-decoration: underline !important;
+color: #7D7D7D !important;
+}
+
+@media only screen and (max-width: 480px) {
+.hidden-mobile {
+display: none !important;
+}
+
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+
+.alignment-change div {
+text-align:center!important;
+}
+  
+.reset-height div {
+height:auto!important;
+}
+}
+
+@media only screen and (min-width: 481px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+}
+</style>
+</mj-raw>
+
+<mj-section padding-top="0px" background-color="#ffffff">
+<mj-column>
+<mj-image src="img/hero.png" href="https://www.enel.it/it/app/interact?r=loyalty&%%=v(@URL)=%%"></mj-image>
+</mj-column>  
+</mj-section>
+  
+
+
+  <mj-section background-color="#FAFAFA" padding="20px 10px 20px">
+  	<mj-column>
+    	<mj-text font-size="26px" line-height="35px" color="#FF0F65" font-weight="bold" align="center" text-transform="uppercase">
+        <span style="color:#000000;">ULTIMI GIORNI PER OTTENERE</span> <br />
+        FINO A 50€ DI BONUS!
+      </mj-text>
+    </mj-column>
+  </mj-section>
+  
+<mj-section background-color="#ffffff">
+<mj-column width="95%" padding-bottom="0px">
+<mj-text mj-class="arial" font-size="18px" line-height="28px" align="center" padding="30px 10px 20px 10px">
+
+Per noi di <b>ENELPREMIA WOW!</b> l'amicizia è importantissima, ecco perché condividendo il tuo <b>codice WOW!</b> con i tuoi amici puoi ottenere <b>fino a 50€ di bonus in bolletta in più.</b><br/> 
+Dovranno solo iscriversi al <b>programma fedeltà gratuito di Enel Energia</b> proprio come hai fatto tu.*
+<br></br>
+Affrettati, l'iniziativa è valida <b>fino al 26 agosto!</b>  
+  </mj-text>
+ 
+</mj-column>
+</mj-section>
+<mj-section background-color="#ffffff">
+<mj-column width="99%" padding-bottom="50px">
+
+  <mj-button mj-class="arial" font-size="15px" line-height="17px" font-weight="bold" background-color="#FF0F65" inner-padding="15px 40px" text-transform="uppercase" border-radius="40px" href="https://www.enel.it/it/app/interact?r=loyalty&%%=v(@URL)=%%">
+  	Scopri di più
+  </mj-button>
+  
+</mj-column>
+</mj-section>
+  
+  
+ 
+
+<mj-section mj-class="bg-greyed footer-class" padding-top="20px" padding-bottom="16px">
+<mj-column width="30%" vertical-align="middle">
+<mj-image src="img/logo-enel.png" alt="logo_enel" width="185px" href="https://www.enel.it/" padding="16px 0px"></mj-image>
+
+</mj-column>
+<mj-column width="20%" vertical-align="middle" padding="0px"></mj-column>
+<mj-column width="14%" vertical-align="middle">
+<mj-text mj-class="arial" color="#848484" font-size="12px" line-height="16px" align="center" padding="10px 0px 10px 0px">Seguici su</mj-text>
+</mj-column>
+
+<mj-column width="36%" vertical-align="middle">
+<mj-social mode="horizontal" icon-size="26px">
+<mj-social-element background-color="#FAFAFA" src="img/fb-icon.png" href="https://www.facebook.com/enel.energia.10"></mj-social-element>
+<mj-social-element background-color="#FAFAFA" src="img/ig-icon.png" href="https://www.instagram.com/enelenergia"></mj-social-element>
+<mj-social-element background-color="#FAFAFA" src="img/in-icon.png" href="https://www.linkedin.com/company/enelenergia"></mj-social-element>
+<mj-social-element background-color="#FAFAFA" src="img/tw-icon.png" href="https://twitter.com/EnelEnergiaHelp"></mj-social-element>
+<mj-social-element background-color="#FAFAFA" src="img/yt-icon.png" href="https://www.youtube.com/channel/UCvZR6kNR2rdcffu5m9zUCGw/featured"></mj-social-element>
+</mj-social>
+</mj-column>
+</mj-section>
+
+<mj-section mj-class="bg-greyed">
+<mj-column mj-class="arial footer-class">
+<mj-divider  border-width="1px" border-color="#8B8B8B" ></mj-divider>
+<mj-text mj-class="footer-p p-t-20" font-family="sans-serif">
+  
+ 
+  * Iniziativa “Porta un amico in ENELPREMIA WOW!” rivolta a tutti i clienti Enel Energia. Potrai accumulare bonus fino ad un massimo di 5 amici portati. Ricordati, per poter accumulare il bonus, i tuoi amici si dovranno iscrivere al programma ENELPREMIA WOW! inserendo i tuo codice WOW! Inoltre, se con il tuo codice WOW! si iscriveranno almeno 5 amici, accumulerai in bolletta un ulteriore extra bonus di 25€, così da ottenere complessivamente 50€! <br />
+Circa ENELPREMIA WOW!, si specifica quanto segue: operazione a premi valida <a href="#" style="color:#7D7D7D;text-decoration:none;"><span style="color:#7D7D7D;text-decoration:none;">dal 28/04/2021 al 26/08/2021</span></a>. Regolamento completo e modalità di partecipazione <a href="http://www.enel.it?%%=v(@URL)=%%" style="color:#7D7D7D;text-decoration:none;"><span style="color:#7D7D7D;text-decoration:none;">www.enel.it</span></a> e sull'App di Enel Energia.<br />
+I bonus verranno erogati nella prima bolletta utile emessa dopo il termine della presente iniziativa e comunque entro 180 giorni dal termine della stessa. <br /><br />
+
+  Operazione a premi valida<a href="#" style="color:#7D7D7D;text-decoration:none;"><span style="color:#7D7D7D;text-decoration:none;"> dall'1.11.2019 al 31.10.2021</span></a>. Regolamento completo e modalità di partecipazione su<a href="http://www.enel.it?%%=v(@URL)=%%" style="color:#7D7D7D;text-decoration:none;"><span style="color:#7D7D7D;text-decoration:none;"> www.enel.it</span></a> e sull'App Enel Energia.<br></br>  
+
+Ti informiamo che hai ricevuto la presente comunicazione in quanto, in occasione dell’adesione al programma loyalty ENELPREMIA WOW!, hai rilasciato il tuo indirizzo di posta elettronica.
+<br /><br />
+  Ti informiamo inoltre che potrai in qualsiasi momento revocare il consenso alla ricezione di comunicazioni di natura promozionale ed esercitare gli altri diritti previsti dagli articoli 15-22 del regolamento UE <a style="color:#7D7D7D;text-decoration:none;"><span style="color:#7D7D7D;text-decoration:none;">2016/679 (“GDPR”)</span></a>, inviando una richiesta alla casella postale dedicata <a href="mailto:privacy.enelenergia@enel.com" style="color:#7D7D7D;text-decoration:none;"><span style="color:#7D7D7D;text-decoration:none;">privacy.enelenergia@enel.com</span></a>.<br></br>  
+  
+
+Titolare del trattamento è Enel Energia s.p.a., con sede legale in viale Regina Margherita, <a href="#" style="color:#7D7D7D;text-decoration:none;"><span style="color:#7D7D7D;text-decoration:none;">125 - 00198 -
+  Roma</span></a>. Informativa privacy completa sul sito <a href="http://www.enel.it?%%=v(@URL)=%%" style="color:#7D7D7D;text-decoration:none;"><span style="color:#7D7D7D;text-decoration:none;">www.enel.it</span></a>.
+<br /><br />
+</mj-text>
+</mj-column>
+</mj-section>
+</mj-body>
+</mjml>

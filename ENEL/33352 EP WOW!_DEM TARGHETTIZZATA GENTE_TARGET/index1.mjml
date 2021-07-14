@@ -1,0 +1,206 @@
+<mjml>
+<mj-head>
+ <mj-raw>
+%%[
+SET @versione = ''
+SET @CampaignCode = ''
+SET @OfferCode = ''
+SET @OfferName = ''
+ContentBlockByID("217")
+ContentBlockByID("")
+]%%
+</mj-raw>
+<mj-attributes>
+<mj-all padding="0px" font-family="Arial, sans-serif"></mj-all>
+<mj-text font-size="15px" letter-spacing="0.3px" line-height="22px" padding="0px 5px" font-family="sans-serif, serif"></mj-text>
+<mj-social-element color="#7D7D7D" icon-padding="5px" icon-size="27px" background-color="#FAFAFA"></mj-social-element>
+<mj-image padding="0px"></mj-image>
+<mj-class name="footer-p" padding="0px 0px 15px 0px" color="#8B8B8B" font-size="11px" line-height="15px"></mj-class>
+<mj-class name="centered" align="center"></mj-class>
+<mj-class name="blacked" color="#222222"></mj-class>
+<mj-class name="m-0" margin="0px" padding="0px"></mj-class>
+<mj-class name="bg-greyed" background-color="#FAFAFA"></mj-class>
+<mj-class name="arial" font-family="Arial, sans-serif, serif"></mj-class>
+<mj-class name="footer-class" padding="0px 22px"></mj-class>
+<mj-class name="p-t-20" padding-top="23px"></mj-class>
+</mj-attributes>
+<mj-style inline="inline">
+.width-gift table, .width-gift td {
+width:56px;
+min-width:56px;
+max-width:56px;
+}
+</mj-style>
+<mj-style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); a:link { color: inherit; text-decoration: none; } a:visited { color: inherit; text-decoration: none; } .greyed { color: #7D7D7D; } .float-left { float: left !important; } .float-right { float: right !important; margin: 6px; } .grey-bord-btm { border-top: 2px solid #E1E1E1; } .hidden-mobile, .display-mobile { position: relative; } .underline { text-decoration: underline !important; color: #7D7D7D !important; } @media only screen and (max-width: 480px) { .hidden-mobile { display: none !important; } .display-mobile { display: block !important; max-height: none !important; } } @media only screen and (min-width: 481px) { .hidden-desktop { display: none !important; } .display-desktop { display: block !important; max-height: none !important; } }</mj-style>
+</mj-head>
+<mj-body background-color="#FAFAFA" width="600px">
+<mj-raw>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+a:link {
+color: inherit;
+text-decoration: none;
+}
+
+a:visited {
+color: inherit;
+text-decoration: none;
+}
+
+.hidden-mobile,
+.display-mobile {
+position: relative;
+}
+
+.underline {
+text-decoration: underline !important;
+color: #7D7D7D !important;
+}
+
+@media only screen and (max-width: 480px) {
+.hidden-mobile {
+display: none !important;
+}
+
+.display-mobile {
+display: block !important;
+max-height: none !important;
+}
+
+.alignment-change div {
+text-align:center!important;
+}
+  
+.reset-height div {
+height:auto!important;
+}
+}
+
+@media only screen and (min-width: 481px) {
+.hidden-desktop {
+display: none !important;
+}
+
+.display-desktop {
+display: block !important;
+max-height: none !important;
+}
+}
+</style>
+</mj-raw>
+
+<mj-section padding-top="0px" background-color="#ffffff">
+<mj-column>
+<mj-image src="img/hero.png" href="https://www.enel.it/it/app/interact?r=loyalty&%%=v(@URL)=%%"></mj-image>
+</mj-column>  
+</mj-section>
+  
+
+
+  <mj-section background-color="#FAFAFA" padding="20px 10px 20px">
+  	<mj-column width="85%">
+    	<mj-text font-size="30px" line-height="36px" color="#000000"  align="center">
+        <b>3 mesi omaggio</b><br/> 
+all'<b>edizione digitale</b> di <b>Gente</b>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+<mj-section background-color="#ffffff" padding="40px">
+<mj-group>
+<mj-column vertical-align="middle">
+<mj-text container-background-color="#FAFAFA" color="#D4000C" font-family="Arial" font-size="13px" font-weight="bold" line-height="15px" align="center" padding="15px 10px 15px 10px">XXXXXXXX</mj-text>
+</mj-column>
+<mj-column vertical-align="middle">
+<mj-image src="img/gente.png" width="103px"></mj-image>
+</mj-column>
+</mj-group>
+</mj-section>  
+  
+  
+<mj-section background-color="#FAFAFA">
+<mj-column width="85%" padding-bottom="0px">
+<mj-text mj-class="arial" font-size="16px" line-height="22px" align="center" padding="30px 8px 20px 8px">
+  Grandi <b>storie, personaggi</b> e <b>attualità</b><br/>
+da sfogliare sotto l’ombrellone!
+<br></br>
+  Iscriviti a <b>ENELPREMIA WOW!</b> e avrai la possibilità di scaricare un nuovo <b>coupon</b> che ti darà diritto a un <b>abbonamento digitale semestrale gratuito</b> alla rivista.
+  </mj-text>
+</mj-column>
+</mj-section>
+  
+<mj-section background-color="#ffffff">
+<mj-column width="85%" padding-bottom="50px">
+<mj-text mj-class="arial" font-size="16px" line-height="22px" align="center" padding="50px 8px 30px 8px">
+  Scopri tanti altri vantaggi iscrivendoti a <b>ENELPREMIA WOW!</b>, il nostro <b>programma fedeltà completamente gratuito</b>.
+  </mj-text>
+  <mj-button css-class="hidden-mobile" padding="0px 20px" mj-class="arial" font-size="15px" line-height="17px" font-weight="bold" background-color="#FF0F65" inner-padding="15px 38px" border-radius="40px" href="https://www.enel.it/it/app/interact?r=loyalty&%%=v(@URL)=%%">
+  	Iscriviti subito a ENELPREMIA WOW!
+  </mj-button>
+  
+  <mj-raw>
+        <!-- MOBILE -->
+        <!--[if !mso | !IE]><!-->
+ </mj-raw>
+  <mj-button css-class="hidden-desktop" padding="0px 20px" mj-class="arial" font-size="15px" line-height="17px" font-weight="bold" background-color="#FF0F65" inner-padding="15px 38px" border-radius="40px" href="https://www.enel.it/it/app/interact?r=loyalty&%%=v(@URL)=%%">
+  	Iscriviti subito a<br/> ENELPREMIA WOW!
+  </mj-button>
+ <mj-raw>
+        <!-- MOBILE CLOSING -->
+        <!--<![endif]-->
+</mj-raw>
+</mj-column>
+</mj-section>
+  
+  
+ 
+
+<mj-section mj-class="bg-greyed footer-class" padding-top="20px" padding-bottom="16px">
+<mj-column width="30%" vertical-align="middle">
+<mj-image src="img/logo-enel.png" alt="logo_enel" width="185px" href="https://www.enel.it/" padding="16px 0px"></mj-image>
+
+</mj-column>
+<mj-column width="20%" vertical-align="middle" padding="0px"></mj-column>
+<mj-column width="14%" vertical-align="middle">
+<mj-text mj-class="arial" color="#848484" font-size="12px" line-height="16px" align="center" padding="10px 0px 10px 0px">Seguici su</mj-text>
+</mj-column>
+
+<mj-column width="36%" vertical-align="middle">
+<mj-social mode="horizontal" icon-size="26px">
+<mj-social-element background-color="#FAFAFA" src="img/fb-icon.png" href="https://www.facebook.com/enel.energia.10"></mj-social-element>
+<mj-social-element background-color="#FAFAFA" src="img/ig-icon.png" href="https://www.instagram.com/enelenergia"></mj-social-element>
+<mj-social-element background-color="#FAFAFA" src="img/in-icon.png" href="https://www.linkedin.com/company/enelenergia"></mj-social-element>
+<mj-social-element background-color="#FAFAFA" src="img/tw-icon.png" href="https://twitter.com/EnelEnergiaHelp"></mj-social-element>
+<mj-social-element background-color="#FAFAFA" src="img/yt-icon.png" href="https://www.youtube.com/channel/UCvZR6kNR2rdcffu5m9zUCGw/featured"></mj-social-element>
+</mj-social>
+</mj-column>
+</mj-section>
+  
+<mj-section>
+<mj-column>
+<mj-divider border-color="#E1E1E1" border-width="2px"></mj-divider>
+<mj-text align="center" color="#7d7d7d" font-weight="bold" font-size="12px">
+  Cosa ne pensi di questa email?
+  </mj-text>
+<mj-social mode="horizontal">
+<mj-social-element icon-size="36px" icon-height="43px" background-color="#FAFAFA" src="img/reaction1.png" href="https://www.enel.it/it/loyalty.html?ecid=dem-unica-RoomCVM_gradimento_giornatalibro-2021-positivo"></mj-social-element>
+<mj-social-element icon-size="36px" icon-height="43px" background-color="#FAFAFA" src="img/reaction2.png" href="https://www.enel.it/it/loyalty.html?ecid=dem-unica-RoomCVM_gradimento_giornatalibro-2021-neutro"></mj-social-element>
+<mj-social-element icon-size="36px" icon-height="43px" background-color="#FAFAFA" src="img/reaction3.png" href="https://www.enel.it/it/loyalty.html?ecid=dem-unica-RoomCVM_gradimento_giornatalibro-2021-negativo"></mj-social-element>
+</mj-social> 
+</mj-column>  
+</mj-section>
+  
+<mj-section mj-class="bg-greyed">
+<mj-column mj-class="arial footer-class">
+<mj-text mj-class="footer-p p-t-20" font-family="sans-serif" color="#8B8B8B">
+  *Per usufruire della promo, vai alla pagina dedicata <a href="www.abbonationline.it/genteenel" style="color:#8B8B8B;text-decoration:none;"><span style="color:#8B8B8B;text-decoration:none;">www.abbonationline.it/genteenel</span></a>, e inserisci i dati richiesti per richiedere il tuo abbonamento gratuito. Inserisci il TUO CODICE PROMO nel campo “Codice Omaggio” e al termine della procedura, riceverai una e-mail di conferma con le credenziali e istruzioni per completare l’attivazione del tuo abbonamento digitale in app. Solo successivamente scarica l’app di GENTE, registrati all’app e poi attiva il tuo abbonamento digitale in app. Se invece sei già registrato all’app, fai Login e accedi con le tue credenziali (email e password). Tutti i dettagli per l’attivazione in app li trovi qui <a href="http://www.abbonationline.it/asset/pdf/guida-digitali.pdf" style="color:#8B8B8B;text-decoration:none;"><span style="color:#8B8B8B;text-decoration:none;">http://www.abbonationline.it/asset/pdf/guida-digitali.pdf</span></a><br/>
+  È possibile attivare un solo abbonamento omaggio per cliente. Ti ricordiamo che, terminati i 3 mesi gratuiti, l’abbonamento si disattiverà automaticamente. Promozione attivabile fino al <a href="#" style="color:#8B8B8B;text-decoration:none;"><span style="color:#8B8B8B;text-decoration:none;">06/08/2021</span></a>.<br></br>
+  Circa ENELPREMIA WOW!, si specifica quanto segue: operazione a premi valida <a href="#" style="color:#8B8B8B;text-decoration:none;"><span style="color:#8B8B8B;text-decoration:none;">dall'1.11.2019 al 31.10.2021</span></a>. Regolamento completo e modalità di partecipazione su <a href="http://www.enel.it?%%=v(@URL)=%%" style="color:#8B8B8B;text-decoration:none;"><span style="color:#8B8B8B;text-decoration:none;">www.enel.it</span></a> e sull'App Enel Energia.<br></br>
+Ti informiamo che hai ricevuto la presente comunicazione in quanto, in occasione della sottoscrizione del contratto di fornitura con Enel Energia S.p.A., hai rilasciato il tuo indirizzo di posta elettronica.<br/>
+  Se non vuoi più ricevere via e-mail le comunicazioni commerciali di Enel Energia clicca qui:<br/><a href="https://www.enel.it/it/unsubscribe?QS_KEY=<$STRINGBW$>" target="_blank" style="color:#8B8B8B;text-decoration:none;"><span style="color:#8B8B8B;text-decoration:none;">unsubscribe</span></a><br/>
+  Titolare del trattamento è Enel Energia s.p.a., con sede legale in viale Regina Margherita, 125 - 00198 - Roma. Informativa privacy completa sul sito <a href="http://www.enel.it?%%=v(@URL)=%%" style="color:#8B8B8B;text-decoration:none;"><span style="color:#8B8B8B;text-decoration:none;">www.enel.it</span></a>.
+</mj-text>
+</mj-column>
+</mj-section>
+</mj-body>
+</mjml>
